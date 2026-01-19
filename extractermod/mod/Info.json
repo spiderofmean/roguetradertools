@@ -1,0 +1,9 @@
+{
+  "Id": "BlueprintDumper",
+  "DisplayName": "Blueprint Dumper",
+  "Author": "GitHub Copilot",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.0.1",
+  "Requirements": [],
+  "EntryMethod": "BlueprintDumper.Dumper.StartOnce"
+}
