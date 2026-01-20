@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RogueTraderInstallDir>C:\Program Files (x86)\Steam\steamapps\common\Warhammer 40,000 Rogue Trader</RogueTraderInstallDir>
+    <ManagedDir Condition="Exists('$(RogueTraderInstallDir)\\RogueTrader_Data\\Managed')">$(RogueTraderInstallDir)\RogueTrader_Data\Managed</ManagedDir>
+    <ManagedDir Condition="'$(ManagedDir)'=='' and Exists('$(RogueTraderInstallDir)\\WH40KRT_Data\\Managed')">$(RogueTraderInstallDir)\WH40KRT_Data\Managed</ManagedDir>
+    <ManagedDir Condition="'$(ManagedDir)'==''">$(RogueTraderInstallDir)\RogueTrader_Data\Managed</ManagedDir>
+    <RootNamespace>ViewerMod</RootNamespace>
+    <AssemblyName>ViewerMod</AssemblyName>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ManagedDir)\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(ManagedDir)\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(ManagedDir)\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(ManagedDir)\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Owlcat.Runtime.Core">
+      <HintPath>$(ManagedDir)\Owlcat.Runtime.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <!-- Game assemblies accessed via reflection only, no compile-time reference needed -->
+  </ItemGroup>
+
+</Project>

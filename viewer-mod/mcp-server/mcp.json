@@ -1,0 +1,15 @@
+{
+  "name": "viewer-mod-mcp",
+  "version": "1.0.0",
+  "description": "MCP server configuration for Viewer Mod",
+  "mcpServers": {
+    "viewer-mod": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "${workspaceFolder}/viewer-mod/mcp-server",
+      "env": {
+        "VIEWER_MOD_URL": "http://localhost:5000"
+      }
+    }
+  }
+}

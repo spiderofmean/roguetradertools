@@ -1,0 +1,15 @@
+{
+  "name": "@viewer-mod/sdk",
+  "version": "1.0.0",
+  "description": "Shared SDK for Viewer Mod game server communication",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}

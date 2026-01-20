@@ -1,0 +1,21 @@
+{
+  "name": "@viewer-mod/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Viewer Mod - allows AI agents to inspect game state",
+  "main": "dist/index.js",
+  "bin": {
+    "viewer-mod-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}

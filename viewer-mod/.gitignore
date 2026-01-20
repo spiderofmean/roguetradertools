@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+bin/
+obj/
+*.dll
+*.pdb
+
+# Test outputs
+test-output/
+
+# Local config
+scripts/test-config.json
+.env*
+
+# IDE/OS
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

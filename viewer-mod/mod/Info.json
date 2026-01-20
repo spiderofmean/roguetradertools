@@ -1,0 +1,9 @@
+{
+  "Id": "ViewerMod",
+  "DisplayName": "Viewer Mod",
+  "Author": "RogueTraderTools",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.0.1",
+  "Requirements": [],
+  "EntryMethod": "ViewerMod.Entry.StartOnce"
+}
