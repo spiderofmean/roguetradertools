@@ -1,0 +1,69 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+  "guid": "e94226d1ecbd442f857d463e63381aef",
+  "name": "W-240 Passive Detection Arrays",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+    "$id": {
+      "guid": "e94226d1ecbd442f857d463e63381aef",
+      "name": "W-240 Passive Detection Arrays"
+    },
+    "ItemType": "StarshipAugerArray",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "This augur system is connected to the mighty cogitation blocks offered by the Explorators as a gift to the Rogue Trader. Their computing power is so great that the augurs can pick up even the slightest vulnerabilities in enemy defences.\n~// Enemies suffer −10% to their {g|Encyclopedia:EvasionSpace}evasion{/g}",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "W-240 Passive Detection Arrays",
+    "Description": "Provides voidship weapons with targeting data, granting 85% hit chance and 10% critical hit chance.\nThis is a low-emission augur, which makes the voidship more difficult for enemies to hit, increasing {g|Encyclopedia:EvasionSpace}evasion{/g} by +15%.",
+    "NameForAcronym": "AugerDLC1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e94226d1ecbd442f857d463e63381aef",
+    "AllowContextActionsOnly": false,
+    "hitChances": 85,
+    "critChances": 10,
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "AugerDLC1",
+    "AssetGuid": "e94226d1ecbd442f857d463e63381aef",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

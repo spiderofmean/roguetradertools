@@ -1,0 +1,82 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+  "guid": "b73caa69e9b740258f8b4ebe0f2e1583",
+  "name": "Saturnine-Pattern Class 3 \"Battering\" Engine",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+    "$id": {
+      "guid": "b73caa69e9b740258f8b4ebe0f2e1583",
+      "name": "Saturnine-Pattern Class 3 \"Battering\" Engine"
+    },
+    "ItemType": "StarshipPlasmaDrives",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Saturnine-Pattern Class 3 \"Battering\" Engine",
+    "Description": "This plasma drive provides 12 {g|Encyclopedia:SpeedSpace}speed{/g} along with strong acceleration and low braking.\nIn addition, it grants +3 additional void {g|Encyclopedia:MovementPointsSpace}movement points{/g} when ramming.",
+    "NameForAcronym": "DriveDLC1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b73caa69e9b740258f8b4ebe0f2e1583",
+    "AllowContextActionsOnly": false,
+    "Speed": 12,
+    "Inertia": 3,
+    "Evasion": 0,
+    "PushPhase": 8,
+    "FinishPhase": 1,
+    "m_ExplosionWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_ExplosionAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "DriveDLC1",
+    "AssetGuid": "b73caa69e9b740258f8b4ebe0f2e1583",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

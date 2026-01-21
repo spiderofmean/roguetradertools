@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "56a01fd50087462e84654aebe473b995",
+  "name": "[War World Origin] Tempestus Elite Carapace",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "56a01fd50087462e84654aebe473b995",
+      "name": "[War World Origin] Tempestus Elite Carapace"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "[War World Origin] Tempestus Elite Carapace",
+    "Description": "<b>Base armour property</b>: +{uip|Deflection|c08bdc34a70346dfa2193a3fcaaa5b61} {g|Encyclopedia:Deflection}deflection{/g}.\n<b>World property</b>: +30% {g|Encyclopedia:DodgeGlossary}dodge{/g}.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "Heavy",
+    "Category": "Heavy",
+    "DamageAbsorption": 80,
+    "DamageDeflection": 3,
+    "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+    "InventoryPutSound": "UI_INV_Flak_Put_Play",
+    "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 1,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 32.0,
+    "CargoVolumePercent": 25,
+    "Rarity": "Pattern",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "TempestusCarapaceOrigin2_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "56a01fd50087462e84654aebe473b995",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "68287a54721b4dbe9ddc9a2e4ce9e2ee",
+      "guid": "68287a54721b4dbe9ddc9a2e4ce9e2ee"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 80,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 3,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "AnimationFoleySound": "ArmorFlakMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "m_AnimationFoleySound": "ArmorFlakMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "TempestusCarapaceOrigin2_Item",
+    "AssetGuid": "56a01fd50087462e84654aebe473b995",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

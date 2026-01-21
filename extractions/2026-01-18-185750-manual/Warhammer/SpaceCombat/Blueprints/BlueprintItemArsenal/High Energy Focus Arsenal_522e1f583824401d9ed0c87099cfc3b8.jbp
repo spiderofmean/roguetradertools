@@ -1,0 +1,75 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+  "guid": "522e1f583824401d9ed0c87099cfc3b8",
+  "name": "High Energy Focus Arsenal",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+    "$id": {
+      "guid": "522e1f583824401d9ed0c87099cfc3b8",
+      "name": "High Energy Focus Arsenal"
+    },
+    "ItemType": "StarshipArsenal",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "High Energy Focus Arsenal",
+    "Description": "Installs focus lenses which allow {g|Encyclopedia:ProwSpace}prow{/g}-mounted {g|Encyclopedia:LanceWeaponSpace}lance weapons{/g} to be used in sensory overload mode.\nIn this mode, the lance weapon suffers a −15% penalty to hit chance but inflicts the sensory overload effect on its target. This effect significantly reduces the target's {g|Encyclopedia:ManoeuvrabilitySpace}manoeuvrability{/g} for the next round.",
+    "NameForAcronym": "ArsenalHEF1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "522e1f583824401d9ed0c87099cfc3b8",
+    "AllowContextActionsOnly": false,
+    "AppliedWeaponType": "Lances",
+    "FilterDamageType": "None",
+    "m_VariantWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "32e798413b9f45ca91ac5df68c49950a",
+      "guid": "32e798413b9f45ca91ac5df68c49950a"
+    },
+    "m_VariantAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "ArsenalHEF1",
+    "AssetGuid": "522e1f583824401d9ed0c87099cfc3b8",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

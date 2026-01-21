@@ -1,0 +1,298 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+  "guid": "08399d1e77784d18b62c2a3cc1b5bbad",
+  "name": "Disintegrator Cannon",
+  "namespace": "Kingmaker.Blueprints.Items.Weapons",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "$id": {
+      "guid": "08399d1e77784d18b62c2a3cc1b5bbad",
+      "name": "Disintegrator Cannon"
+    },
+    "GainAbility": true,
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Disintegrator Cannon",
+    "Description": "",
+    "ItemType": "Weapon",
+    "AttackType": "Ranged",
+    "AttackRange": 16,
+    "AttackOptimalRange": 8,
+    "IsNatural": false,
+    "IsRanged": true,
+    "IsMelee": false,
+    "Weight": 0.0,
+    "HoldingType": "TwoHanded",
+    "Range": "Ranged",
+    "Heaviness": "NotHeavy",
+    "HasNoDamage": false,
+    "DamageStatBonusFactor": "One",
+    "InventoryEquipSound": "UI_INV_Rifle_Equip_Play",
+    "InventoryPutSound": "UI_INV_Rifle_Put_Play",
+    "InventoryTakeSound": "UI_INV_Rifle_Take_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "Origin": "RangedWeaponry",
+    "IsNotable": false,
+    "ProfitFactorCost": 10.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "DisintegratorCannonItem",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "08399d1e77784d18b62c2a3cc1b5bbad",
+    "AllowContextActionsOnly": false,
+    "m_OnHitActions": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "SingleShot",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 1
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "AOE",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 2
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Custom",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 2
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Reload",
+          "Mode": "Any",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 4
+        }
+      ]
+    },
+    "m_AttackOfOpportunityAbility": {
+      "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_AttackOfOpportunityAbilityFXSettings": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "Category": "Basic",
+    "Family": "Plasma",
+    "Classification": "None",
+    "m_HoldingType": "TwoHanded",
+    "m_Range": "Ranged",
+    "m_Heaviness": "NotHeavy",
+    "CanBeUsedInGame": true,
+    "m_TypeNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DefaultNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "IsTwoHanded": true,
+    "WarhammerDamage": 20,
+    "WarhammerMaxDamage": 23,
+    "WarhammerPenetration": 50,
+    "DodgePenetration": 0,
+    "AdditionalHitChance": 0,
+    "WarhammerRecoil": 10,
+    "WarhammerMaxDistance": 16,
+    "WarhammerMaxAmmo": 9,
+    "RateOfFire": 0,
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintWeaponEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_DamageType": {
+      "$type": "Kingmaker.UnitLogic.Mechanics.Damage.DamageTypeDescription",
+      "Type": "Energy"
+    },
+    "m_IsNatural": false,
+    "m_DamageStatBonusFactor": "One",
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.WeaponVisualParameters",
+      "HasSpecialAnimation": false,
+      "BurstAnimationDelay": 0.0,
+      "AnimStyle": "Rifle",
+      "SoundSize": "None",
+      "SoundType": "None",
+      "MissSoundType": "None",
+      "EquipSound": "Foley_WP_R_2HRifle_EquipGeneric_Play",
+      "UnequipSound": "Foley_WP_R_2HRifle_UnEquipGeneric_Play",
+      "OutOfAmmoSound": "",
+      "SpecialAnimation": "None",
+      "InventoryEquipSound": "UI_INV_Rifle_Equip_Play",
+      "InventoryPutSound": "UI_INV_Rifle_Put_Play",
+      "InventoryTakeSound": "UI_INV_Rifle_Take_Play",
+      "IsBow": false,
+      "IsTorch": false,
+      "HasQuiver": false,
+      "IsTwoHanded": true,
+      "m_WeaponAnimationStyle": "Rifle",
+      "m_SpecialAnimation": "None",
+      "m_BurstAnimationDelay": 0.0,
+      "m_WeaponModel": {
+        "$type": "UnityEngine.GameObject",
+        "$skipped": "dangerous"
+      },
+      "m_CachedEquipLinksUpToDate": false,
+      "m_SoundSize": "None",
+      "m_SoundType": "None",
+      "m_SoundSizeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_SoundTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2011258708,
+        "ValueHash": 1000644167,
+        "Group": "ProjectileType",
+        "Value": "Plasma"
+      },
+      "m_MuffledTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MissSoundType": "None",
+      "m_EquipSound": "Foley_WP_R_2HRifle_EquipGeneric_Play",
+      "m_UnequipSound": "Foley_WP_R_2HRifle_UnEquipGeneric_Play",
+      "m_OutOfAmmoSound": "",
+      "m_InventoryEquipSound": "UI_INV_Rifle_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Rifle_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Rifle_Take_Play"
+    },
+    "SpendCharges": false,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexanderGusev",
+    "Comment": "ВЫПИЛИЛИ! не использовать в релиз основной игры",
+    "name": "DisintegratorCannonItem",
+    "AssetGuid": "08399d1e77784d18b62c2a3cc1b5bbad",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

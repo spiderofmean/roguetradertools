@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "a87ea3a714c045f4b27072ea1de37a98",
+  "name": "Pollen of the Unreal",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "a87ea3a714c045f4b27072ea1de37a98",
+      "name": "Pollen of the Unreal"
+    },
+    "IdentifyDC": 0,
+    "Name": "Pollen of the Unreal",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Unique",
+    "Tag": "Grenade",
+    "AllowMakeStackable": true,
+    "FlavorText": "The grenades are loaded with a hallucinogenic chemical brewed from the rose of Zamarkand that plunges men into terrifying reverie.",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Grenades_Put_Play",
+    "InventoryTakeSound": "UI_INV_Grenades_Take_Play",
+    "Description": "Deals <u>(from 10 to 15)</u> {g|Encyclopedia:ToxicDamage}toxic damage{/g} with 20% {g|Encyclopedia:ArmourPenetration}armour penetration{/g} and 20% {g|Encyclopedia:DodgeReduction}dodge reduction{/g}. All creatures in the area of effect make a Willpower {g|Encyclopedia:ResistanceTest}resistance test{/g}. If failed, the creature immediately attacks an ally from their current position.",
+    "NameForAcronym": "Grenade_Hallucinogen",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a87ea3a714c045f4b27072ea1de37a98",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Grenade_Hallucinogen",
+    "AssetGuid": "a87ea3a714c045f4b27072ea1de37a98",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

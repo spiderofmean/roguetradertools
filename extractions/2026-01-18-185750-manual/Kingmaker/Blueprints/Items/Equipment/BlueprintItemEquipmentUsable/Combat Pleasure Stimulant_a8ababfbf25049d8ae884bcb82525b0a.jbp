@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "a8ababfbf25049d8ae884bcb82525b0a",
+  "name": "Combat Pleasure Stimulant",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "a8ababfbf25049d8ae884bcb82525b0a",
+      "name": "Combat Pleasure Stimulant"
+    },
+    "IdentifyDC": 0,
+    "Name": "Combat Pleasure Stimulant",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 1.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "Drug",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Drugs_Put_Play",
+    "InventoryTakeSound": "UI_INV_Drugs_Take_Play",
+    "Description": "Grants +15 {g|Encyclopedia:WarhammerPerception}Perception{/g}, and all {g|Encyclopedia:DamageGlossary}damage{/g} both dealt or suffered by the user increases the user's critical {g|Encyclopedia:HitSequenceGlossary}hit chance{/g} by +10% for each instance of damage. This effect lasts for 2 {g|Encyclopedia:Turn}turns{/g}, after that the user becomes {g|Encyclopedia:StaggeredEffect}staggered{/g}.",
+    "NameForAcronym": "Drug_Combatpleasure",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a8ababfbf25049d8ae884bcb82525b0a",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Drug_Combatpleasure",
+    "AssetGuid": "a8ababfbf25049d8ae884bcb82525b0a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

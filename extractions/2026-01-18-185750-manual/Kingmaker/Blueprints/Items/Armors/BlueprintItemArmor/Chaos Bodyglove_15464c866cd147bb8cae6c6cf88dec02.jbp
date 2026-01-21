@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "15464c866cd147bb8cae6c6cf88dec02",
+  "name": "Chaos Bodyglove",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "15464c866cd147bb8cae6c6cf88dec02",
+      "name": "Chaos Bodyglove"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Chaos Bodyglove",
+    "Description": "Grants +15% more {g|Encyclopedia:DamageGlossary}damage{/g} to any psyker or Navigator power.\n<b>Base armour property</b>: +10% {g|Encyclopedia:DodgeGlossary}dodge{/g} against non-daemons.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Light",
+    "DamageAbsorption": 40,
+    "DamageDeflection": 0,
+    "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+    "InventoryPutSound": "UI_INV_Leather_Put_Play",
+    "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 49,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 30,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "ChaosBodyglove_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "15464c866cd147bb8cae6c6cf88dec02",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "0fa0782686d949a389eefe83f63e4658",
+      "guid": "0fa0782686d949a389eefe83f63e4658"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 40,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 0,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "AnimationFoleySound": "ArmorLeatherMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "m_AnimationFoleySound": "ArmorLeatherMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ChaosBodyglove_Item",
+    "AssetGuid": "15464c866cd147bb8cae6c6cf88dec02",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

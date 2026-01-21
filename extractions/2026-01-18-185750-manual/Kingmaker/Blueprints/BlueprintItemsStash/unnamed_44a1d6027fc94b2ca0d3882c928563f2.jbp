@@ -1,0 +1,24 @@
+{
+  "$type": "Kingmaker.Blueprints.BlueprintItemsStash",
+  "guid": "44a1d6027fc94b2ca0d3882c928563f2",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints",
+  "data": {
+    "$type": "Kingmaker.Blueprints.BlueprintItemsStash",
+    "$id": {
+      "guid": "44a1d6027fc94b2ca0d3882c928563f2",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "44a1d6027fc94b2ca0d3882c928563f2",
+    "AllowContextActionsOnly": false,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "в это виртуальное хранилище сгружаем сапоги игрока",
+    "name": "PlayerBoots",
+    "AssetGuid": "44a1d6027fc94b2ca0d3882c928563f2",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

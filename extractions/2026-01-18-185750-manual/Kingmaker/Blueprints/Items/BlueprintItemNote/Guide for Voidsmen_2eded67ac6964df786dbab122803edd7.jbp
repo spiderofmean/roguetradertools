@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "2eded67ac6964df786dbab122803edd7",
+  "name": "Guide for Voidsmen",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "2eded67ac6964df786dbab122803edd7",
+      "name": "Guide for Voidsmen"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Guide for Voidsmen",
+    "Description": "\"Voidsman, by the grace of the Emperor you have been given the honour of serving on a Black Ship of the Inquisition. You have been entrusted with a unique cargo — psykers collected from the Imperium's worlds as their rightly owed tithe.\nDo not be deceived by their appearance — every one of them is a dangerous mutant. Be strict with the passengers, for that is how you safeguard the lives of yourself and your comrades. You must be blind to tears and deaf to pleas.\nListen to the passengers' conversations and report any groupings that form among them to the Ship's Confessor. Any groups will be split into different holds to prevent a coordinated revolt.\nCheck for certain that the passengers are eating all of their rations — they contain tranquillisers intended to ensure your and your comrades' safety.\nPay attention to any strange occurrences — psyker corruption comes in many forms. Passengers that exhibit extraordinary abilities must be transferred to reinforced cells for solitary confinement.\nDo not engage in conversation with the passengers, do not refer to them by name, do not give them your possessions, do not allow them to lose their fear of you. Their fear is the key to your survival.\nAppear before the Ship's Confessor every month to have the purity of your thoughts checked. Remember that blasphemous psykers can play with the minds of real people.\nKeep the faith and follow these rules. Failure to observe any of them will be grounds for dismissal.\"",
+    "NameForAcronym": "BlackShipIstructions_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "2eded67ac6964df786dbab122803edd7",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "name": "BlackShipIstructions_plaintext",
+    "AssetGuid": "2eded67ac6964df786dbab122803edd7",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

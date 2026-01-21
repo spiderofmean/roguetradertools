@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "03c55fdb69b04486933a093edd2a3106",
+  "name": "Voidsman's Diary",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "03c55fdb69b04486933a093edd2a3106",
+      "name": "Voidsman's Diary"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "\"After the last shift consolidation, they transferred me to the Pariah barracks. And everything they say about these freaks is true. I don't know if they're raised this way or if they really don't have a soul, but just being near them makes me feel sick to my stomach. Cold, unfeeling, empty creatures pretending to be human. They beat and execute the passengers like it's nothing. A normal person is disgusted at the thought of smashing a person's skull... well, either that, or they like it. But not them — they don't care one bit. If it was up to me, I'd toss them in the hold with the rest of the mutants, but... the psyker tricks don't work on them at all. Very handy when you're travelling on a ship stuffed full of enraged psykers.\nI had to move one of the psykers from the communal hold to separate quarters. That traitorous piece of shit was encouraging the others to revolt, and our esteemed Ship's Confessor ordered us to give him a good hiding. We beat him for two hours or so, and by the end my damned cough had got so bad it was unbearable.\nI'm worried I'll be called in to see the chirurgeon. If command find out about the crap in my lungs, they'll toss me straight out of the airlock. My only hope is my new augmetic, though the guy who fitted it on Flacia Prima was strange. He gave me the creeps, and so did all his machinery. No doubt it was all illegal under the Imperium's laws. But I didn't have a choice — a wretched bilge rat of a voidsman would never rise high enough to have his aches and pains treated by someone from the Adeptus Mechanicus. I'm just going to hope that this thing clears up on its own.\"",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Voidsman's Diary",
+    "Description": "",
+    "NameForAcronym": "AuroraLetter_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "03c55fdb69b04486933a093edd2a3106",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "AuroraLetter_plaintext",
+    "AssetGuid": "03c55fdb69b04486933a093edd2a3106",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

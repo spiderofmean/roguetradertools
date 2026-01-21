@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "240a3e6de7ee427199efc5a4b1a7ed3b",
+  "name": "Vox-Thief",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "240a3e6de7ee427199efc5a4b1a7ed3b",
+      "name": "Vox-Thief"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Vox-Thief",
+    "Description": "\"- Jen, did you hear? They're going to bring in another batch of xenotech. Life is going to be good!\n- Idiot, we still haven't dealt with the previous delivery. The clients don't wish to take risks after... Well, after the accidents.\n- Who cares! There are people with more money than common sense in every system. You know what matters? That's right, what matters is that we are making mountains of thrones.\n- I've got a bad feeling about this.\n- Jen, turn that frown upside down! You'll start looking like our wrinkly supplier lad if you don't... Or is she our supplier lass? Whatever.\"",
+    "NameForAcronym": "VoxThief1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "240a3e6de7ee427199efc5a4b1a7ed3b",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "VoxThief1",
+    "AssetGuid": "240a3e6de7ee427199efc5a4b1a7ed3b",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

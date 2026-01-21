@@ -1,0 +1,186 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Shields.BlueprintItemShield",
+  "guid": "fe6afd61b85446efac0c42cf5a71287f",
+  "name": "Old Shield",
+  "namespace": "Kingmaker.Blueprints.Items.Shields",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Shields.BlueprintItemShield",
+    "$id": {
+      "guid": "fe6afd61b85446efac0c42cf5a71287f",
+      "name": "Old Shield"
+    },
+    "Category": "None",
+    "BlockChance": 35,
+    "EnableScatterAutoBlockAfterFirstBlock": true,
+    "SubtypeName": "Shield",
+    "ItemType": "Shield",
+    "GainAbility": true,
+    "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+    "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+    "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "Weight": 0.0,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Pattern",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "Name": "Old Shield",
+    "Description": "",
+    "NameForAcronym": "ShieldCH02T2V1_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "fe6afd61b85446efac0c42cf5a71287f",
+    "AllowContextActionsOnly": false,
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "SingleShot",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 1
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Custom",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 1
+        }
+      ]
+    },
+    "m_Category": "None",
+    "m_BlockChance": 35,
+    "m_WeaponComponent": {
+      "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+      "Guid": "c26c1a7993ee4461be423cc96f885810",
+      "guid": "c26c1a7993ee4461be423cc96f885810"
+    },
+    "m_EnableScatterAutoBlockAfterFirstBlock": true,
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.WeaponVisualParameters",
+      "HasSpecialAnimation": false,
+      "BurstAnimationDelay": 0.0,
+      "AnimStyle": "Shield",
+      "SoundSize": "None",
+      "SoundType": "None",
+      "MissSoundType": "None",
+      "EquipSound": "Foley_WP_M_Shield_Equip_Play",
+      "UnequipSound": "Foley_WP_M_Shield_Remove_Play",
+      "OutOfAmmoSound": "",
+      "SpecialAnimation": "None",
+      "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "IsBow": false,
+      "IsTorch": false,
+      "HasQuiver": false,
+      "IsTwoHanded": false,
+      "m_WeaponAnimationStyle": "Shield",
+      "m_SpecialAnimation": "None",
+      "m_BurstAnimationDelay": 0.0,
+      "m_WeaponModel": {
+        "$type": "UnityEngine.GameObject",
+        "$skipped": "dangerous"
+      },
+      "m_CachedEquipLinksUpToDate": false,
+      "m_SoundSize": "None",
+      "m_SoundType": "None",
+      "m_SoundSizeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_SoundTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2011258708,
+        "ValueHash": 1161967626,
+        "Group": "ProjectileType",
+        "Value": "Shield"
+      },
+      "m_MuffledTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2156518468,
+        "ValueHash": 1140426167,
+        "Group": "HitMainMuffle",
+        "Value": "Straight"
+      },
+      "m_MissSoundType": "None",
+      "m_EquipSound": "Foley_WP_M_Shield_Equip_Play",
+      "m_UnequipSound": "Foley_WP_M_Shield_Remove_Play",
+      "m_OutOfAmmoSound": "",
+      "m_InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play"
+    },
+    "SpendCharges": false,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "ShieldCH02T2V1_Item",
+    "AssetGuid": "fe6afd61b85446efac0c42cf5a71287f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

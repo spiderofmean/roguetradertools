@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "bd97b65a40d6499086ad9e4148b21936",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "bd97b65a40d6499086ad9e4148b21936",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "bd97b65a40d6499086ad9e4148b21936",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Medium",
+    "m_DamageAbsorbtionPct": 40,
+    "m_DamageDeflection": 6,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 0,
+    "Author": "Unknown",
+    "Comment": "Броня для NPC\n",
+    "name": "IncubusArmour_ArmorType",
+    "AssetGuid": "bd97b65a40d6499086ad9e4148b21936",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

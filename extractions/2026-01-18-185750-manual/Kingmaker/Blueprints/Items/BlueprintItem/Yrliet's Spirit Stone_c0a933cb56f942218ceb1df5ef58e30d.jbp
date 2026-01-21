@@ -1,0 +1,86 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+  "guid": "c0a933cb56f942218ceb1df5ef58e30d",
+  "name": "Yrliet's Spirit Stone",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "$id": {
+      "guid": "c0a933cb56f942218ceb1df5ef58e30d",
+      "name": "Yrliet's Spirit Stone"
+    },
+    "Weight": 1.0,
+    "Origin": "Xeno",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Amulet_Put_Play",
+    "InventoryTakeSound": "UI_INV_Amulet_Take_Play",
+    "Name": "Yrliet's Spirit Stone",
+    "Description": "A relic concealing the soul of the Aeldari ranger Yrliet from the gaze of She Who Thirsts.",
+    "NameForAcronym": "YrlietSoulStone_item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c0a933cb56f942218ceb1df5ef58e30d",
+    "AllowContextActionsOnly": false,
+    "m_FlavorText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NotStackable": false,
+    "m_Weight": 1.0,
+    "m_Origin": "Xeno",
+    "m_Rarity": "Unique",
+    "m_Tag": "None",
+    "m_IsNotable": true,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 10,
+    "m_InventoryPutSound": "UI_INV_Amulet_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_Amulet_Take_Play",
+    "m_CachedEnchantments": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Items.Ecnchantments.BlueprintItemEnchantment, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "YrlietSoulStone_item",
+    "AssetGuid": "c0a933cb56f942218ceb1df5ef58e30d",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

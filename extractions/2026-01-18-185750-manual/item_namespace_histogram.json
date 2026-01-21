@@ -1,0 +1,38 @@
+[
+  {
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons",
+    "Count": 1031
+  },
+  {
+    "Namespace": "Kingmaker.Blueprints.Items.Equipment",
+    "Count": 674
+  },
+  {
+    "Namespace": "Kingmaker.Visual.CharacterSystem",
+    "Count": 539
+  },
+  {
+    "Namespace": "Kingmaker.Blueprints.Items",
+    "Count": 510
+  },
+  {
+    "Namespace": "Warhammer.SpaceCombat.Blueprints",
+    "Count": 235
+  },
+  {
+    "Namespace": "Kingmaker.Blueprints.Items.Armors",
+    "Count": 202
+  },
+  {
+    "Namespace": "Kingmaker.Blueprints.Items.Shields",
+    "Count": 32
+  },
+  {
+    "Namespace": "Kingmaker.Blueprints.Items.Ecnchantments",
+    "Count": 14
+  },
+  {
+    "Namespace": "Kingmaker.Blueprints",
+    "Count": 6
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "ffc370d335a14d89b36dc0271db1bf46",
+  "name": "Leon Himmerfeld's Field Diary",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "ffc370d335a14d89b36dc0271db1bf46",
+      "name": "Leon Himmerfeld's Field Diary"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Leon Himmerfeld's Field Diary",
+    "Description": "\"It has been several months since we arrived here, and yet we are no closer to understanding the local phenomenon. All that we were able to learn quite literally lies on the surface: the object does not reflect sound or light, on the contrary — it very much absorbs them. After extensive excavation, we did ascertain, at least, that the object is vast and goes deep below the planet's surface. However, any attempts to measure it resulted in loss of machinery or staff.\nArchaeological studies have turned out to be more productive. Their findings have revealed an amalgamation of architectural styles of various cultures, including those of xenos origin. According to the boldest theories, the earliest of these structures date from the beginning of the thirtieth millennium, and all of them are, without a doubt, of a religious nature.\nAnalysis of bas-reliefs and remaining epigraphic texts shows that a cult was formed around the object. For many centuries, xenos and subsequently humans worshipped the object in exchange for certain 'boons' — undoubtedly imagined by primitive or corrupted minds...\"",
+    "NameForAcronym": "BottomlessPitOldNotes",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "ffc370d335a14d89b36dc0271db1bf46",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "BottomlessPitOldNotes",
+    "AssetGuid": "ffc370d335a14d89b36dc0271db1bf46",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

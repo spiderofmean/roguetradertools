@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "01fcc1fe911d4ced864f2dd0af7a1e56",
+  "name": "Armour of the Undaunted",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "01fcc1fe911d4ced864f2dd0af7a1e56",
+      "name": "Armour of the Undaunted"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Armour of the Undaunted",
+    "Description": "All the wearer's attacking {g|Encyclopedia:Ability}abilities{/g} cost +1 {g|Encyclopedia:ActionPoints}AP{/g} more but gain +20% critical {g|Encyclopedia:HitSequenceGlossary}hit chance{/g}.\n<b>Base armour property</b>: +{uip|Armour|316d01893b674779a75f89b5de397d88}% {g|Encyclopedia:WarhammerArmourGlossary}armour{/g}.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Medium",
+    "DamageAbsorption": 45,
+    "DamageDeflection": 0,
+    "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+    "InventoryPutSound": "UI_INV_Leather_Put_Play",
+    "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 5,
+    "GainAbility": false,
+    "Origin": "Chaos",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "ArmourOfTheUndaunted_HeavyLeathers_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "01fcc1fe911d4ced864f2dd0af7a1e56",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "98b410bd49bd4b74b00c78b5b4fba32f",
+      "guid": "98b410bd49bd4b74b00c78b5b4fba32f"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 45,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 0,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "AnimationFoleySound": "ArmorLeatherMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 1153642577,
+        "Group": "BodyType",
+        "Value": "Flesh"
+      },
+      "m_InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "m_AnimationFoleySound": "ArmorLeatherMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ArmourOfTheUndaunted_HeavyLeathers_Item",
+    "AssetGuid": "01fcc1fe911d4ced864f2dd0af7a1e56",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

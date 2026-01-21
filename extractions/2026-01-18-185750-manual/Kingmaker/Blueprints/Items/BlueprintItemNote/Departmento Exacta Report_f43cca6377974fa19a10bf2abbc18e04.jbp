@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "f43cca6377974fa19a10bf2abbc18e04",
+  "name": "Departmento Exacta Report",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "f43cca6377974fa19a10bf2abbc18e04",
+      "name": "Departmento Exacta Report"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Departmento Exacta Report",
+    "Description": "\"Auditing and Reissuance of Great Tithe Payment Documentation for GX-75021 and GX-76021.\nIn the last 2,836 Terran years:\nEntries mentioning planet GX-75021: 284,356 found, including copies.\nEntries mentioning planet GX-76021: 1 found, including copies.\nA full list confirmed by the Adeptus Terra of all planetary objects located within the territory of the illustrious Rogue Trader dynasty of von Valancius was received 164 Terran years ago. After careful reconciliation of the data, it was found that planetary object GX-76021 has not been included in the collection of the Imperial Tithe for the last 2,836 Terran years. In the same period, the planetary object GX-75021 was included in the taxable sites but did not pay its Imperial Tithe, thereby failing to uphold its sacred obligations to the Imperium. Subsequent analysis of archived documentation revealed the absence of documentation confirming the existence of planetary object GX-75021, unlike planetary object GX-76021, which was discovered in files dated more than 2,836 Terran years ago.\nBased on an internal inventory investigation, the Adeptus Administratum decrees that:\nany mention of planetary object 'GX-75021' must be replaced with 'GX-76021';\nthe governor of planetary object GX-76021 must pay the tithe for the preceding 2,836 Terran years within a period of no more than 50 Terran years; and\nin the event of non-payment of the tithe within the prescribed period, planetary object GX-76021 will be seized for the needs of the Adeptus Administratum, and 95% of the population will be immediately subjected to Servitude Imperpituis for the benefit of the Imperium.\nNote: a precise reckoning of the tithe amount required in throne gelts is appended to this report.\nNote: an advisory letter has been sent to the Departmento Munitorum recommending that the Departmento conduct its own internal inventory investigation to determine whether planetary object GX-76021 has fulfilled its sacred obligation to provide recruits for the Astra Militarum.\"",
+    "NameForAcronym": "Jae_Q1Report",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "f43cca6377974fa19a10bf2abbc18e04",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Jae_Q1Report",
+    "AssetGuid": "f43cca6377974fa19a10bf2abbc18e04",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

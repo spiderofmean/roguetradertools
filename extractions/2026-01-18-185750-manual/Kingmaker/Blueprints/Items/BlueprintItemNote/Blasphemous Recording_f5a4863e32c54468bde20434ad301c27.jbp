@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "f5a4863e32c54468bde20434ad301c27",
+  "name": "Blasphemous Recording",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "f5a4863e32c54468bde20434ad301c27",
+      "name": "Blasphemous Recording"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Blasphemous Recording",
+    "Description": "Fragment of a vox-recording of the execution of Vladaym Tocara, former Liege of Footfall. The recording is interspersed with cries of pain, heavy breathing, the cracking of bones, and the grating of torture implements. In moments of clarity, Vladaym tries to speak:{br}\n\"The Imperium is a monster. Merci... less. Insatiable. Imperial justice is... is its teeth. It grinds us up. Day. After day. Laps up our blood. Gnaws our bones. After that... After that it happily coughs up billions of corpses. And asks for more. And more. And... more. Now the monster devours me. But I will not pray for mercy. I wi— I will be the bone stuck across its th-throat and will make it. Choke. To the last. One day. And on that day. There will be. A reckoning.\"{br}\nThe recording cuts out for a few moments, after which Vladaym's voice returns, this time weaker, more resembling the mumbling of a madman than any cohesive speech. It would seem this fragment is from the end of the execution, when his mind is almost entirely unravelled by pain:{br}\n\"...The teeth have snapped shut at the sound of ancient footsteps. But the belly will be ripped open. By those who hear. By those who will douse the hungering fire. There will be no mercy. There will be no... mercy...\"{br}\nThe recording stops and the echo of Vladaym Tocara's last words hangs in the haunting silence.",
+    "NameForAcronym": "VladaymRecording_item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "f5a4863e32c54468bde20434ad301c27",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "VladaymRecording_item",
+    "AssetGuid": "f5a4863e32c54468bde20434ad301c27",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

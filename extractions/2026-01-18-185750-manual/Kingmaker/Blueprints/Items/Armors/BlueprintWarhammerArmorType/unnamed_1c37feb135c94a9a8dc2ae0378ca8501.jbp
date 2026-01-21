@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "1c37feb135c94a9a8dc2ae0378ca8501",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "1c37feb135c94a9a8dc2ae0378ca8501",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "1c37feb135c94a9a8dc2ae0378ca8501",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Medium",
+    "m_DamageAbsorbtionPct": 55,
+    "m_DamageDeflection": 5,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "HeavyCarapace_ArmorType",
+    "AssetGuid": "1c37feb135c94a9a8dc2ae0378ca8501",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "9fafb0e5ff5c451c92dec8c933c37a75",
+  "name": "Perforated Vox-Thief",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "9fafb0e5ff5c451c92dec8c933c37a75",
+      "name": "Perforated Vox-Thief"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Perforated Vox-Thief",
+    "Description": "\"- Hey, Doe, what are you messing with? The big guy said not to touch the goods.\n- Bugger off, Arlie. And mind your own business.\n- He has ears everywhere, you know.\n- I said, bugger off! I'm not going to rot in this hole until Pugh gets his shit together.\n- Throne take you, Doe, we've already lost four men because of this xenos shit! Put the stones down, mate, what'd ya say we wet the old whistle instead.\n- ...\n- Doe, what are you doing? What are you doing, Doe? N-no, no, get away from me! A-a-argh!\"",
+    "NameForAcronym": "VoxThief2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "9fafb0e5ff5c451c92dec8c933c37a75",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "VoxThief2",
+    "AssetGuid": "9fafb0e5ff5c451c92dec8c933c37a75",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

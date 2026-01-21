@@ -1,0 +1,273 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+  "guid": "594030b15093416c925dabc415eda101",
+  "name": "Advanced Heavy Stubber",
+  "namespace": "Kingmaker.Blueprints.Items.Weapons",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "$id": {
+      "guid": "594030b15093416c925dabc415eda101",
+      "name": "Advanced Heavy Stubber"
+    },
+    "GainAbility": true,
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Advanced Heavy Stubber",
+    "Description": "Destructible {g|Encyclopedia:DetailsOfTheCoverGlossary}cover{/g} {g|Encyclopedia:HitSequenceGlossary}hit{/g} by this stubber is instantly destroyed. Both destructible and indestructible covers are automatically overpenetrated.",
+    "ItemType": "Weapon",
+    "AttackType": "Ranged",
+    "AttackRange": 20,
+    "AttackOptimalRange": 10,
+    "IsNatural": false,
+    "IsRanged": true,
+    "IsMelee": false,
+    "Weight": 0.0,
+    "HoldingType": "TwoHanded",
+    "Range": "Ranged",
+    "Heaviness": "Heavy",
+    "HasNoDamage": false,
+    "DamageStatBonusFactor": "One",
+    "InventoryEquipSound": "UI_INV_Rifle_Equip_Play",
+    "InventoryPutSound": "UI_INV_Rifle_Put_Play",
+    "InventoryTakeSound": "UI_INV_Rifle_Take_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "Origin": "RangedWeaponry",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 25,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "AdvancedHeavyStubber_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "594030b15093416c925dabc415eda101",
+    "AllowContextActionsOnly": false,
+    "m_OnHitActions": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "SingleShot",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 2
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Burst",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 3
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Reload",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 4
+        }
+      ]
+    },
+    "m_AttackOfOpportunityAbility": {
+      "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_AttackOfOpportunityAbilityFXSettings": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "Category": "Heavy",
+    "Family": "Solid",
+    "Classification": "None",
+    "m_HoldingType": "TwoHanded",
+    "m_Range": "Ranged",
+    "m_Heaviness": "Heavy",
+    "CanBeUsedInGame": true,
+    "m_TypeNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DefaultNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "IsTwoHanded": true,
+    "WarhammerDamage": 10,
+    "WarhammerMaxDamage": 11,
+    "WarhammerPenetration": 20,
+    "DodgePenetration": 0,
+    "AdditionalHitChance": 0,
+    "WarhammerRecoil": 50,
+    "WarhammerMaxDistance": 20,
+    "WarhammerMaxAmmo": 80,
+    "RateOfFire": 10,
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintWeaponEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_DamageType": {
+      "$type": "Kingmaker.UnitLogic.Mechanics.Damage.DamageTypeDescription",
+      "Type": "Impact"
+    },
+    "m_IsNatural": false,
+    "m_DamageStatBonusFactor": "One",
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.WeaponVisualParameters",
+      "HasSpecialAnimation": false,
+      "BurstAnimationDelay": -0.15,
+      "AnimStyle": "HeavyOnHip",
+      "SoundSize": "None",
+      "SoundType": "None",
+      "MissSoundType": "None",
+      "EquipSound": "Foley_WP_R_2HAssault_EquipGeneric_Play",
+      "UnequipSound": "Foley_WP_R_2HAssault_UnEquipGeneric_Play",
+      "OutOfAmmoSound": "",
+      "SpecialAnimation": "None",
+      "InventoryEquipSound": "UI_INV_Rifle_Equip_Play",
+      "InventoryPutSound": "UI_INV_Rifle_Put_Play",
+      "InventoryTakeSound": "UI_INV_Rifle_Take_Play",
+      "IsBow": false,
+      "IsTorch": false,
+      "HasQuiver": false,
+      "IsTwoHanded": true,
+      "m_WeaponAnimationStyle": "HeavyOnHip",
+      "m_SpecialAnimation": "None",
+      "m_BurstAnimationDelay": -0.15,
+      "m_WeaponModel": {
+        "$type": "UnityEngine.GameObject",
+        "$skipped": "dangerous"
+      },
+      "m_CachedEquipLinksUpToDate": false,
+      "m_SoundSize": "None",
+      "m_SoundType": "None",
+      "m_SoundSizeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_SoundTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2011258708,
+        "ValueHash": 1256513485,
+        "Group": "ProjectileType",
+        "Value": "Bullet"
+      },
+      "m_MuffledTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MissSoundType": "None",
+      "m_EquipSound": "Foley_WP_R_2HAssault_EquipGeneric_Play",
+      "m_UnequipSound": "Foley_WP_R_2HAssault_UnEquipGeneric_Play",
+      "m_OutOfAmmoSound": "",
+      "m_InventoryEquipSound": "UI_INV_Rifle_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Rifle_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Rifle_Take_Play"
+    },
+    "SpendCharges": false,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "AdvancedHeavyStubber_Item",
+    "AssetGuid": "594030b15093416c925dabc415eda101",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

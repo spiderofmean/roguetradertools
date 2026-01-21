@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "ca119cbd6c1f4dcebc70dea5d7c342eb",
+  "name": "The Chronicle of Fates, Page 380",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "ca119cbd6c1f4dcebc70dea5d7c342eb",
+      "name": "The Chronicle of Fates, Page 380"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "The Chronicle of Fates, Page 380",
+    "Description": "\"The Chronicle of Fates, by Gorgorius Falt\"{br}\n\"Chapter 3\"{br}\n\"The sacrament has been performed. I felt the cage open its gates; I felt Him That Holdeth the Key open the lock of my body.{br}\nAt first, I found it hard to breathe; it was as though the inside of my body was lined with vice that was not my own. In my mind's confusion, I cannot tell what moonlife it is or which chapter of this Book I am presently writing; but the Greatest One is all-knowing, and every turn of fate has been chosen by Him in advance. Thus, if my new fate tries to resist me, I shall bring it to heel.\"",
+    "NameForAcronym": "FW_BookOfFate_item_3",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "ca119cbd6c1f4dcebc70dea5d7c342eb",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "FW_BookOfFate_item_3",
+    "AssetGuid": "ca119cbd6c1f4dcebc70dea5d7c342eb",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

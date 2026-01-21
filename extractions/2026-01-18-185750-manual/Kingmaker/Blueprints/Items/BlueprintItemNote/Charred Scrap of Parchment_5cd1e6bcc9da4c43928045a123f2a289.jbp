@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "5cd1e6bcc9da4c43928045a123f2a289",
+  "name": "Charred Scrap of Parchment",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "5cd1e6bcc9da4c43928045a123f2a289",
+      "name": "Charred Scrap of Parchment"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Charred Scrap of Parchment",
+    "Description": "You can barely make out the crudely scribbled words on the burnt note.\n\"...then past the marketpl... ...ke sure the enfor... ...t you or you'll rui... ...ntire operation. On the tracks, beh... ...'ll find... ...s a little gift for... Give it to him and you'll see for yourself!\"",
+    "NameForAcronym": "LT_BurntNote",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "5cd1e6bcc9da4c43928045a123f2a289",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AntonKharybin",
+    "Comment": "",
+    "name": "LT_BurntNote",
+    "AssetGuid": "5cd1e6bcc9da4c43928045a123f2a289",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemsList",
+  "guid": "909b5220f0f142ecab47da082e099232",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemsList",
+    "$id": {
+      "guid": "909b5220f0f142ecab47da082e099232",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "909b5220f0f142ecab47da082e099232",
+    "AllowContextActionsOnly": false,
+    "m_Items": {
+      "$type": "Kingmaker.Blueprints.BlueprintItemReference[]",
+      "$count": 3,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+          "Guid": "6578320ad07a4d99925e7e3d062473ec",
+          "guid": "6578320ad07a4d99925e7e3d062473ec"
+        },
+        {
+          "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+          "Guid": "8e5fa2b2e96c4ad2a0ff9ebdae0cfa06",
+          "guid": "8e5fa2b2e96c4ad2a0ff9ebdae0cfa06"
+        },
+        {
+          "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+          "Guid": "858ee7ff6d17418da05c3cc92a47000e",
+          "guid": "858ee7ff6d17418da05c3cc92a47000e"
+        }
+      ]
+    },
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "Blood",
+    "AssetGuid": "909b5220f0f142ecab47da082e099232",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "e85b5c04a36d4d778c83fb4c6681a484",
+  "name": "Vox With the Winterscale Emblem",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "e85b5c04a36d4d778c83fb4c6681a484",
+      "name": "Vox With the Winterscale Emblem"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Vox With the Winterscale Emblem",
+    "Description": "\"Entry C. It's been a hundred cycles, and these idiots are still none the wiser about who they saved from the storm. Going back to my camp is no longer an option — damned rats chewed through the protective suit, and these pissants are out of repair materials.\nEntry CIV. There are some decent people here. Just civilians, like my mother. This one girl, Zimmy, even made a habit of coming by in the after hours. She asked me to teach her the letters — so she can write to her father who went to the surface two turns ago. Foolish child. The war has taken its toll on both sides. Hold on, am I sympathising with the enemy? I better put a stop to this.\nEntry CX. I was finally allowed entry to the upper levels, and, lo and behold, what did I find there? The same supply crates as those gifted to our lords by the Star Allies! The same rations as we've been eating, the same weapons as we've been fighting with! So our lives have simply been toyed with...\n??? If Winterscale has betrayed us, I must report this to the command. No matter the cost.\n??? I got my hands on a cutter and decommissioned a few blocks of explosives. No one noticed a thing.\n??? I bribed the archivist with a dozen rations — now I just need to get the schematics for the life support systems.\n??? Rats brought disease from the surface, the medicae unit is packed. Just the right time for a quick short circuit.\n??? Zimmy drank the poisoned water and vomited a lot of blood. The schematics were inaccurate. But now I know for certain which pipes go to the living module and which to the barracks.\n??? The senior comm officer suspects something.\n??? It's time.\"",
+    "NameForAcronym": "OldVoxCaster",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e85b5c04a36d4d778c83fb4c6681a484",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "name": "OldVoxCaster",
+    "AssetGuid": "e85b5c04a36d4d778c83fb4c6681a484",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

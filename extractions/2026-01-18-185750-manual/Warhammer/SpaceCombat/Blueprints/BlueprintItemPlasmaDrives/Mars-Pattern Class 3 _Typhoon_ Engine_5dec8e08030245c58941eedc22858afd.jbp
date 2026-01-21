@@ -1,0 +1,82 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+  "guid": "5dec8e08030245c58941eedc22858afd",
+  "name": "Mars-Pattern Class 3 \"Typhoon\" Engine",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+    "$id": {
+      "guid": "5dec8e08030245c58941eedc22858afd",
+      "name": "Mars-Pattern Class 3 \"Typhoon\" Engine"
+    },
+    "ItemType": "StarshipPlasmaDrives",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Mars-Pattern Class 3 \"Typhoon\" Engine",
+    "Description": "This plasma drive provides 19 {g|Encyclopedia:SpeedSpace}speed{/g}, along with low {g|Encyclopedia:AccelerationBrakingSpace}acceleration and braking{/g}, and significantly reduces the {g|Encyclopedia:FlagshipSpace}flagship{/g}'s {g|Encyclopedia:ManoeuvrabilitySpace}manoeuvrability{/g}.",
+    "NameForAcronym": "DriveDLC2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "5dec8e08030245c58941eedc22858afd",
+    "AllowContextActionsOnly": false,
+    "Speed": 19,
+    "Inertia": 5,
+    "Evasion": 0,
+    "PushPhase": 6,
+    "FinishPhase": 1,
+    "m_ExplosionWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_ExplosionAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "DriveDLC2",
+    "AssetGuid": "5dec8e08030245c58941eedc22858afd",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+  "guid": "4caf3520422148e8b5c2ec352ae09602",
+  "name": "Starflare Lance",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "$id": {
+      "guid": "4caf3520422148e8b5c2ec352ae09602",
+      "name": "Starflare Lance"
+    },
+    "ItemType": "StarshipWeapon",
+    "AllowSeries": false,
+    "HasSeries": false,
+    "GainAbility": true,
+    "ForcedRampColorPresetIndex": -1,
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Starflare Lance",
+    "Description": "A long-ranged {g|Encyclopedia:LanceWeaponSpace}lance weapon{/g} dealing <u>(from 55 to 65)</u> {g|Encyclopedia:SpaceBattleDamageGlossary}damage{/g} to a chosen enemy within a narrow {g|Encyclopedia:FiringArcSpace}firing arc{/g}.",
+    "NameForAcronym": "Chaos_Lance2Dorsal_Weapon",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "4caf3520422148e8b5c2ec352ae09602",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": false,
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Custom",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 0
+        }
+      ]
+    },
+    "WeaponType": "Lances",
+    "AllowedSlots": {
+      "$type": "Warhammer.SpaceCombat.Blueprints.Slots.WeaponSlotType[]",
+      "$count": 1,
+      "items": [
+        "Dorsal"
+      ]
+    },
+    "DamageInstances": 5,
+    "DelayBetweenProjectiles": 0.2,
+    "ShotsInSeries": 1,
+    "DelayInSeries": 0.0,
+    "m_SoundTypeSwitch": {
+      "$type": "Kingmaker.Sound.AkSwitchReference",
+      "GroupHash": 0,
+      "ValueHash": 0,
+      "Group": "",
+      "Value": ""
+    },
+    "m_DefaultAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "724ad7b9f2fa41cea82014415fba30b7",
+      "guid": "724ad7b9f2fa41cea82014415fba30b7"
+    },
+    "m_AlternateAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "Chaos_Lance2Dorsal_Weapon",
+    "AssetGuid": "4caf3520422148e8b5c2ec352ae09602",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "0fe97dd68d2643bb99f60287b3197aab",
+  "name": "Prison Diary of Aati Shan, Part Three",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "0fe97dd68d2643bb99f60287b3197aab",
+      "name": "Prison Diary of Aati Shan, Part Three"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Prison Diary of Aati Shan, Part Three",
+    "Description": "\"I'm scared.\nI should've known all that charity from the warden was going to bring nothing but trouble. No noble, no matter how barmy, would pull anything of the sort, but that man...\nIt started with the little things. The warden would come by to talk, as he did. Except he used to ask us questions before, and now he was mostly gushing sermons. Some gibberish about a path to purgation, the sanctity of sacrifice, seeing with blinded eyes... I listened and nodded. Yes, Master Warden. Of course, Master Warden. He could say whatever rubbish he wanted, as long as the tasty optimate meals kept coming. I thought everyone else was doing the same, nodding just to please the big man.\nI was wrong. After that, people in the barracks started yapping on about purgation and blindness too. Apparently, us optimates were no longer just the warden's favourites, we were — Emperor forgive me — 'prophets' of some kind who were meant to 'save' the rest of this sorry lot. Or awaken them. Or make them see. Some rubbish along those lines.\nPeople were now supposed to make sacrifices to optimates. Yesterday, the sap who slept in the bed under me in my first year here cut off his own damn ear and crawled on his knees toward me. He handed me the ear and begged me not to forsake him when the fateful hour came. What in the Throne am I supposed to do with an ear? Why is everyone — every single one! — staring at me all the time?\nThe warden said the time was nigh, that fate had truly great things in store for the optimates.\nI went to look how my good friend Clensin was doing. He hadn't spoken for three months ever since I had all his top teeth ripped out. He spoke today. He looked straight at me and said, 'Dead man.'\nI kept hitting him until it hurt. Until it hurt me. Now my fist and feet are all bruised. Half the barracks stood there and watched. And prayed.\nI'm scared...\"",
+    "NameForAcronym": "RaicadiFiliaDairy3",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "0fe97dd68d2643bb99f60287b3197aab",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "RaicadiFiliaDairy3",
+    "AssetGuid": "0fe97dd68d2643bb99f60287b3197aab",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

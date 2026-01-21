@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "ee38d8a0696a4364ae73231218e45756",
+  "name": "Journal of Observations",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "ee38d8a0696a4364ae73231218e45756",
+      "name": "Journal of Observations"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Journal of Observations",
+    "Description": "The journal entries are written in an angular but surprisingly tidy hand, as if the writer deliberated meticulously over every word. The notes are supplemented by diagrams and formulae.\n\"The Farseer's mind is aggressively resisting external interference. The mind maggot perished instantly upon being introduced into the system, which has never been observed before. Interesting. As punishment, the subject was placed in vibra-shackles that chip away at limb bones.\n(unreadable diagrams)\nMind maggot enhanced with a power implant. Subject placed in a red-hot metal capsule during the introduction of the parasite. Despite the pain and the parasite in its system, the subject succeeded in addressing the veil: parasite destruction detected two minutes into its presence in the subject's body.\n(unreadable diagrams)\nMind maggot enhanced with poison that suppresses the host's psychic functions, and placed successfully inside its victim. The parasite's vital functions persist, yet with no sign of compliance on the part of the host. Unacceptable. Subject punished by partial skin removal and suspension by the detached areas of skin.\n(unreadable diagrams)\nExperiment finished. Result negative. For as long as the subject remains capable of combatting the mind maggot's presence, pain is the only available method of suppression. Subject to be placed in a capsule with slowly rotating blades until further instructions.\"",
+    "NameForAcronym": "HaemonculusResearch3",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "ee38d8a0696a4364ae73231218e45756",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HaemonculusResearch3",
+    "AssetGuid": "ee38d8a0696a4364ae73231218e45756",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

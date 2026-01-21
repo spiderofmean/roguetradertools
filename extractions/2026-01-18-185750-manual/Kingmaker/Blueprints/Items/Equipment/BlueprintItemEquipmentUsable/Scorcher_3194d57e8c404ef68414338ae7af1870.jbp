@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "3194d57e8c404ef68414338ae7af1870",
+  "name": "Scorcher",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "3194d57e8c404ef68414338ae7af1870",
+      "name": "Scorcher"
+    },
+    "IdentifyDC": 0,
+    "Name": "Scorcher",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "Drug",
+    "AllowMakeStackable": true,
+    "FlavorText": "A combat stimulant that brings forth monstrous rage and burns the nervous system to ash. Designed for the organic battle golems that serve the Janus Tech-Priests.",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Drugs_Put_Play",
+    "InventoryTakeSound": "UI_INV_Drugs_Take_Play",
+    "Description": "The user gains +1 {g|Encyclopedia:ActionPoints}AP{/g} and immediately resets cooldowns on all attacks and attack {g|Encyclopedia:Ability}abilities{/g}. At the start of the user's next {g|Encyclopedia:Turn}turn{/g}, they gain +1 stack of {g|Encyclopedia:StaggeredEffect}staggered{/g} that lasts until the end of combat.",
+    "NameForAcronym": "Drug_Berserk",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "3194d57e8c404ef68414338ae7af1870",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Drug_Berserk",
+    "AssetGuid": "3194d57e8c404ef68414338ae7af1870",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

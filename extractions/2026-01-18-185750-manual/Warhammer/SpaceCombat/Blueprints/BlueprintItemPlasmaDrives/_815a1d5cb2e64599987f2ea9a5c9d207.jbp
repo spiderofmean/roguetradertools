@@ -1,0 +1,78 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+  "guid": "815a1d5cb2e64599987f2ea9a5c9d207",
+  "name": "",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+    "$id": {
+      "guid": "815a1d5cb2e64599987f2ea9a5c9d207",
+      "name": ""
+    },
+    "ItemType": "StarshipPlasmaDrives",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "",
+    "Description": "",
+    "NameForAcronym": "DLC2_PirateCraft_Fury_Drives",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "815a1d5cb2e64599987f2ea9a5c9d207",
+    "AllowContextActionsOnly": false,
+    "Speed": 5,
+    "Inertia": 1,
+    "Evasion": 0,
+    "PushPhase": 4,
+    "FinishPhase": 1,
+    "m_ExplosionWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_ExplosionAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "DLC2_PirateCraft_Fury_Drives",
+    "AssetGuid": "815a1d5cb2e64599987f2ea9a5c9d207",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

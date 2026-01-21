@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "5af5b20828574d0e990231515e9b8233",
+  "name": "Unknown Captain's Diary",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "5af5b20828574d0e990231515e9b8233",
+      "name": "Unknown Captain's Diary"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Unknown Captain's Diary",
+    "Description": "A thick diary filled with entries written in neat, precise handwriting. Its author was documenting the events of his life with thoroughness bordering on obsession. After browsing through its pages, the following entries catch your attention:\n{br}\n\"Exodus. Watch 1.\nNever thought this day would come — I'm addressed as 'master captain' once more. How many times did I swear never to venture into the void again during those two Terran years I spent among the mangled ruins of the Unheralded Reckoning's bridge? Unfortunately, life in a gravity well didn't bring me peace.\nReverend Hieronymus promised me that performing a selfless feat of devotion would bring me serenity. Maybe he's right. But I'm still writing in this journal during the long nights to keep my sanity. Just like I did for two years There and seven Terran years after that Here. We'll see if I'll be able to live without the Somewhere that is our Wasteland Wayfarer's destination.\n{br}\nExodus. Watch 237.\nThe crew has reported hearing strange noises from the ventilation shafts for a third time. Alas, I'm charged with pilgrims, not seasoned voidsmen: the venture scares them, and they've already managed to make up their share of absurd ghost stories. I asked Reverend Gravik to calm them down. He's the official head of the pilgrimage, so they ought to listen to him.\n{br}\nExodus. Watch 240.\nThe vent inspection is finished. Just as expected, there was nothing to worry about, just some torn tubing striking the hull.\n{br}\nExodus. Watch 393.\nReverend Hieronymus was wrong. Faith does not bring me peace. I prefer not to take any sides in the theological dispute that has broken out aboard our vessel, ignoring the debates altogether. I'll let Reverend Gravik handle it. I'm slightly concerned about this schism, but as long as both groups are peaceful and agree to follow my orders, they can bicker and shout all they want.\n{br}\nExodus. Watch 810.\nThe Great Day has arrived. The Wasteland Wayfarer has successfully landed on the planet's surface. I wonder if it'll ever leave it.\nA settlement is already being built down the hill. Its official colonial designation is AIII-649-Minoris, but Reverend Gravik said he's going to name it Jesevon.\nWhen we first stepped onto the surface, Reverend Gravik's congregation and the Nourishers used different airlocks to leave the vessel. Seems like they've ceased any and all communication.\n{br}\nExodus. Watch 1212.\nToday the last pilgrims left the Wayfarer for Jesevon. I'm alone once again. They invited me to go with them, but I made up an excuse about needing to keep watch at the reactor since my ship is still used for powering the settlement. Truth be told, I just didn't want to go with them.\nThey say less than a thousand pilgrims are still loyal to Gravik. The services at the main temple are performed by the Nourishers, and the Saint Drusus statue is cut only up to its knees. I can't understand their beliefs, but I don't think they will help me more than Reverend Hieronymus's faith.\n{br}\nExodus. Watch 1287.\nI was awoken in the night by a dozen pilgrims from Jesevon. They were armed and scared and said the Nourishers had arrested Reverend Gravik.\nThey were bewildered and didn't know what to do, wanting me to act. So act I did. Since Reverend Gravik is the official head of the pilgrimage, I deemed this an incident of civil unrest. I cut power to Jesevon and demanded Reverend Gravik's release via vox-comm.\nWe are holding the line.\n{br}\nExodus. Watch 1290.\nThe Nourishers have come to us. Gravik was with them. He was calm and said that the conflict had been resolved. He took the confused pilgrims and their guns with him, and I restored power to the settlement.\nI have no idea what's going on.\n{br}\nPeace. The watch is of no consequence.\nToday I received the brotherly kiss, and now I Believe. I can clearly see the spiral path among the stars set for us by the Emperor-Progenitor. Now I can hear my brothers and sisters. I am finally alone no more.\"",
+    "NameForAcronym": "TheLure_ShipLog_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "5af5b20828574d0e990231515e9b8233",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "TheLure_ShipLog_plaintext",
+    "AssetGuid": "5af5b20828574d0e990231515e9b8233",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

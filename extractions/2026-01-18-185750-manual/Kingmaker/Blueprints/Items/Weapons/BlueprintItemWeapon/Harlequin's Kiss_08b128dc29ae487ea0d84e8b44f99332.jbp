@@ -1,0 +1,219 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+  "guid": "08b128dc29ae487ea0d84e8b44f99332",
+  "name": "Harlequin's Kiss",
+  "namespace": "Kingmaker.Blueprints.Items.Weapons",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "$id": {
+      "guid": "08b128dc29ae487ea0d84e8b44f99332",
+      "name": "Harlequin's Kiss"
+    },
+    "GainAbility": true,
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Harlequin's Kiss",
+    "Description": "",
+    "ItemType": "Weapon",
+    "AttackType": "Melee",
+    "AttackRange": 1,
+    "AttackOptimalRange": 1,
+    "IsNatural": true,
+    "IsRanged": false,
+    "IsMelee": true,
+    "Weight": 0.0,
+    "HoldingType": "OneHanded",
+    "Range": "Melee",
+    "Heaviness": "NotHeavy",
+    "HasNoDamage": false,
+    "DamageStatBonusFactor": "One",
+    "InventoryEquipSound": "UI_INV_Power_Equip_Play",
+    "InventoryPutSound": "UI_INV_Power_Put_Play",
+    "InventoryTakeSound": "UI_INV_Power_Take_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "Origin": "Xeno",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "HarlequinsKiss_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "08b128dc29ae487ea0d84e8b44f99332",
+    "AllowContextActionsOnly": false,
+    "m_OnHitActions": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "SingleShot",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 1
+        }
+      ]
+    },
+    "m_AttackOfOpportunityAbility": {
+      "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+      "Guid": "638cd0973175462b9faaeb1242761d32",
+      "guid": "638cd0973175462b9faaeb1242761d32"
+    },
+    "m_AttackOfOpportunityAbilityFXSettings": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+      "Guid": "1bc92b9832fe402caa887d8c5d990cb4",
+      "guid": "1bc92b9832fe402caa887d8c5d990cb4"
+    },
+    "Category": "Melee",
+    "Family": "Exotic",
+    "Classification": "Sword",
+    "m_HoldingType": "OneHanded",
+    "m_Range": "Melee",
+    "m_Heaviness": "NotHeavy",
+    "CanBeUsedInGame": true,
+    "m_TypeNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DefaultNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "IsTwoHanded": false,
+    "WarhammerDamage": 18,
+    "WarhammerMaxDamage": 22,
+    "WarhammerPenetration": 60,
+    "DodgePenetration": 0,
+    "AdditionalHitChance": 0,
+    "WarhammerRecoil": 0,
+    "WarhammerMaxDistance": 1,
+    "WarhammerMaxAmmo": -1,
+    "RateOfFire": 0,
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintWeaponEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_DamageType": {
+      "$type": "Kingmaker.UnitLogic.Mechanics.Damage.DamageTypeDescription",
+      "Type": "Piercing"
+    },
+    "m_IsNatural": true,
+    "m_DamageStatBonusFactor": "One",
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.WeaponVisualParameters",
+      "HasSpecialAnimation": false,
+      "BurstAnimationDelay": 0.0,
+      "AnimStyle": "BrutalOneHanded",
+      "SoundSize": "Medium",
+      "SoundType": "SlashMetal",
+      "MissSoundType": "None",
+      "EquipSound": "Foley_WP_M_PowerSword_Equip_Play",
+      "UnequipSound": "Foley_WP_M_PowerSword_Remove_Play",
+      "OutOfAmmoSound": "",
+      "SpecialAnimation": "None",
+      "InventoryEquipSound": "UI_INV_Power_Equip_Play",
+      "InventoryPutSound": "UI_INV_Power_Put_Play",
+      "InventoryTakeSound": "UI_INV_Power_Take_Play",
+      "IsBow": false,
+      "IsTorch": false,
+      "HasQuiver": false,
+      "IsTwoHanded": false,
+      "m_WeaponAnimationStyle": "BrutalOneHanded",
+      "m_SpecialAnimation": "None",
+      "m_BurstAnimationDelay": 0.0,
+      "m_CachedEquipLinksUpToDate": false,
+      "m_SoundSize": "Medium",
+      "m_SoundType": "SlashMetal",
+      "m_SoundSizeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2654430898,
+        "ValueHash": 2849147824,
+        "Group": "WeaponSize",
+        "Value": "Medium"
+      },
+      "m_SoundTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2011258708,
+        "ValueHash": 2391494160,
+        "Group": "ProjectileType",
+        "Value": "Power"
+      },
+      "m_MuffledTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MissSoundType": "None",
+      "m_EquipSound": "Foley_WP_M_PowerSword_Equip_Play",
+      "m_UnequipSound": "Foley_WP_M_PowerSword_Remove_Play",
+      "m_OutOfAmmoSound": "",
+      "m_InventoryEquipSound": "UI_INV_Power_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Power_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Power_Take_Play"
+    },
+    "SpendCharges": false,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": true,
+    "IsUnlootable": true,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexanderGusev",
+    "Comment": "",
+    "name": "HarlequinsKiss_Item",
+    "AssetGuid": "08b128dc29ae487ea0d84e8b44f99332",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

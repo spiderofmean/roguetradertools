@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "a793aa6d59704a369c1d10a445a6eb80",
+  "name": "Wolfskin",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "a793aa6d59704a369c1d10a445a6eb80",
+      "name": "Wolfskin"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Wolfskin",
+    "Description": "<b>Base Armour Property</b>: +20 Strength.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "Power",
+    "Category": "Power",
+    "DamageAbsorption": 65,
+    "DamageDeflection": 6,
+    "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+    "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+    "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 0,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Pattern",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "Armour covered in magical runes and sanctified by an Iron Priest. It belongs to brother Ulfar, an honourable warrior of the Wolf Guard.",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "UlfarArmor_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a793aa6d59704a369c1d10a445a6eb80",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "befc6d221bed4b019245ff828822c3eb",
+      "guid": "befc6d221bed4b019245ff828822c3eb"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 65,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 6,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "AnimationFoleySound": "ArmorPowerMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 2473969246,
+        "Group": "BodyType",
+        "Value": "Metal"
+      },
+      "m_InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "m_AnimationFoleySound": "ArmorPowerMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "UlfarArmor_Item",
+    "AssetGuid": "a793aa6d59704a369c1d10a445a6eb80",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

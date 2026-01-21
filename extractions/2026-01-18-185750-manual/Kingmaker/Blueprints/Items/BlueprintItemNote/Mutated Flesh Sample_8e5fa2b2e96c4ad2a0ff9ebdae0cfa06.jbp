@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "8e5fa2b2e96c4ad2a0ff9ebdae0cfa06",
+  "name": "Mutated Flesh Sample",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "8e5fa2b2e96c4ad2a0ff9ebdae0cfa06",
+      "name": "Mutated Flesh Sample"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_BodyPart_Put",
+    "InventoryTakeSound": "UI_INV_BodyPart_Take",
+    "Name": "Mutated Flesh Sample",
+    "Description": "A flesh sample with numerous outgrowths covered in a mesh of bluish-black veins.",
+    "NameForAcronym": "MutantFlesh",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "8e5fa2b2e96c4ad2a0ff9ebdae0cfa06",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "MutantFlesh",
+    "AssetGuid": "8e5fa2b2e96c4ad2a0ff9ebdae0cfa06",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "fde47d12dda046acb2840f821683b9cb",
+  "name": "Letter from Lord Inquisitor Xavier Calcazar",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "fde47d12dda046acb2840f821683b9cb",
+      "name": "Letter from Lord Inquisitor Xavier Calcazar"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Letter from Lord Inquisitor Xavier Calcazar",
+    "Description": "\"May the Emperor's faithful forever remain in the light of His favour.\nLet me first express my condolences on the tragic death of the most honourable Theodora von Valancius. Nevertheless, I was elated to learn that the Warrant of the Rogue Trader has been passed to a worthy and promising heir. These words are not hollow compliments, but rather the Inquisition's official opinion of your person.\nAs fate would have it, you have taken the reins of the von Valancius dynasty in an hour most dire, when grim portents of dark events to come are surfacing throughout the Koronus Expanse. I have been duty-bound to become the first sentinel who sees the approaching threat, and I hereby alert you that it is indeed coming. Our loyalty and resolve will be tested. People such as you and I will become the pillars that will unite the Emperor's frightened children and inspire them to fight back.\nAnd so I greet you as my dependable ally and assure you of my favour. From now on, you have a trusted friend within the Holy Orders of the Emperor's Inquisition and a receptive confidant on whom you can rely. Should the dark times ahead require you to make questionable choices, have no doubt that such an incident will be examined in an exceedingly temperate fashion that rules out the most radical forms of judgement.\nI have faith in the success of our partnership and thank you for your contribution, both past and future.\nLord Inquisitor Xavier Calcazar\"",
+    "NameForAcronym": "InquisitorLetter_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "fde47d12dda046acb2840f821683b9cb",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "InquisitorLetter_plaintext",
+    "AssetGuid": "fde47d12dda046acb2840f821683b9cb",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

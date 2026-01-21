@@ -1,0 +1,37 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment",
+  "guid": "575f76625ca14876bfdebdc52a082010",
+  "name": "",
+  "namespace": "Kingmaker.Blueprints.Items.Ecnchantments",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment",
+    "$id": {
+      "guid": "575f76625ca14876bfdebdc52a082010",
+      "name": ""
+    },
+    "Prefix": "",
+    "Suffix": "",
+    "EnchantmentCost": 0,
+    "IdentifyDC": 0,
+    "AllowContextActionsOnly": true,
+    "Name": "",
+    "Description": "",
+    "NameForAcronym": "MSW_ChainAxe2_Chain00_Enchantments",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "575f76625ca14876bfdebdc52a082010",
+    "WeaponFxPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "Author": "Unknown",
+    "Comment": "eee",
+    "name": "MSW_ChainAxe2_Chain00_Enchantments",
+    "AssetGuid": "575f76625ca14876bfdebdc52a082010",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

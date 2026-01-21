@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "8fa9fe3c784642aca56c546a0ffaa885",
+  "name": "Prison Diary of Aati Shan, Part One",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "8fa9fe3c784642aca56c546a0ffaa885",
+      "name": "Prison Diary of Aati Shan, Part One"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Prison Diary of Aati Shan, Part One",
+    "Description": "\"Groxshit, why me? WHY? I missed my tithe payment twelve years ago. Twelve years! The inspector's writ got lost somewhere in the bowels of the planetary Administratum and was lying there this whole time, but they made sure to remember to tack on the fines every month. By the time they found the blasted paper and finally informed me... the total sum was so obscene it would take three generations of my descendants, if I had any, to pay it off. My fate was sealed: trial, sentence, prison. All because of some daft rotter who shoved my paper in the wrong box!\nTo be fair, I think I got off pretty easy. My bed in the barracks is about as hard as that slab o' rockcrete I've got at home, working in the quarry isn't much tougher than my old job, and the rules... void take me, that old sod that governs Rykad Minoris is a bloody sadist by comparison!\nIt's a strange old place. I haven't been beaten once yet. The guards bark orders all the time, but they never hit us. They also got this kind of inner circle of special 'chosen' prisoners. The Optimatum, they call it. If you can get in, Emperor as my witness, you get an actual day off! They let you out of your cell and into the yard by the big barracks. And, I tell you what, they let you rest there and feed you better than whatever swill they're giving us in the canteen. They told me it's to improve our motivation and all that — to foster a stronger desire to reform and become a worthy servant of the Imperium once more. But I know it for what it is — just a club for the warden's favourites. The same story as everywhere else: suck up to the people in power and get some swanky perks.\nThey say the whole thing was the warden's idea. Funny man, our warden. He looks more noble than nobility itself: tall, groomed, teeth even, eyes burning, boots so polished you can see yourself when you move to lick 'em. But that nutter doesn't much want people licking his boots. He walks around looking like he's deep in thought, all right, with only a couple of guards at his side, and he sometimes — if you can believe it — talks to prisoners. What's your name, he asks 'em all quiet-like. Why were you condemned? Do you feel remorse? He never even yells at no one, never orders to have 'em flogged. Instead, he doles rewards out to the special ones. Keeps telling us things like how we should strive to make society believe in us again.\nUh-huh. Whatever you say, Master Warden! Starting tomorrow, I'll be trying to join these 'optimates' of yours. I'm stuck in here till the day I die, and that means no return to society for me — but, with the Emperor's help, I might just join the ranks of the local elite!\"",
+    "NameForAcronym": "RaicadiFiliaDairy1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "8fa9fe3c784642aca56c546a0ffaa885",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "RaicadiFiliaDairy1",
+    "AssetGuid": "8fa9fe3c784642aca56c546a0ffaa885",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

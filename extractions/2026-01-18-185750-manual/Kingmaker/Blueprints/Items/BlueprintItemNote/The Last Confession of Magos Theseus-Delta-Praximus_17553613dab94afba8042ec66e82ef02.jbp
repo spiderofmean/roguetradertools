@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "17553613dab94afba8042ec66e82ef02",
+  "name": "The Last Confession of Magos Theseus-Delta-Praximus",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "17553613dab94afba8042ec66e82ef02",
+      "name": "The Last Confession of Magos Theseus-Delta-Praximus"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "The Last Confession of Magos Theseus-Delta-Praximus",
+    "Description": "\"Run.{br}\nYou will find no grace of the Machine God in these faithless halls, only an unholy hatred that is more ancient than the fading stars of these distant systems. They are asleep, the legions, the innumerable hosts. But their sleep is at its end, for no one's fault but mine.{br}\nI have disturbed the slumber of an ancient mind driven only by a thirst for extermination. Even death cannot snuff out the cold green flame of its lifeless eyes. I hear the lockstepped march of our doom. A silence echoes it: the silence of our assassins, for death has no need of words. Mercy is unknown to the Nephilimechs, His wayward and unholy firstborn.{br}\nWe have blown up the bridges and barricaded the entrance in an effort to contain them. But their marching is ever louder, ever closer, ever more inescapable. As I listen to its resonant echo, I offer my last prayer to the Omnissiah, trusting in His mercy, for my transgression is great indeed.{br}\nIn my pride, I neglected the Universal Laws and attempted to harness the language of the ancient machine spirits that had once served the owners of these vaults. And I succeeded. As an infant comprehends the essence of words through images, so did I comprehend the meaning of certain symbols of His firstborn, and out of those, I composed two or three forbidden litanies. My false orders sounded just like the voices of those who commanded the essence of this eternal fortress. I stole their knowledge.{br}\nMore than once, in my complacency, I uttered the dead words with my lips of flesh, tarnishing them with the breath of life. I did so to open the sealed halls and bridge the chasms, so that our scouts could cross them. And by that unforgivable blasphemy, I condemned us all to death.{br}\nTo atone for what I have done, I have composed a crypto-lullaby out of the dead words, akin to the one that plunged the Nephilimechs into mindless oblivion at the dawn of time. More stolen words! The xenos altar of machine-worship has begun to sing it to the spirits of the machines in the fortress, but I know that before it concludes, the awakened wrath will have reached us.{br}\nAs I prepare for our last stand, I leave this confession as a warning to any who may dare walk in our footsteps. This is my final testament:{br}\nRun.\"",
+    "NameForAcronym": "ExploratorConfession_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "17553613dab94afba8042ec66e82ef02",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ExploratorConfession_plaintext",
+    "AssetGuid": "17553613dab94afba8042ec66e82ef02",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

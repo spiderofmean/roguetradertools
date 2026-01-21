@@ -1,0 +1,75 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+  "guid": "b7e3298c2b984514b81523f47514cb68",
+  "name": "Maintenance Deck",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+    "$id": {
+      "guid": "b7e3298c2b984514b81523f47514cb68",
+      "name": "Maintenance Deck"
+    },
+    "ItemType": "StarshipArsenal",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Maintenance Deck",
+    "Description": "Increases the {g|Encyclopedia:FlagshipSpace}flagship{/g}'s {g|Encyclopedia:HullIntegritySpace}hull integrity{/g} by +10.",
+    "NameForAcronym": "ArsenalDefault",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b7e3298c2b984514b81523f47514cb68",
+    "AllowContextActionsOnly": false,
+    "AppliedWeaponType": "Other",
+    "FilterDamageType": "None",
+    "m_VariantWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_VariantAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "ArsenalDefault",
+    "AssetGuid": "b7e3298c2b984514b81523f47514cb68",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

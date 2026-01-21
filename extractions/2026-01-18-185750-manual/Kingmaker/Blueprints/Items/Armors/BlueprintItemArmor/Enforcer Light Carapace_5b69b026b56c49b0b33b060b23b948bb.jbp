@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "5b69b026b56c49b0b33b060b23b948bb",
+  "name": "Enforcer Light Carapace",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "5b69b026b56c49b0b33b060b23b948bb",
+      "name": "Enforcer Light Carapace"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Enforcer Light Carapace",
+    "Description": "",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Light",
+    "DamageAbsorption": 25,
+    "DamageDeflection": 0,
+    "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+    "InventoryPutSound": "UI_INV_Flak_Put_Play",
+    "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 13,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "EnforcerLightCarapace_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "5b69b026b56c49b0b33b060b23b948bb",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "0fa0782686d949a389eefe83f63e4658",
+      "guid": "0fa0782686d949a389eefe83f63e4658"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 25,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 0,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "AnimationFoleySound": "ArmorFlakMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 2473969246,
+        "Group": "BodyType",
+        "Value": "Metal"
+      },
+      "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "m_AnimationFoleySound": "ArmorFlakMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "EnforcerLightCarapace_Item",
+    "AssetGuid": "5b69b026b56c49b0b33b060b23b948bb",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "0ded8a0745aa4abbac9b8f7860d82358",
+  "name": "Loyalist Garb",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "0ded8a0745aa4abbac9b8f7860d82358",
+      "name": "Loyalist Garb"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Loyalist Garb",
+    "Description": "If the wearer has not moved during their {g|Encyclopedia:Turn}turn{/g}, their {g|Encyclopedia:DetailsOfTheCoverGlossary}cover efficiency{/g} is increased by +20% for 1 {g|Encyclopedia:Round}round{/g}. If the wearer moves at least 3 cells per turn, they gain +20% {g|Encyclopedia:DodgeGlossary}dodge{/g} for 1 round.\n<b>Base armour property</b>: +20% dodge against {g|Encyclopedia:RangeAreaAttacksGlossary}ranged attacks{/g}.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Light",
+    "DamageAbsorption": 50,
+    "DamageDeflection": 0,
+    "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+    "InventoryPutSound": "UI_INV_Leather_Put_Play",
+    "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 55,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 30,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "The battle garb of a mysterious assassin who came from Holy Terra itself to execute the corrupt Admiral Batillera. The servant of the Emperor did his duty but was eliminated by the wicked man's guards. The armour was retained by the Administratum and bestowed upon the von Valancius dynasty for their diligence in establishing order in the Expanse.",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "VindicareStealthSuit_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "0ded8a0745aa4abbac9b8f7860d82358",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "0fa0782686d949a389eefe83f63e4658",
+      "guid": "0fa0782686d949a389eefe83f63e4658"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 50,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 0,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "AnimationFoleySound": "ArmorLeatherMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 1153642577,
+        "Group": "BodyType",
+        "Value": "Flesh"
+      },
+      "m_InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "m_AnimationFoleySound": "ArmorLeatherMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "VindicareStealthSuit_Item",
+    "AssetGuid": "0ded8a0745aa4abbac9b8f7860d82358",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

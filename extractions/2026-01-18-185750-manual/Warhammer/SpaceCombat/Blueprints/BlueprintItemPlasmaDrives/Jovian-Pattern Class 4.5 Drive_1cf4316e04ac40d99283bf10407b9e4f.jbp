@@ -1,0 +1,82 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+  "guid": "1cf4316e04ac40d99283bf10407b9e4f",
+  "name": "Jovian-Pattern Class 4.5 Drive",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+    "$id": {
+      "guid": "1cf4316e04ac40d99283bf10407b9e4f",
+      "name": "Jovian-Pattern Class 4.5 Drive"
+    },
+    "ItemType": "StarshipPlasmaDrives",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 120.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Jovian-Pattern Class 4.5 Drive",
+    "Description": "This plasma drive provides 15 {g|Encyclopedia:SpeedSpace}speed{/g} along with low {g|Encyclopedia:AccelerationBrakingSpace}acceleration and braking{/g}.",
+    "NameForAcronym": "DriveSpeed3",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "1cf4316e04ac40d99283bf10407b9e4f",
+    "AllowContextActionsOnly": false,
+    "Speed": 15,
+    "Inertia": 3,
+    "Evasion": 0,
+    "PushPhase": 5,
+    "FinishPhase": 1,
+    "m_ExplosionWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_ExplosionAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyIvanovGD",
+    "Comment": "",
+    "name": "DriveSpeed3",
+    "AssetGuid": "1cf4316e04ac40d99283bf10407b9e4f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

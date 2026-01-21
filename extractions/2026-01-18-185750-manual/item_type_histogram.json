@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Count": 985
+  },
+  {
+    "Type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity",
+    "Count": 539
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "Count": 281
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "Count": 178
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "Count": 157
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing",
+    "Count": 141
+  },
+  {
+    "Type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Count": 116
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "Count": 92
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead",
+    "Count": 81
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck",
+    "Count": 77
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders",
+    "Count": 72
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves",
+    "Count": 72
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet",
+    "Count": 67
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentPetProtocol",
+    "Count": 65
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType",
+    "Count": 45
+  },
+  {
+    "Type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemVoidShieldGenerator",
+    "Count": 43
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+    "Count": 37
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Shields.BlueprintItemShield",
+    "Count": 32
+  },
+  {
+    "Type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+    "Count": 30
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Armors.BlueprintArmorType",
+    "Count": 28
+  },
+  {
+    "Type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+    "Count": 22
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "Count": 17
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment",
+    "Count": 11
+  },
+  {
+    "Type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+    "Count": 11
+  },
+  {
+    "Type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArmorPlating",
+    "Count": 8
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.BlueprintItemKey",
+    "Count": 8
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemMechadendrite",
+    "Count": 7
+  },
+  {
+    "Type": "Kingmaker.Blueprints.BlueprintItemsStash",
+    "Count": 6
+  },
+  {
+    "Type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemLifeSustainer",
+    "Count": 5
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.BlueprintItemsList",
+    "Count": 5
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintEquipmentEnchantment",
+    "Count": 3
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.BlueprintItemResourceMiner",
+    "Count": 1
+  },
+  {
+    "Type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults",
+    "Count": 1
+  }
+]

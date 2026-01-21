@@ -1,0 +1,97 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintArmorType",
+  "guid": "fa0336fb541547b9a32f3887d44f7184",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintArmorType",
+    "$id": {
+      "guid": "fa0336fb541547b9a32f3887d44f7184",
+      "name": null
+    },
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Medium",
+    "ForcedRampColorPresetIndex": 0,
+    "DamageAbsorption": 0,
+    "DamageDeflection": 0,
+    "DodgeArmorPercentPenalty": 25,
+    "Weight": 0.0,
+    "AssetGuidThreadSafe": "fa0336fb541547b9a32f3887d44f7184",
+    "AllowContextActionsOnly": false,
+    "m_TypeNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DefaultNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "AnimationFoleySound": "",
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "m_AnimationFoleySound": ""
+    },
+    "m_RaceRestriction": "Human",
+    "m_Category": "Medium",
+    "m_ProficiencyGroup": "None",
+    "m_DamageAbsorption": 0,
+    "m_DamageDeflection": 0,
+    "m_Weight": 0.0,
+    "m_EquipmentEntity": {
+      "$type": "Kingmaker.Blueprints.KingmakerEquipmentEntityReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "m_EquipmentEntityAlternatives": {
+      "$type": "Kingmaker.Blueprints.KingmakerEquipmentEntityReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_ForcedRampColorPresetIndex": 0,
+    "m_DodgeArmorPercentPenalty": 25,
+    "Author": "DenisFilippov",
+    "Comment": "",
+    "name": "EnforcerCarapace_ArmorType",
+    "AssetGuid": "fa0336fb541547b9a32f3887d44f7184",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

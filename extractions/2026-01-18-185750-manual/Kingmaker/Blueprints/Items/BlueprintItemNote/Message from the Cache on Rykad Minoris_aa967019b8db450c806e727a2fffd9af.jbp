@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "aa967019b8db450c806e727a2fffd9af",
+  "name": "Message from the Cache on Rykad Minoris",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "aa967019b8db450c806e727a2fffd9af",
+      "name": "Message from the Cache on Rykad Minoris"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Message from the Cache on Rykad Minoris",
+    "Description": "\"A Harbinger reports: Brother Twilight and his people were unsuccessful. A dangerous enemy, {name} von Valancius, foiled his plans. The duty is now upon us, Aurora's followers, to succeed where Twilight failed.\"",
+    "NameForAcronym": "SecretLetterRM",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "aa967019b8db450c806e727a2fffd9af",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeySilaev",
+    "Comment": "",
+    "name": "SecretLetterRM",
+    "AssetGuid": "aa967019b8db450c806e727a2fffd9af",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

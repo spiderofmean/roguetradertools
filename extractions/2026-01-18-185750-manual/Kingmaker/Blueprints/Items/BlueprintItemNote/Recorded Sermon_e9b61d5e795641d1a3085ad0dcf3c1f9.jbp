@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "e9b61d5e795641d1a3085ad0dcf3c1f9",
+  "name": "Recorded Sermon",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "e9b61d5e795641d1a3085ad0dcf3c1f9",
+      "name": "Recorded Sermon"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Recorded Sermon",
+    "Description": "Playing the recording produces quiet whispering, rustling of clothes, noise from the footsteps of dozens of feet, and someone's deep, measured breathing. When the silence settles, a sonorous male voice delivers the opening sermon of the liturgy:\n\"- Glory to the Divine Creator that sits on the Golden Throne of Holy Terra, whose will created sky and earth, light and darkness, stars and galaxies.\n- Glory!\n- Glory to the Guardian of Humanity who shields us from the terrors of the void, the madness of heretics, and the malice of the enemies of the Imperium! For we are created in the God-Emperor's image to carry His light, and His will, and His word into the galaxy both in life and after our passing.\n- Glory!\n- Glory to the Lord of Humanity whose envoys, women and men of courage and virtue, guide our sons and daughters to the only path that is righteous.\n- Glory!\n- May your souls weep and lament your ignorance of how to love our God-Emperor, the Warden of Light, more than He loves each and every one of us. Cry, pray, repent, and beg for forgiveness, for your love is no love at all. Your great love is infinitely small. And even the most profound love of His most loyal servants is infinitesimally less than the love that the Master of Mankind gives us in return.\n- Glory to the Immortal One!\n- Now let us talk about how we can love the Emperor's flesh and spirit even more, and how to come closer to His divine immortality in life and after we die.\"\nRustling and whispering are heard again, and the recording ends.",
+    "NameForAcronym": "ProphetSpeechItem",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e9b61d5e795641d1a3085ad0dcf3c1f9",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ProphetSpeechItem",
+    "AssetGuid": "e9b61d5e795641d1a3085ad0dcf3c1f9",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

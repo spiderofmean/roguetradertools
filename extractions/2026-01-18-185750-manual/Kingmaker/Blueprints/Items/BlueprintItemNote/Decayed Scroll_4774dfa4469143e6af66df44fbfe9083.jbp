@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "4774dfa4469143e6af66df44fbfe9083",
+  "name": "Decayed Scroll",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "4774dfa4469143e6af66df44fbfe9083",
+      "name": "Decayed Scroll"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Decayed Scroll",
+    "Description": "\"Three hundred and forty-eight years ago, our ancestors arrived on this blooming world, built the cities and the manufactorums, and founded here a society free from heresy and fear. But the Immortal Emperor of Humanity, Warden of Light, saw fit to test our faith — a great war tore open a rift between our ancestors, dividing them into two factions and turning the world into a boundless battlefield. Each day, we fought the enemy, so that our children could see the dawn of a new era — an era without blood, pain, and tears. Brave people, living and dead, paved with their bodies the road to our future. And one day, the skies answered our prayers — the Great Star Allies descended from the darkness of the cosmos and bestowed upon our great army the Doomsday Weapon. And so we brought righteous anger upon our foes, and ended the centuries-long war, and welcomed the dawn of the new era! The universe will hardly notice our deed, but the God-Emperor sees all. We, children of a great nation, must dedicate ourselves to this sacred mission — to survive and revivify this world, as the most beautiful flowers are revivified from ashes. And hence do not despair, sons and daughters of the Imperium, for our Star Allies are behind us, and the God of Humanity is with us! I know that help is coming, and soon the skies overhead will shine once more!\"",
+    "NameForAcronym": "ScrivenerScrollsItem",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "4774dfa4469143e6af66df44fbfe9083",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "name": "ScrivenerScrollsItem",
+    "AssetGuid": "4774dfa4469143e6af66df44fbfe9083",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

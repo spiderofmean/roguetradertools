@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "152b8c6a2d1f4c7597e4edcdea5f00ed",
+  "name": "Unsealed Letter",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "152b8c6a2d1f4c7597e4edcdea5f00ed",
+      "name": "Unsealed Letter"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Unsealed Letter",
+    "Description": "\"My most precious Victa!\nSister Bregenda from the Orders Famulous whom you introduced to us is a real sweetheart! You must have noticed how many new guests started showing up at our soirees after that darling stayed at our estate. Jeoffroi is extremely fond of Bregenda, too — our heir has finally started showing an interest in something other than the exact sciences and has taken a liking to theology!\nMay the Emperor bless your insightful wisdom.\nP.S. Come visit us today after the eighth klaxon, my husband will be at the club with his friends.\nForever yours, I.L.\"",
+    "NameForAcronym": "DataSlate1Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "152b8c6a2d1f4c7597e4edcdea5f00ed",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "DataSlate1Item",
+    "AssetGuid": "152b8c6a2d1f4c7597e4edcdea5f00ed",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

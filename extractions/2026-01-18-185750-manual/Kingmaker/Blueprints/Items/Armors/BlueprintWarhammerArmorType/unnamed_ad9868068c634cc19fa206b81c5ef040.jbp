@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "ad9868068c634cc19fa206b81c5ef040",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "ad9868068c634cc19fa206b81c5ef040",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "ad9868068c634cc19fa206b81c5ef040",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Light",
+    "m_DamageAbsorbtionPct": 20,
+    "m_DamageDeflection": 0,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 0,
+    "Author": "Unknown",
+    "Comment": "Броня для NPC\n",
+    "name": "BasicArmour_ArmorType",
+    "AssetGuid": "ad9868068c634cc19fa206b81c5ef040",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

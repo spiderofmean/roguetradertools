@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "f805229d45664badb21884186fff01c6",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "f805229d45664badb21884186fff01c6",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "f805229d45664badb21884186fff01c6",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Light",
+    "m_DamageAbsorbtionPct": 25,
+    "m_DamageDeflection": 3,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 0,
+    "Author": "Unknown",
+    "Comment": "Броня для NPC\n",
+    "name": "CasingBreastplate_ArmorType",
+    "AssetGuid": "f805229d45664badb21884186fff01c6",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "2aa5f5d7e0a946c8bbb132bddcf0f590",
+  "name": "Laboratory Journal H-4045LS",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "2aa5f5d7e0a946c8bbb132bddcf0f590",
+      "name": "Laboratory Journal H-4045LS"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Laboratory Journal H-4045LS",
+    "Description": "Experimental section: the Child's influence on the psycho-emotional state of various representatives of the Imperium\nAccess level: Orsellio-T-prime{br}\nExperiment H4545-1\nSubgroup: lowborn, male\nTest subjects exhibit signs of acute stress. The majority perished of blood loss within a day of being placed in the laboratory chamber due to the inability to halt the discharge of ocular secretions (tears) and the body's subsequent replacement of these secretions with the connective tissue of its internal environment. The individuals with the greatest resistance to the sacred Child's resonance died several chrono-turns later: extensive wounds in the abdomen, presumably inflicted by a jagged piece of metal; death was caused by strangulation with the subjects' own intestines. The subjects' final shouts exhibited concerns over abominable tentacles and void worms, hallucinations prescribed to their own internal organs.{br}\nExperiment H4545-2\nSubgroup: lowborn, female\nThe test subjects died within an hour of entering the laboratory adjacent to the Child's chambers. Most had their tongues bitten off or their jaws badly dislocated: some test subjects lacked the physical strength to separate it from the rest of the skull. Cause of death: severe head injuries caused by impacting the walls or the floor.{br}\nExperiment H4545-3\nSubgroup: a paralysed patient who lost the ability to speak due to the shock caused by a manufactorum accident, male\nThe test subject noted a tingling sensation in the deteriorated tissue. During Regent Aaronto Orsellio's visit to the Child, the test subject smiled and started humming (most likely trying to carry some plebeian tune) and then attempted to address the servant who brought him food. A lengthy conversation was prohibitive due to the servant's lack of a tongue.{br}\nExperiment H4545-4\nSubgroup: a defective offspring of Lord P. Orsellio, pronounced unfit for studying the high art of Navigation owing to the mutation of tissues required for installation of the obligatory augmentations that merge one's consciousness with the vessel, additionally they display an overall feebleness of mind, female\nThe test subjects mirrored the Child's actions for three days. On the fourth day the Child became upset after hearing the news about the untimely demise of Amos Cantarelli, an officer of her personal guard. As a result, one of the test subjects peeled away several layers of tissue from her face and died from the resulting massive heart attack.\nThe last surviving test subject was executed for attempting to contact the Child.",
+    "NameForAcronym": "CassiaDiary",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "2aa5f5d7e0a946c8bbb132bddcf0f590",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "CassiaDiary",
+    "AssetGuid": "2aa5f5d7e0a946c8bbb132bddcf0f590",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "4a192c7029434fa8a8d6845e394f508d",
+  "name": "Synskin",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "4a192c7029434fa8a8d6845e394f508d",
+      "name": "Synskin"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Synskin",
+    "Description": "<b>Base armour property</b>: +5% {g|Encyclopedia:DodgeGlossary}dodge{/g} if the wearer's {g|Encyclopedia:WarhammerAgility}Agility{/g} is more than 40.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Light",
+    "DamageAbsorption": 25,
+    "DamageDeflection": 0,
+    "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+    "InventoryPutSound": "UI_INV_Leather_Put_Play",
+    "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 26,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Pattern",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "Once sprayed onto the body, it protects from environmental factors and enhances fighting skills.",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "Synskin_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "4a192c7029434fa8a8d6845e394f508d",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "0fa0782686d949a389eefe83f63e4658",
+      "guid": "0fa0782686d949a389eefe83f63e4658"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 25,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 0,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "AnimationFoleySound": "ArmorLeatherMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 1153642577,
+        "Group": "BodyType",
+        "Value": "Flesh"
+      },
+      "m_InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "m_AnimationFoleySound": "ArmorLeatherMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Synskin_Item",
+    "AssetGuid": "4a192c7029434fa8a8d6845e394f508d",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

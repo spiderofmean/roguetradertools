@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "b6d43ecbd90144f1841526a8b155f73a",
+  "name": "Anvers' Note From the Shadow Quarters",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "b6d43ecbd90144f1841526a8b155f73a",
+      "name": "Anvers' Note From the Shadow Quarters"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Anvers' Note From the Shadow Quarters",
+    "Description": "\"Boss, the Hustler's lads, the ones who call themselves Anvers only for show, went to shake down traders in the Atrium. How long are we going to put up with this? Common muggers are using our name, and there are more of them every day. They haven't even read the Man's words, I'm sure of it! Boss, I know their route — what do you say we get rid of our 'cousins' once and for all?\"",
+    "NameForAcronym": "AtriumNote",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b6d43ecbd90144f1841526a8b155f73a",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "AtriumNote",
+    "AssetGuid": "b6d43ecbd90144f1841526a8b155f73a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

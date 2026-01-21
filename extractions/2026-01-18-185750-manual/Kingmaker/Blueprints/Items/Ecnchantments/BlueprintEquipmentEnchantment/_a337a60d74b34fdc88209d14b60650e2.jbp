@@ -1,0 +1,33 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintEquipmentEnchantment",
+  "guid": "a337a60d74b34fdc88209d14b60650e2",
+  "name": "",
+  "namespace": "Kingmaker.Blueprints.Items.Ecnchantments",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintEquipmentEnchantment",
+    "$id": {
+      "guid": "a337a60d74b34fdc88209d14b60650e2",
+      "name": ""
+    },
+    "Prefix": "",
+    "Suffix": "",
+    "EnchantmentCost": 0,
+    "IdentifyDC": 0,
+    "AllowContextActionsOnly": true,
+    "Name": "",
+    "Description": "",
+    "NameForAcronym": "RecoilGloves_Enchantment",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a337a60d74b34fdc88209d14b60650e2",
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "RecoilGloves_Enchantment",
+    "AssetGuid": "a337a60d74b34fdc88209d14b60650e2",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

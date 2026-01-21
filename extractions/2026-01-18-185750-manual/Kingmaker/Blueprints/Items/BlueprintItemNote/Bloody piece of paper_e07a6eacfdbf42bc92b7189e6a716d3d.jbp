@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "e07a6eacfdbf42bc92b7189e6a716d3d",
+  "name": "Bloody piece of paper",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "e07a6eacfdbf42bc92b7189e6a716d3d",
+      "name": "Bloody piece of paper"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Bloody piece of paper",
+    "Description": "\"Eiko managed to barricade the passage, so I hope these madmen won't notice us. We ran out of tinned food and our supply of corpse starch is running low — I'll have to go out and look for food again tomorrow. I am starting to regret our decision to flee from the Elders, but the things they made us do... No. The Emperor will guard us from their wickedness. Eiko says there is an old Militarum warehouse not far from here. If we find a way to open it... Then we just may hold out until the reinforcements arrive. Dargonus is not going to leave us, is he, Mavelin?\"",
+    "NameForAcronym": "BloodyNotes",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e07a6eacfdbf42bc92b7189e6a716d3d",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "BloodyNotes",
+    "AssetGuid": "e07a6eacfdbf42bc92b7189e6a716d3d",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "ad1400918b15444db4df44efa22a7a23",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "ad1400918b15444db4df44efa22a7a23",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "ad1400918b15444db4df44efa22a7a23",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Medium",
+    "m_DamageAbsorbtionPct": 66,
+    "m_DamageDeflection": 4,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 0.5,
+    "m_MovePointsAdjustment": -1,
+    "Author": "Unknown",
+    "Comment": "Броня с DR для танков и саппортов",
+    "name": "ReinforcedT2_ArmorType",
+    "AssetGuid": "ad1400918b15444db4df44efa22a7a23",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}
