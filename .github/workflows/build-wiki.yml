@@ -1,0 +1,96 @@
+# Build and Deploy Wiki to GitHub Pages
+#
+# ENABLE/DISABLE GITHUB PAGES:
+# - To DISABLE: Set ENABLE_PAGES to 'false' below, or delete/rename this file
+# - To ENABLE: Set ENABLE_PAGES to 'true' below
+#
+# You can also disable via GitHub UI:
+#   Settings -> Actions -> General -> Disable Actions
+#
+# FIRST-TIME SETUP:
+#   1. Go to repository Settings -> Pages
+#   2. Under "Build and deployment", select "GitHub Actions" as the source
+#   3. Push changes to trigger the workflow
+
+name: Build and Deploy Wiki
+
+on:
+  # Trigger on push to main branch (for extractions directory changes)
+  push:
+    branches:
+      - main
+      - github
+    paths:
+      - 'extractions/**'
+      - 'wikimaker/**'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Sets permissions for GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    # EASY TOGGLE: Change to 'false' to disable GitHub Pages deployment
+    env:
+      ENABLE_PAGES: 'true'
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Find latest extraction directory
+        id: find-extraction
+        run: |
+          # Find the most recent extraction directory (sorted by name)
+          LATEST=$(ls -1 extractions/ | sort -r | head -n1)
+          if [ -z "$LATEST" ]; then
+            echo "Error: No extraction directories found"
+            exit 1
+          fi
+          echo "extraction_dir=extractions/$LATEST" >> $GITHUB_OUTPUT
+          echo "Found latest extraction: $LATEST"
+
+      - name: Generate site
+        working-directory: wikimaker
+        run: |
+          python generate_site_v2.py --extraction-dir "../${{ steps.find-extraction.outputs.extraction_dir }}"
+
+      - name: Setup Pages
+        if: env.ENABLE_PAGES == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        if: env.ENABLE_PAGES == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: wikimaker/website
+
+      - name: Deploy to GitHub Pages
+        if: env.ENABLE_PAGES == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Skip deployment notice
+        if: env.ENABLE_PAGES != 'true'
+        run: echo "GitHub Pages deployment skipped (ENABLE_PAGES is not 'true')"

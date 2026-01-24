@@ -1,13 +1,46 @@
 #!/usr/bin/env python3
 """Static site generator v2 - Single JSON file with compression."""
 
+import argparse
 import json
 import gzip
-import os
 from pathlib import Path
 from collections import defaultdict
 
-DATA_DIR = Path("../extractions/2026-01-18-185750-manual")
+
+def get_latest_extraction(extractions_dir: Path) -> Path:
+    """Find the most recent extraction directory by sorting folder names."""
+    if not extractions_dir.exists():
+        raise FileNotFoundError(f"Extractions directory not found: {extractions_dir}")
+
+    # Get all directories, sort by name (timestamps sort correctly alphabetically)
+    dirs = sorted([d for d in extractions_dir.iterdir() if d.is_dir()], reverse=True)
+
+    if not dirs:
+        raise FileNotFoundError(f"No extraction directories found in: {extractions_dir}")
+
+    return dirs[0]
+
+
+def parse_args():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(description="Generate static site from extraction data")
+    parser.add_argument(
+        "--extraction-dir",
+        type=Path,
+        help="Path to extraction directory. If not specified, uses latest in ../extractions/"
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("website"),
+        help="Output directory for generated files (default: website)"
+    )
+    return parser.parse_args()
+
+
+# These will be set in main() based on arguments
+DATA_DIR = None
 OUTPUT_DIR = Path("website")
 
 # Category configuration with paths
@@ -253,6 +286,22 @@ def extract_item_data(item: dict, category: str) -> dict:
 
 
 def main():
+    global DATA_DIR, OUTPUT_DIR
+
+    args = parse_args()
+
+    # Determine extraction directory
+    if args.extraction_dir:
+        DATA_DIR = args.extraction_dir
+    else:
+        # Find the latest extraction directory
+        script_dir = Path(__file__).parent
+        extractions_dir = script_dir / ".." / "extractions"
+        DATA_DIR = get_latest_extraction(extractions_dir.resolve())
+
+    OUTPUT_DIR = args.output_dir
+
+    print(f"Using extraction: {DATA_DIR.name}")
     print("Generating static site v2 (SPA with compressed JSON)...")
 
     # Ensure output directory exists
