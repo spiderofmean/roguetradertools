@@ -1,0 +1,121 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+  "guid": "b4de5033e9b24b12bc3a05c4805d4d85",
+  "name": "Gold Xeno-Idol",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "$id": {
+      "guid": "b4de5033e9b24b12bc3a05c4805d4d85",
+      "name": "Gold Xeno-Idol"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Gold Xeno-Idol",
+    "Description": "Light flickers on a metallic figurine, one depicting a mysterious alien amphibian.",
+    "NameForAcronym": "GoldenToad_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b4de5033e9b24b12bc3a05c4805d4d85",
+    "AllowContextActionsOnly": false,
+    "m_FlavorText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Miscellaneous",
+    "m_Rarity": "Unique",
+    "m_Tag": "None",
+    "m_IsNotable": true,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 10,
+    "m_InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "m_CachedEnchantments": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Items.Ecnchantments.BlueprintItemEnchantment, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "GoldenToad_Item",
+    "AssetGuid": "b4de5033e9b24b12bc3a05c4805d4d85",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 2,
+      "items": [
+        {
+          "$type": "Kingmaker.UnitLogic.Mechanics.Conditions.ContextConditionHasItem",
+          "$id": {
+            "guid": "1abe1f0055f8487f925a48676900bfbe",
+            "name": null
+          },
+          "AssetGuid": "1abe1f0055f8487f925a48676900bfbe",
+          "AssetGuidShort": "1abe",
+          "Money": false,
+          "m_ItemToCheck": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Quantity": 1,
+          "Not": false,
+          "name": "$ContextConditionHasItem$1abe1f0055f8487f925a48676900bfbe"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.UnlockFlag",
+          "$id": {
+            "guid": "3923927cc6944ca380054879307a6b4d",
+            "name": null
+          },
+          "AssetGuid": "3923927cc6944ca380054879307a6b4d",
+          "AssetGuidShort": "3923",
+          "m_flag": {
+            "$type": "Kingmaker.Blueprints.BlueprintUnlockableFlagReference",
+            "Guid": null,
+            "guid": null
+          },
+          "flagValue": 0,
+          "name": "$UnlockFlag$3923927cc6944ca380054879307a6b4d"
+        }
+      ]
+    }
+  }
+}

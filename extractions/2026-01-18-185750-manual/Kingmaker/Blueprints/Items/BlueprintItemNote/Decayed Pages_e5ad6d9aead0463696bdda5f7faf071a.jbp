@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "e5ad6d9aead0463696bdda5f7faf071a",
+  "name": "Decayed Pages",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "e5ad6d9aead0463696bdda5f7faf071a",
+      "name": "Decayed Pages"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Decayed Pages",
+    "Description": "\"House Orsellio need not know what is taking place here. The Navigators are frightened enough by its power as it is. The last experiment left three from the Setthala clan without a shred of reason. Empty shells will bring no glory to House Orsellio or its lesser branch... We shall carry on.\n***\nAt last, we have managed to implant the artefact in subjects who can wield its power. Perhaps all the Navigators who perished in the agonising torrent of energy were merely a symptom of our decline. I am tired of counting the dead. The weak have no place among those who have harnessed the Atlas. Their abilities have grown manifold and become significantly easier to control and more effective at resisting the ruinous influence of the warp.\n***\nIt is all or nothing. Today is the day when my work is completed and the Starway Atlas takes its final form! The Setthalas have already undergone the operation, all that's left is... me. The Atlas that controls them all... Today, I become the greatest Novator in the history of House Orsellio — or I turn to nothing.\n***\nThis power is beyond compare. All it took was a whim to make the wretched Setthalas fall dead at my feet. It is as if I have a second heart beating in my chest, subjugating any with the ability to touch it. How regrettable it is that this power only extends to those Orsellio Navigators who have accepted a piece of the Atlas within themselves. From now on, all children will be gifted with one at their initiation. And there will be no one who can match our greatness.\"",
+    "NameForAcronym": "TysiphonResearch",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e5ad6d9aead0463696bdda5f7faf071a",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "TysiphonResearch",
+    "AssetGuid": "e5ad6d9aead0463696bdda5f7faf071a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "3705e220a8ef43e7b20163bd5e217d31",
+  "name": "Leaflet",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "3705e220a8ef43e7b20163bd5e217d31",
+      "name": "Leaflet"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Leaflet",
+    "Description": "\"Now is our time, not theirs.\nGo to their homes. Drag them out of their beds.\nCarve open their bodies like carcasses at a slaughterhouse.\nThe Imperial Navy, Kasballica, Chorda, von Valancius — their names mean nothing now. Tomorrow will erase them from memory.\nGo and seize power, as much of it as you can carry.\nA N V.\"",
+    "NameForAcronym": "QuickSilverNote1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "3705e220a8ef43e7b20163bd5e217d31",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "QuickSilverNote1",
+    "AssetGuid": "3705e220a8ef43e7b20163bd5e217d31",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

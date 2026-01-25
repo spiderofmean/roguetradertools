@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "583b587520c14c04b86f7b2277dac4e2",
+  "name": "Pungent Smoke Grenade",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "583b587520c14c04b86f7b2277dac4e2",
+      "name": "Pungent Smoke Grenade"
+    },
+    "IdentifyDC": 0,
+    "Name": "Pungent Smoke Grenade",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 8.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "Grenade",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Grenades_Put_Play",
+    "InventoryTakeSound": "UI_INV_Grenades_Take_Play",
+    "Description": "This grenade creates a toxic area of thick smoke which lasts for 4 rounds and decreases the chance to {g|Encyclopedia:HitSequenceGlossary}hit{/g} and to be hit with {g|Encyclopedia:RangeAreaAttacksGlossary}ranged weapons{/g} by −50%.\nIf the target in that area fails a {g|Encyclopedia:WarhammerToughness}Toughness{/g} {g|Encyclopedia:ResistanceTest}resistance test{/g} with a −{uip|DC|b4badfcae32246c28ccecdef5f5ae9ef} penalty, it suffers {g|Encyclopedia:ToxinEffect}toxin{/g} (20).",
+    "NameForAcronym": "Grenade_Pungent_smoke",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "583b587520c14c04b86f7b2277dac4e2",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Grenade_Pungent_smoke",
+    "AssetGuid": "583b587520c14c04b86f7b2277dac4e2",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

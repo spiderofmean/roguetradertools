@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "c246cd4b11534891997ce55ec71fc94f",
+  "name": "Grimy Handwritten Notebook",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "c246cd4b11534891997ce55ec71fc94f",
+      "name": "Grimy Handwritten Notebook"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Grimy Handwritten Notebook",
+    "Description": "{n}The tattered notebook is missing part of its cover and half of its pages. The surviving sheets are covered with cramped lines of text that slope downward, written in an erratic hand:{/n}\n\"I still can't believe he's gone. Every time I'm at my post, I start peering into the darkness, and I think I see his shape in the gloom... Could the creatures have got into my head? Beckoning me toward them, so they can drag me off like they did Gandir? Lady Emelina says that these creatures — mandraks? droohi? — can't get inside people's heads. We all listen to Lady Emelina, of course, but I'm not so sure she's right about this. How else can I explain what happens every time I close my eyes? I see runes burning in the dark, the same runes that creature was covered in. Is it a hallucination? Or someone getting inside my head? Heresy. Heresy outside, heresy inside. I hear laughter in the sermons we listen to in the chapel... but how is that possible? You're not supposed to laugh when you're at prayer, are you? No, laughing is bad. Praying more — that's good. Praying harder. Praying for the peace of Gandir's soul. And for ours, too.\"",
+    "NameForAcronym": "SurvivorDiary_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c246cd4b11534891997ce55ec71fc94f",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "SurvivorDiary_plaintext",
+    "AssetGuid": "c246cd4b11534891997ce55ec71fc94f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

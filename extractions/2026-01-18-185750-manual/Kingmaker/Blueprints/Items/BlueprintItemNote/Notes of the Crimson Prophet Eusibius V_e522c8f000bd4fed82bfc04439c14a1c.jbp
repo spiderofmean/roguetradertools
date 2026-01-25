@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "e522c8f000bd4fed82bfc04439c14a1c",
+  "name": "Notes of the Crimson Prophet Eusibius V",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "e522c8f000bd4fed82bfc04439c14a1c",
+      "name": "Notes of the Crimson Prophet Eusibius V"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Notes of the Crimson Prophet Eusibius V",
+    "Description": "\"We disposed of the brothers and sisters blinded by the false belief in the extinguished Prophet, and in doing so cast off the fetters of lies and hypocrisy. The elders of the dead city are stubborn and vain, their degeneracy making them blind to the blazing truth — the Sovereign of the Galaxy has given us the chance to bond with His body and His soul, and we have no right to reject His divine gift! An so we have grown strong. We live, we kill, and we guide the lost toward the light for the glory of Crimson Emperor! The elders treat His gift as a curse, but they deceive themselves, for we are no different in the end. I will fold any child who seeks to join us in a loving embrace.\"",
+    "NameForAcronym": "ProphetNotes",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e522c8f000bd4fed82bfc04439c14a1c",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "ProphetNotes",
+    "AssetGuid": "e522c8f000bd4fed82bfc04439c14a1c",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

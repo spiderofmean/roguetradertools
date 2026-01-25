@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "87a4813b52d04c9c82bf295277ae4ba6",
+  "name": "Blood-Signed Decree",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "87a4813b52d04c9c82bf295277ae4ba6",
+      "name": "Blood-Signed Decree"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Blood-Signed Decree",
+    "Description": "<align=\"center\">\"DECREE OF GUBERNATORIAL WILL</align>\nBy the Grace of the God-Emperor of Mankind\nWe, Jamon-Nigel von Powen,\nfor the Good of our World and the Deliverance of our People from the Wrath of the Heavens and the Fury of Distant Stars,\n<align=\"center\">HEREBY COMMAND</align>\nto Provide for the Needs of the Governor's Office\n<align=\"center\">NO MORE AND NO FEWER THAN TWENTY</align>\nFaithful Young Men and Maidens picked in Accordance with Our Instructions\neach Seventh Rotation around the Heavenly Body:\n- Robust and Firm in Body and Spirit\n- Voluptuous in Shape, of similar Height and Stature\n- Dainty and Beautiful\n- Fair of Hair and with Eyes the Colour of Midday Sky\n<align=\"center\">SO SHALL IT BE\"</align>",
+    "NameForAcronym": "SignedOrder_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "87a4813b52d04c9c82bf295277ae4ba6",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "SignedOrder_Item",
+    "AssetGuid": "87a4813b52d04c9c82bf295277ae4ba6",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

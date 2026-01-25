@@ -1,0 +1,98 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "0c9d46cdf46d45059fcabc22470b8d51",
+  "name": "Scrap Container",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "0c9d46cdf46d45059fcabc22470b8d51",
+      "name": "Scrap Container"
+    },
+    "IdentifyDC": 0,
+    "Name": "Scrap Container",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_MetalScarp_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 10.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Description": "This item is immediately consumed, granting you 100 {g|Encyclopedia:ScrapSpace}scrap{/g}.",
+    "NameForAcronym": "ScrapContainer_1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "0c9d46cdf46d45059fcabc22470b8d51",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_MetalScarp_Equip_Play",
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ScrapContainer_1",
+    "AssetGuid": "0c9d46cdf46d45059fcabc22470b8d51",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 2,
+      "items": [
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.AddScrap",
+          "$id": {
+            "guid": "092ed382-803b-46f2-91d2-214dbab719d7",
+            "name": null
+          },
+          "AssetGuid": "092ed382-803b-46f2-91d2-214dbab719d7",
+          "AssetGuidShort": "092e",
+          "Scrap": 100,
+          "name": "$AddScrap$092ed382-803b-46f2-91d2-214dbab719d7"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.RemoveItemFromPlayer",
+          "$id": {
+            "guid": "a9ff4e82-209e-4b2f-bfd1-9b31cbb017a0",
+            "name": null
+          },
+          "Silent": false,
+          "AssetGuid": "a9ff4e82-209e-4b2f-bfd1-9b31cbb017a0",
+          "AssetGuidShort": "a9ff",
+          "Money": false,
+          "RemoveAll": false,
+          "m_ItemToRemove": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_Silent": false,
+          "Quantity": 1,
+          "Percentage": 0.0,
+          "name": "$RemoveItemFromPlayer$a9ff4e82-209e-4b2f-bfd1-9b31cbb017a0"
+        }
+      ]
+    }
+  }
+}

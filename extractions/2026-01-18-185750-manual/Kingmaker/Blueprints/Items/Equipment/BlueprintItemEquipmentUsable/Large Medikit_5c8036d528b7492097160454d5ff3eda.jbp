@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "5c8036d528b7492097160454d5ff3eda",
+  "name": "Large Medikit",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "5c8036d528b7492097160454d5ff3eda",
+      "name": "Large Medikit"
+    },
+    "IdentifyDC": 0,
+    "Name": "Large Medikit",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Medkit_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 35.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "Medikit",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Medkit_Put_Play",
+    "InventoryTakeSound": "UI_INV_Medkit_Take_Play",
+    "Description": "-<indent=5%>Restores {uip|Heal|d722bfac662c40f9b2a47dc6ea70d00a} {g|Encyclopedia:HitPoints}wounds{/g}.</indent>\n-<indent=5%>Removes {g|Encyclopedia:BleedingEffect}bleeding{/g}, {g|Encyclopedia:BurningEffect}burning{/g}, and {g|Encyclopedia:ToxinEffect}toxin{/g}.</indent>\n-<indent=5%>Heals one fresh injury, or, if none, one old injury upon a successful Medicae {g|Encyclopedia:Test}test{/g}.</indent>\n-<indent=5%>If the character has the {g|f:91932ac8a5794d5cb9ed539bf7d528a2}Combat Medicae{/g} or {g|f:9aefa8d7db3349358e23b2106578353b}Field Medic{/g} talents, the amount of restored wounds will be increased by the bonuses provided by these talents.</indent>",
+    "NameForAcronym": "LargeMedikit_BoardedShip_Unlootable_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "5c8036d528b7492097160454d5ff3eda",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Medkit_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 2,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": true,
+    "IsUnlootable": true,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AntonZinovev",
+    "Comment": "Нелутаемый итем для второго энкаунтера в бою с Арбитес из DLC2",
+    "name": "LargeMedikit_BoardedShip_Unlootable_Item",
+    "AssetGuid": "5c8036d528b7492097160454d5ff3eda",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults",
+  "guid": "567dc59213fd9664c8cb291643439714",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Weapons",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults",
+    "$id": {
+      "guid": "567dc59213fd9664c8cb291643439714",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "567dc59213fd9664c8cb291643439714",
+    "AllowContextActionsOnly": false,
+    "Entries": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry[]",
+      "$count": 50,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults+CategoryDefaultEntry",
+          "Key": "None",
+          "m_DefaultWeapon": {
+            "$type": "Kingmaker.Blueprints.BlueprintItemWeaponReference",
+            "Guid": null,
+            "guid": null
+          }
+        }
+      ]
+    },
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "DefaultsForWeaponCategories",
+    "AssetGuid": "567dc59213fd9664c8cb291643439714",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

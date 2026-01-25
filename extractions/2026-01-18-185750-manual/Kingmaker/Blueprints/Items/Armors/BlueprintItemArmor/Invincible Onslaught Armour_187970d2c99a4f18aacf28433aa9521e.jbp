@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "187970d2c99a4f18aacf28433aa9521e",
+  "name": "Invincible Onslaught Armour",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "187970d2c99a4f18aacf28433aa9521e",
+      "name": "Invincible Onslaught Armour"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Invincible Onslaught Armour",
+    "Description": "The wearer gains the {g|f:4955b43454f6488f82892e166c76c995}Charge{/g} and {g|f:d9f20b396eb64a4293c9e3bd3270e0dc}Invincible Onslaught{/g} abilities.\nWhenever the wearer uses {g|f:4955b43454f6488f82892e166c76c995}Charge{/g}, they deal +{uip|DmgDeflection|2c4c34ff909a4d3f86b2ad25c5659b96} additional {g|Encyclopedia:DirectDamage}direct damage{/g}.\n<b>Base armour property</b>: +15 {g|Encyclopedia:WarhammerStrength}Strength{/g}.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "Power",
+    "Category": "Power",
+    "DamageAbsorption": 75,
+    "DamageDeflection": 10,
+    "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+    "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+    "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 1,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 13.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Pattern",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "BullCharge_PowerArmor_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "187970d2c99a4f18aacf28433aa9521e",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "befc6d221bed4b019245ff828822c3eb",
+      "guid": "befc6d221bed4b019245ff828822c3eb"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 75,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 10,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "AnimationFoleySound": "ArmorChainMailMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 2473969246,
+        "Group": "BodyType",
+        "Value": "Metal"
+      },
+      "m_InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "m_AnimationFoleySound": "ArmorChainMailMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladislavSolyannikov",
+    "Comment": "",
+    "name": "BullCharge_PowerArmor_Item",
+    "AssetGuid": "187970d2c99a4f18aacf28433aa9521e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "bbdf4dfb07484081827eb16a688c201f",
+  "name": "Addendum #32-4 to Addendum #874-BA7 to Document NXC4026-82",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "bbdf4dfb07484081827eb16a688c201f",
+      "name": "Addendum #32-4 to Addendum #874-BA7 to Document NXC4026-82"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Addendum #32-4 to Addendum #874-BA7 to Document NXC4026-82",
+    "Description": "\"—ty regiments of the Astra Militarum sent to the frozen world of Zenegar II, required supplies of warm clothing, footwear, and snowshoes for a successful combat manoeuvre with a further offensive against the enemies of Humanity and the Emperor. Due to a gross error by a low-ranking adept of the Adeptus Administratum, instead of the aforementioned supplies, soldiers received 800 cryobanks, resulting in the death by freezing of the majority of troops before the commencement of the mission of retribution.\nFor the purposes of improving efficiency, the adept responsible was subjected to Servitude Imperpituis, as a result of which he is now discharging his duties flawlessly.\"",
+    "NameForAcronym": "Jae_Q1Sheet",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "bbdf4dfb07484081827eb16a688c201f",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Jae_Q1Sheet",
+    "AssetGuid": "bbdf4dfb07484081827eb16a688c201f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

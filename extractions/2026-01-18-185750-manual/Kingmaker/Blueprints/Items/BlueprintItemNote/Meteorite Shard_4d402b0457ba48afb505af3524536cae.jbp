@@ -1,0 +1,155 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "4d402b0457ba48afb505af3524536cae",
+  "name": "Meteorite Shard",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "4d402b0457ba48afb505af3524536cae",
+      "name": "Meteorite Shard"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 50,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Stone_Put_Play",
+    "InventoryTakeSound": "UI_INV_Stone_Take_Play",
+    "Name": "Meteorite Shard",
+    "Description": "Still warm to the touch. Barely perceptible electrical impulses ripple through the veins of metal, making it glow.",
+    "NameForAcronym": "Meteorit",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "4d402b0457ba48afb505af3524536cae",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "Meteorit",
+    "AssetGuid": "4d402b0457ba48afb505af3524536cae",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 6,
+      "items": [
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "18247356-cc2c-4ff0-b446-352d3b2aaed1",
+            "name": null
+          },
+          "AssetGuid": "18247356-cc2c-4ff0-b446-352d3b2aaed1",
+          "AssetGuidShort": "1824",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$18247356-cc2c-4ff0-b446-352d3b2aaed1"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "7e53588e-ebdf-4624-a705-d0907e28644a",
+            "name": null
+          },
+          "AssetGuid": "7e53588e-ebdf-4624-a705-d0907e28644a",
+          "AssetGuidShort": "7e53",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$7e53588e-ebdf-4624-a705-d0907e28644a"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.UpdateEtudes",
+          "$id": {
+            "guid": "16f2939e-7cf0-4dca-bc8f-1875a3dfe6b9",
+            "name": null
+          },
+          "AssetGuid": "16f2939e-7cf0-4dca-bc8f-1875a3dfe6b9",
+          "AssetGuidShort": "16f2",
+          "name": "$UpdateEtudes$16f2939e-7cf0-4dca-bc8f-1875a3dfe6b9"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "8f0801cc-0638-47d1-9dc0-211af3e567d7",
+            "name": null
+          },
+          "AssetGuid": "8f0801cc-0638-47d1-9dc0-211af3e567d7",
+          "AssetGuidShort": "8f08",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$8f0801cc-0638-47d1-9dc0-211af3e567d7"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "73a18b6a-d641-4190-bbe7-94e51343e998",
+            "name": null
+          },
+          "AssetGuid": "73a18b6a-d641-4190-bbe7-94e51343e998",
+          "AssetGuidShort": "73a1",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$73a18b6a-d641-4190-bbe7-94e51343e998"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.UpdateEtudes",
+          "$id": {
+            "guid": "2a1c1e0e-269a-4bc4-97ec-bd5c25b15e54",
+            "name": null
+          },
+          "AssetGuid": "2a1c1e0e-269a-4bc4-97ec-bd5c25b15e54",
+          "AssetGuidShort": "2a1c",
+          "name": "$UpdateEtudes$2a1c1e0e-269a-4bc4-97ec-bd5c25b15e54"
+        }
+      ]
+    }
+  }
+}

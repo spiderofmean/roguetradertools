@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "f26f036ed2524f5fbfe03250f2b69d06",
+  "name": "Unfinished Letter",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "f26f036ed2524f5fbfe03250f2b69d06",
+      "name": "Unfinished Letter"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Unfinished Letter",
+    "Description": "\"...his chagrin is irrelevant. Voigtvir's mistake cost me too much. Years of work, tremendous resources, all wasted. He has failed at what he was supposed to be irreproachable at — uncovering spies, and this one was a senior officer. I am not about to discard him — Kunrad has served me for too long for his removal to go painlessly for the protectorate. Besides, he is no fool. He could not have seriously expected to become the next in the von Valancius line when his skills and talents as Master of Whispers are so valuable. Let his disinheritance serve as a humiliating but instructive lesson from which he may yet learn...\"",
+    "NameForAcronym": "UnfinishedLetter",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "f26f036ed2524f5fbfe03250f2b69d06",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "UnfinishedLetter",
+    "AssetGuid": "f26f036ed2524f5fbfe03250f2b69d06",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

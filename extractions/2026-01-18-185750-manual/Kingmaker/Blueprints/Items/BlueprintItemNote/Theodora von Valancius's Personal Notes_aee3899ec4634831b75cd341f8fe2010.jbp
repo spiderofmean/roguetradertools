@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "aee3899ec4634831b75cd341f8fe2010",
+  "name": "Theodora von Valancius's Personal Notes",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "aee3899ec4634831b75cd341f8fe2010",
+      "name": "Theodora von Valancius's Personal Notes"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Theodora von Valancius's Personal Notes",
+    "Description": "\"[Data deleted]\n...\n[Data deleted]\n...\n[Entry damaged]\n...gue Trader like a lackey. It is humiliating and dispiriting to put up with the part of an errand servant to an imperious madman vested with even greater power than that of any Rogue Trader. Alas, when one side of the scales holds my pride and the other the fate of the von Valancius protectorate and my entire bloodline... choice becomes a futile illusion. It would be far too naive of me not to prepare for the worst. Epitaph will decide the future of the Expanse as a whole, but I have some time at my disposal until then. Heirs with the von Valancius blood in them will soon be located and brought to me. I cannot afford to delay the choice of successor any longer.\"",
+    "NameForAcronym": "TheodoraDataSlate2Dargonus_item_Unlock",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "aee3899ec4634831b75cd341f8fe2010",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "name": "TheodoraDataSlate2Dargonus_item_Unlock",
+    "AssetGuid": "aee3899ec4634831b75cd341f8fe2010",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

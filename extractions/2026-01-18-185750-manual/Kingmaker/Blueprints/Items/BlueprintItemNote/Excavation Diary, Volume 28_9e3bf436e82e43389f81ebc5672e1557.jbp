@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "9e3bf436e82e43389f81ebc5672e1557",
+  "name": "Excavation Diary, Volume 28",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "9e3bf436e82e43389f81ebc5672e1557",
+      "name": "Excavation Diary, Volume 28"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Excavation Diary, Volume 28",
+    "Description": "\"Stage 2.4: a welded chest was brought up. The container is sealed, so the integrity of the contents can be assumed. Transferred for opening.{br}\nThe whole day was spent cataloguing small artefacts. Selected several samples of interest. Noted a recurring symbol — suggestive of cultic significance.{br}\nAnother report of an attack. An outpost to the south of the base has been destroyed. People have been redeployed to ready the fortifications and retrieve supplies from a warehouse some distance away. The workforce at the excavation site has been reduced to the bare minimum — we already have enough material to study without any more finds.{br}\nI examined the contents of the opened chest. Several well preserved examples of written culture. Conducting language analysis to select a reminiscence block containing the linguistic fundamentals.{br}\nCompleted the visual analysis of the record tablets. After copies were made, symbols matching the images on the ritual knives were identified. My supposition was correct: bloodletting is a key element of the religious services of this civilisation. Hypothesis: solar cult featuring sacrifices and agro-beliefs.{br}\nI have selected the reminiscence block containing linguistic information. Initiating the unsealing procedure.\"",
+    "NameForAcronym": "EmelineList_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "9e3bf436e82e43389f81ebc5672e1557",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "EmelineList_plaintext",
+    "AssetGuid": "9e3bf436e82e43389f81ebc5672e1557",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

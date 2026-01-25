@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "515c2bef4b1b48ec96a19d24e4bbc7fc",
+  "name": "Task List for Current Work Turn",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "515c2bef4b1b48ec96a19d24e4bbc7fc",
+      "name": "Task List for Current Work Turn"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Task List for Current Work Turn",
+    "Description": "\"1. Compose an order for the servitorisation of 90% of the population of asteroid mining station VMK-498 for the purposes of increasing productivity.\n2. Prepare a set of documents for the reclassification of the world Vheabos VI as a penal colony on the orders of Her Ladyship Theodora von Valancius.\n3. Task the newly appointed adepts of the Administratum with conducting a review of all unresolved petitions in the last 5,999 cycles.\n4. Make a big mug of recaf.\"",
+    "NameForAcronym": "Jae_Q1List",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "515c2bef4b1b48ec96a19d24e4bbc7fc",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Jae_Q1List",
+    "AssetGuid": "515c2bef4b1b48ec96a19d24e4bbc7fc",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

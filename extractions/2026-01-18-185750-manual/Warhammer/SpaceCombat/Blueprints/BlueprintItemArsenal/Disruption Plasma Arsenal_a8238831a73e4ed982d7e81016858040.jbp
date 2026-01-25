@@ -1,0 +1,75 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+  "guid": "a8238831a73e4ed982d7e81016858040",
+  "name": "Disruption Plasma Arsenal",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+    "$id": {
+      "guid": "a8238831a73e4ed982d7e81016858040",
+      "name": "Disruption Plasma Arsenal"
+    },
+    "ItemType": "StarshipArsenal",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Disruption Plasma Arsenal",
+    "Description": "Allows ionic blasts to be fired from plasma {g|Encyclopedia:MacroCannonsSpace}macro-cannons{/g}.\nIonic blasts never score critical hits. When hit, the ionic blast immediately removes the target's shields from 3 sides (excluding the side furthest from the attacker) and inflicts the ionic effect on the target, reducing its hit and critical hit chances during the next round.",
+    "NameForAcronym": "ArsenalDisruption1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a8238831a73e4ed982d7e81016858040",
+    "AllowContextActionsOnly": false,
+    "AppliedWeaponType": "Macrobatteries",
+    "FilterDamageType": "Energy",
+    "m_VariantWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "b3ed06a65f64482797c2ba408a64ccd2",
+      "guid": "b3ed06a65f64482797c2ba408a64ccd2"
+    },
+    "m_VariantAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "ArsenalDisruption1",
+    "AssetGuid": "a8238831a73e4ed982d7e81016858040",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

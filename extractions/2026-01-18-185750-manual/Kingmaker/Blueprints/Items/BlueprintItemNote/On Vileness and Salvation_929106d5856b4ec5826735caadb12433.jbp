@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "929106d5856b4ec5826735caadb12433",
+  "name": "On Vileness and Salvation",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "929106d5856b4ec5826735caadb12433",
+      "name": "On Vileness and Salvation"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "On Vileness and Salvation",
+    "Description": "The yellowed pages of this tattered pamphlet give off the sickly sweet smell of rot.\n\"The universe is drenched in foul blood and rampant profligacy. Disgrace, immorality, and lies permeate the air around every world. Agony, suffering, and pain thrive within us. Submit, repent, and accept your fate: to live and die in vileness and villainy.\nThis omnipresent sickness pierces the void that stretches between suns and worlds. All of existence, however perpetual or unshakeable it may seem, will one day witness its demise and turn to dust. The cities of today will become ruins of tomorrow, the rosy-cheeked maiden will turn into a filthy hag, and the soldier who walks the battlefield for the first time will forever stay there, sinking into the bloody, decaying mass of countless others. But open yourself to the truth: if depravity, filth, and vileness are eternal and all-encompassing, then they are things worth bowing to.\nAnd therein lies our hope. By resigning ourselves to the rotten deformity of existence and embracing all of its profanity, we can be honest and sincere with our nature. We can evade the doom of oblivion and become one with eternity. Having trodden through all of the world's putrescence and recognised its morbid and irremediable wretchedness, we can perceive the soft and curative warmth of the true, most merciful of faiths. And thus, at last, we can discover the path to salvation, into the caring embrace of the Great Unclean One, to his rotting and all-accepting heart, where there is a place for any true believer.\"",
+    "NameForAcronym": "HereticalBook",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "929106d5856b4ec5826735caadb12433",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HereticalBook",
+    "AssetGuid": "929106d5856b4ec5826735caadb12433",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

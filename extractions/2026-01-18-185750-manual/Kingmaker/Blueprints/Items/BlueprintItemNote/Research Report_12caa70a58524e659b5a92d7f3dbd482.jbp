@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "12caa70a58524e659b5a92d7f3dbd482",
+  "name": "Research Report",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "12caa70a58524e659b5a92d7f3dbd482",
+      "name": "Research Report"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Research Report",
+    "Description": "The thick stack of pages made of a strange material has been hastily tied with a coarse piece of string. The pages are covered in sharp, uneven handwriting and have brown stains on them.\n\"Goal: severalfold increase in veil energy.\nNote: Enhancing the veil connection will require merging the minds of four specimens.\nNote: Four individuals, two male and two female, selected from among Crudarach Farseers. Aside from their veil connection, the specimens have no common traits (merging process expected to be fascinatingly painful!)\nStage 1\nHearts of three Aeldari placed inside the thorax of the fourth, the most resilient among them. Redundant original heart removed. Other internal organs preserved. Specimens conscious throughout the surgeries.\nStage 2\nDespite the blockers, the partial brain transplants were accompanied by several energy discharges, resulting in equipment damage (the potential is amazing!). The integrated subject was punished by an intramuscular injection of an acidic solution that erodes soft tissue from the inside.\nStage 3\nSubject stable and controllable. Undergoing significant physical and psycho-emotional distress as the Aeldari minds are becoming aware of the situation. The energy discharges increase every time the blockers are eased or pain receptors are directly stimulated — confirming the expected result! In order to intensify the pain experienced, the subject will be nourished by essences of its own torture.\nStage 4\nThe Aeldari consciousnesses are trying to consume one another, perhaps in order to lower the net pain awareness. Curious. The subject must continue to be saturated with its autogenic agony, with added psycho-tranquilliser injections.\nNote: enhance the subject's physical suffering with internal bone tissue disintegration.\"\nAfter that, the notes become indecipherable.",
+    "NameForAcronym": "HaemonculusResearch1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "12caa70a58524e659b5a92d7f3dbd482",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HaemonculusResearch1",
+    "AssetGuid": "12caa70a58524e659b5a92d7f3dbd482",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

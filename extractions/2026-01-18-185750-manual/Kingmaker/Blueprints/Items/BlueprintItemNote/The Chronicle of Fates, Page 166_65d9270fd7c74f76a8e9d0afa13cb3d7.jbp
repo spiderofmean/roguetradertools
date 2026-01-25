@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "65d9270fd7c74f76a8e9d0afa13cb3d7",
+  "name": "The Chronicle of Fates, Page 166",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "65d9270fd7c74f76a8e9d0afa13cb3d7",
+      "name": "The Chronicle of Fates, Page 166"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "The Chronicle of Fates, Page 166",
+    "Description": "\"The Chronicle of Fates, by Gorgorius Falt\"{br}\n\"Chapter 2\"{br}\n\"It befits any servant of His to thank daily the Emperor, Him That Holdeth the Key, for the lot given them in life. As I have thanked Him with my writings for thousands of moonlives, so, too, do I thank Him now with the fetters that are preparing my soul for its new destiny. The rules of this service are simple: day after day, I reverently carry with me the glass fetters, not daring to break them. Some believe that merely keeping them by one's bedside is enough to perform the sacrament. This is a lie, perpetuated by the slothful and the faint of heart.\"",
+    "NameForAcronym": "FW_BookOfFate_item_2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "65d9270fd7c74f76a8e9d0afa13cb3d7",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "FW_BookOfFate_item_2",
+    "AssetGuid": "65d9270fd7c74f76a8e9d0afa13cb3d7",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

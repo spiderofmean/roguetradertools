@@ -1,0 +1,75 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+  "guid": "d7093acbbec64c71a930fe87d86bccc8",
+  "name": "Fighters Deck (Fury Interceptors)",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+    "$id": {
+      "guid": "d7093acbbec64c71a930fe87d86bccc8",
+      "name": "Fighters Deck (Fury Interceptors)"
+    },
+    "ItemType": "StarshipArsenal",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Fighters Deck (Fury Interceptors)",
+    "Description": "Allows Fury Interceptors to be launched through torpedo tubes.\nA Fury Interceptor wing consists of 4 attack craft, each equipped with a heavy laser turret.\n! <i>Can only be used with {g|Encyclopedia:TorpedoLaunchersSpace}torpedo tubes{/g} mounted on the {g|Encyclopedia:ProwSpace}prow{/g}.</i>\n! <i>Up to 2 wings of Fury Interceptors can be active at a time.</i>",
+    "NameForAcronym": "ArsenalFighters1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "d7093acbbec64c71a930fe87d86bccc8",
+    "AllowContextActionsOnly": false,
+    "AppliedWeaponType": "TorpedoTubes",
+    "FilterDamageType": "None",
+    "m_VariantWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "43b93dfddd544b65bccf6a7038f7b8a7",
+      "guid": "43b93dfddd544b65bccf6a7038f7b8a7"
+    },
+    "m_VariantAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "ArsenalFighters1",
+    "AssetGuid": "d7093acbbec64c71a930fe87d86bccc8",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

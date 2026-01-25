@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "91df50950d274f0bb94639a8b1aa2efe",
+  "name": "Intercepted Conversation Between Security Officers",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "91df50950d274f0bb94639a8b1aa2efe",
+      "name": "Intercepted Conversation Between Security Officers"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Intercepted Conversation Between Security Officers",
+    "Description": "\"- ...tremendous honour!\n- Yes, but... this promotion will transfer the entire squad to the Child's personal guard.\n- By the God-Emperor! Well, you are a strapping lad, you will probably make it for a cycle or three.\n- It has worn down better men than me. What even is the point if your brains turn into mush? I may rip out my eyes like Amos did. At best, I'll just go bonkers like that little shit stain that kept stealing our lho...\n- Oh? What happened to that one?\n- Threw himself out of a depressurised chamber because some voices told him to.\n- Calm down. Keeper Felek said the squad will not have to serve the Child for long. He even gave us a little leeway.\n- Unlike that fish-eyed...\n- Be quiet! He might hear you.\n- Well, you know what I mean. He almost busted our heads because someone forgot to check the catering unit.\n- We haven't let in a single outsider in over ten years, but Keeper Theobald keeps finding things to fret over. Imagine the shrieking if he finds out Keeper Felek didn't make us inspect the hangar after Lord Winterscale's most recent visit.\n- Throne forbid! I try to steer clear of the squabbles among the highborn. Some of Keeper Felek's orders make little sense, like the last time he commanded that we cut off communications with Rykad Minoris for a while.\n- Why would he do that?\n- It looks like he grew tired of the Winterscale scion's visits.\n- Well, it's always a pleasure to aid Keeper Felek.\n- That's right. If the highborn have grown tired of each other, let them deal with it...\"",
+    "NameForAcronym": "OrsellioText2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "91df50950d274f0bb94639a8b1aa2efe",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "OrsellioText2",
+    "AssetGuid": "91df50950d274f0bb94639a8b1aa2efe",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

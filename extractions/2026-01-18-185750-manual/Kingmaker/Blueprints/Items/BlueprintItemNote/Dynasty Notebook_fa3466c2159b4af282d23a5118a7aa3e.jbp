@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "fa3466c2159b4af282d23a5118a7aa3e",
+  "name": "Dynasty Notebook",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "fa3466c2159b4af282d23a5118a7aa3e",
+      "name": "Dynasty Notebook"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Dynasty Notebook",
+    "Description": "The tiny notebook is adorned with the coat of arms of House von Valancius. The pages made from real paper carry a pleasant scent of perfume and are covered in ruler-straight lines of text. Their meaning is locked behind an intricate cipher, but you do not need to know the contents of it to identify the author. You know this perfect calligraphic handwriting all too well.",
+    "NameForAcronym": "TheodoraOldDiary_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "fa3466c2159b4af282d23a5118a7aa3e",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "TheodoraOldDiary_Item",
+    "AssetGuid": "fa3466c2159b4af282d23a5118a7aa3e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

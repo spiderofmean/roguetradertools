@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "a8201aab3f424abb90a5c219a8f9de11",
+  "name": "Broken Vox",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "a8201aab3f424abb90a5c219a8f9de11",
+      "name": "Broken Vox"
+    },
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Broken Vox",
+    "Description": "\"I... cannot go on like this, Helona... I cannot! I served my master loyally, as did my father and his father before that. But this cannot continue! No. No... I am tired. To bury the corpses of murderers and traitors to the Imperium is the noble thing to do, but now I must conceal the deaths of these innocent young men and women. They are almost children! Cursed be the day when the governor became the ruler of this world. I... I will break this vicious circle. This I promise! Tonight, I will flee the estate and together we will journey to the Starspeakers. They will warn the servants of the God-Emperor about the heresy lurking in these walls. They will return for us. They will save us! Just wait for me, Helona. Just wait until I return...\"",
+    "NameForAcronym": "HaloVox _Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a8201aab3f424abb90a5c219a8f9de11",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HaloVox _Item",
+    "AssetGuid": "a8201aab3f424abb90a5c219a8f9de11",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

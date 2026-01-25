@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "3d4428ae07ae4fb99c0c82b70383fecd",
+  "name": "\"Notes on Life in the Hive\" by L.G., Historian and Traveller",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "3d4428ae07ae4fb99c0c82b70383fecd",
+      "name": "\"Notes on Life in the Hive\" by L.G., Historian and Traveller"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "\"Notes on Life in the Hive\" by L.G., Historian and Traveller",
+    "Description": "\"The world turned out to be completely different from what I had imagined. My distant home of Alvi-ar-Tani, though swathed in black sands, is nowhere as hot as this stone cocoon. Not even the force field can shield us from the embrace of the local star! In daylight hours, staying close to the outer walls would be insane — a person would either suffer heat stroke or simply be boiled alive. The surface does not have the time to cool after darkness comes, so living here is like being encased in a steam barrel at all times. Throne be praised, the upper city has cooling zones that provide welcome relief! Despite the predatory prices and absolute disdain the locals have shown toward my quickly lightening purse, the glacial gardens remain my favourite place to relax.\n---\nDespite all its austerity and piousness, the hive is crawling with lawbreakers — I have been robbed thrice and almost killed twice this cycle alone! It makes procuring obscura ridiculously simple. Not that I have tried it, of course, but the crooks on every corner literally shove it into my face.\n---\nAnother thing that surprised me is the city's incredible work shifts — the planet turns on its axis once every 38 hours, and 25 of those are usually spent in the manufactorums. Another 5 to 7 hours are dedicated to mandatory public service like cleaning streets, attending sermons, and patrolling floors, so only 6 remain for rest and domestic chores.\n---\nI must have been blessed by the Emperor when Justice Greyberghen invited me to stay at her truly magnificent estate! The view from the top of the Spire of Glory is fantastically beautiful. Up here, one cannot hear the din of the overflowing streets or smell the stench of refuse. And yet the taller the spire, the crueller the star's scalding kisses become. Justice Greyberghen calls it a divine blessing. I am not going to argue and will just quietly take my leave.\"",
+    "NameForAcronym": "DataSlate3Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "3d4428ae07ae4fb99c0c82b70383fecd",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "name": "DataSlate3Item",
+    "AssetGuid": "3d4428ae07ae4fb99c0c82b70383fecd",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

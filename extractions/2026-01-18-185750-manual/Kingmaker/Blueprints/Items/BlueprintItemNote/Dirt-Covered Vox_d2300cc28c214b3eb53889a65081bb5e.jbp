@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "d2300cc28c214b3eb53889a65081bb5e",
+  "name": "Dirt-Covered Vox",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "d2300cc28c214b3eb53889a65081bb5e",
+      "name": "Dirt-Covered Vox"
+    },
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Dirt-Covered Vox",
+    "Description": "\"You know, Stanzo, I miss the times when fire cultivators were only used for working in the fields. Back then, I thought: by the Throne, damn that forest! Can't take your eyes off it for a tick, or else it'd mess with production. But nowadays... The damned forest is the only thing that can defend people. Who'd have guessed? And we, the Silvarius, are the only ones who can pass through it — if we have our fire cultivator intact, that is. I did hear, though, that one of the Astropaths managed to lead a group of fifty people through the brush, but nobody has heard from them since. The enemies of Humanity got them, didn't they...{br}\nCome meet us halfway. I'm leading a new group, and the promethium in my cultivator is running out.\"",
+    "NameForAcronym": "MuddyVox_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "d2300cc28c214b3eb53889a65081bb5e",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "name": "MuddyVox_plaintext",
+    "AssetGuid": "d2300cc28c214b3eb53889a65081bb5e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

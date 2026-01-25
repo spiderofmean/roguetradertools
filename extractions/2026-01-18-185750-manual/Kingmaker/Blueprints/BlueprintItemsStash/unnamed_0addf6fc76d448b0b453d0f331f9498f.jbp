@@ -1,0 +1,24 @@
+{
+  "$type": "Kingmaker.Blueprints.BlueprintItemsStash",
+  "guid": "0addf6fc76d448b0b453d0f331f9498f",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints",
+  "data": {
+    "$type": "Kingmaker.Blueprints.BlueprintItemsStash",
+    "$id": {
+      "guid": "0addf6fc76d448b0b453d0f331f9498f",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "0addf6fc76d448b0b453d0f331f9498f",
+    "AllowContextActionsOnly": false,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "в это виртуальное хранилище перекидываем все предметы игрока, чтобы потом загрузить их в сундук в лабе",
+    "name": "PlayerItemsForLabChest",
+    "AssetGuid": "0addf6fc76d448b0b453d0f331f9498f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

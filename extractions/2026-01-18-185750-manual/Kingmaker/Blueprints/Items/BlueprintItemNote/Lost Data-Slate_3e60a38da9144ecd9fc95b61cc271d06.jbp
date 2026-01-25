@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "3e60a38da9144ecd9fc95b61cc271d06",
+  "name": "Lost Data-Slate",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "3e60a38da9144ecd9fc95b61cc271d06",
+      "name": "Lost Data-Slate"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Lost Data-Slate",
+    "Description": "\"Rejoice, for in ten turns the Immortal Emperor will bestow His grace upon us and embrace our brothers and sisters so they can serve Him on Holy Terra!\nThe Celestial Burial ceremony will commence at dawn, in full accordance with tradition. Remember to pay the fee so your loved ones do not have to wait for the next cycle before they can join the Emperor.\nAdditionally, on this holy day the number of work hours will be reduced by one so the blessed denizens may take part in the solemn march from the Emperor's Spire to the Spire of Stillness.\"",
+    "NameForAcronym": "DataSlate2Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "3e60a38da9144ecd9fc95b61cc271d06",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "name": "DataSlate2Item",
+    "AssetGuid": "3e60a38da9144ecd9fc95b61cc271d06",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

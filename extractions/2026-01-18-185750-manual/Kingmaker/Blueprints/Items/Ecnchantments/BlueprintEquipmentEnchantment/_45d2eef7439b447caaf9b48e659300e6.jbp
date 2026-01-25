@@ -1,0 +1,33 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintEquipmentEnchantment",
+  "guid": "45d2eef7439b447caaf9b48e659300e6",
+  "name": "",
+  "namespace": "Kingmaker.Blueprints.Items.Ecnchantments",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintEquipmentEnchantment",
+    "$id": {
+      "guid": "45d2eef7439b447caaf9b48e659300e6",
+      "name": ""
+    },
+    "Prefix": "",
+    "Suffix": "",
+    "EnchantmentCost": 0,
+    "IdentifyDC": 0,
+    "AllowContextActionsOnly": true,
+    "Name": "",
+    "Description": "",
+    "NameForAcronym": "ForceShield00_Enchantments",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "45d2eef7439b447caaf9b48e659300e6",
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "ForceShield00_Enchantments",
+    "AssetGuid": "45d2eef7439b447caaf9b48e659300e6",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

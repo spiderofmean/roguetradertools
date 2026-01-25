@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "7e87878b7193481c8ef19ee603a0f0cb",
+  "name": "Time-Worn Manuscript",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "7e87878b7193481c8ef19ee603a0f0cb",
+      "name": "Time-Worn Manuscript"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Time-Worn Manuscript",
+    "Description": "\"There was a time when I believed that I would lead my House to prosperity. In truth, fortune and blessings have long since been passing us by, as if the Koronus Expanse itself is trying to oust the Orsellio children from its bounds. If nothing changes in the near future, all of us will wither like night flowers at dawn — or perhaps, face our ultimate fall.\n***\nUpon my word, the Sea of Souls itself must favour me! During the last jump, I saw into the eye of a vicious storm. Within it, amid the ruins of a xenos world, was a treasure, mighty and dangerous, not unlike our own power. And I found a way to reach it! I drive away the memory of our journey and the cost that our House suffered. The ritual alone was... No matter! The goal will be worth the price, and due effort is all that is needed of us.\n***\nBy the grace of the Emperor, we made it through that terrible tempest! However, the Aeldari ruins appear to have dampened the crew's spirits. Those pitiful commoners talk too much. Tensions in the camp are rising... I should cut out the tongues of those who witnessed the first experiments — this information cannot be allowed to reach the ship. No, not just them. I shall have the Setthala clan dock the tongue of every lowborn.\"",
+    "NameForAcronym": "TisiphoneDiary",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "7e87878b7193481c8ef19ee603a0f0cb",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "TisiphoneDiary",
+    "AssetGuid": "7e87878b7193481c8ef19ee603a0f0cb",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

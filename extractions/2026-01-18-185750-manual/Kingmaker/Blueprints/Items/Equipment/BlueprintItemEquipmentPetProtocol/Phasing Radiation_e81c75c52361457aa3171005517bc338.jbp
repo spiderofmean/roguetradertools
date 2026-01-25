@@ -1,0 +1,104 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentPetProtocol",
+  "guid": "e81c75c52361457aa3171005517bc338",
+  "name": "Phasing Radiation",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentPetProtocol",
+    "$id": {
+      "guid": "e81c75c52361457aa3171005517bc338",
+      "name": "Phasing Radiation"
+    },
+    "PetType": "ServoskullSwarm",
+    "ItemType": "PetProtocol",
+    "InventoryEquipSound": "UI_INV_Protocol_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 25,
+    "Rarity": "Unique",
+    "Tag": "Pet",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Protocol_Put_Play",
+    "InventoryTakeSound": "UI_INV_Protocol_Take_Play",
+    "Name": "Phasing Radiation",
+    "Description": "The servo-skull swarm gains +20 {g|Encyclopedia:WarhammerFellowship}Fellowship{/g}.\nThe servo-skull swarm can maintain multiple signal effects at the same time.",
+    "NameForAcronym": "ReadyAndAbleServoskullProtocol_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e81c75c52361457aa3171005517bc338",
+    "AllowContextActionsOnly": false,
+    "m_PetType": "ServoskullSwarm",
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "name": "ReadyAndAbleServoskullProtocol_Item",
+    "AssetGuid": "e81c75c52361457aa3171005517bc338",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 2,
+      "items": [
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Evaluators.MyOwner",
+          "$id": {
+            "guid": "39ebef29-c9d1-455e-a6e3-20165ad14db0",
+            "name": null
+          },
+          "AssetGuid": "39ebef29-c9d1-455e-a6e3-20165ad14db0",
+          "AssetGuidShort": "39eb",
+          "name": "$MyOwner$39ebef29-c9d1-455e-a6e3-20165ad14db0"
+        },
+        {
+          "$type": "Kingmaker.EntitySystem.Properties.Getters.HasFactGetter",
+          "$id": {
+            "guid": "2fb143ba-fb56-42e9-9cd5-a5135d690fa8",
+            "name": null
+          },
+          "AddBracketsAroundInnerCaption": true,
+          "IsSimple": true,
+          "AssetGuid": "2fb143ba-fb56-42e9-9cd5-a5135d690fa8",
+          "AssetGuidShort": "2fb1",
+          "m_Fact": {
+            "$type": "Kingmaker.Blueprints.BlueprintUnitFactReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Target": "CurrentEntity",
+          "Settings": {
+            "$type": "Kingmaker.EntitySystem.Properties.BaseGetter.PropertyGetterSettings",
+            "StepLevel": null,
+            "IsCustomProgression": null,
+            "IsDivisionProgression": null,
+            "IsDivisionProgressionStart": null,
+            "UseMin": null,
+            "UseMax": null,
+            "Progression": null,
+            "m_CustomProgression": null,
+            "m_StartLevel": null,
+            "m_StepLevel": null,
+            "Negate": null,
+            "Limit": null,
+            "Min": null,
+            "Max": null
+          },
+          "name": "$HasFactGetter$2fb143ba-fb56-42e9-9cd5-a5135d690fa8"
+        }
+      ]
+    }
+  }
+}

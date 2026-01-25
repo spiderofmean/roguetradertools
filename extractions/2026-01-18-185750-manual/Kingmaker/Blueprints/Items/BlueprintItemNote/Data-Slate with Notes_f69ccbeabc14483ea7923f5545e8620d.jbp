@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "f69ccbeabc14483ea7923f5545e8620d",
+  "name": "Data-Slate with Notes",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "f69ccbeabc14483ea7923f5545e8620d",
+      "name": "Data-Slate with Notes"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Data-Slate with Notes",
+    "Description": "\"Kert,\nI know it's been rough for you since the meeting by the ruins. First contact leaves an impression on everyone. But when I recommended you to the commander, I never thought you wouldn't have the stomach to process the truth.\nThink what you want, but I'm still your friend. I don't want anything to happen to you because of your own stupidity. I saw your bag with the packs of nutribars that our lads brought from the settlement. And if you thought no one would notice a couple of clips missing from Torban's backpack, you thought wrong. I want to give you a chance. Return the goods. You know every nutribar counts these days — the stuff that grows in the forest is no longer edible. And we're in need of weapons more than ever.\nI can guess why you need all this. You want to split. Abandon our cause, go back home, and pretend nothing happened. But I'm not writing this to appeal to your conscience. I just want to say that you're a marked man now, Kert. After meeting the higher-ups, cutting and running is the worst thing you can try to do. They are watching those who've seen them. They won't let you leave.\nLet's talk. Just talk, you and me, in private. Let me know when you're in the camp.\"",
+    "NameForAcronym": "RenegadeRebelDiary",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "f69ccbeabc14483ea7923f5545e8620d",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "RenegadeRebelDiary",
+    "AssetGuid": "f69ccbeabc14483ea7923f5545e8620d",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}
