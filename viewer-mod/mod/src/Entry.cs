@@ -8,7 +8,6 @@ namespace ViewerMod
     /// </summary>
     public static class Entry
     {
-        private static bool _started;
         private static GameObject _host;
 
         /// <summary>
@@ -16,24 +15,14 @@ namespace ViewerMod
         /// </summary>
         public static void StartOnce()
         {
-            if (_started) return;
-            _started = true;
+            Log("Initializing Viewer Mod...");
 
-            try
-            {
-                Log("Initializing Viewer Mod...");
+            _host = new GameObject("ViewerMod");
+            UnityEngine.Object.DontDestroyOnLoad(_host);
+            _host.hideFlags = HideFlags.HideAndDontSave;
+            _host.AddComponent<ViewerBehaviour>();
 
-                _host = new GameObject("ViewerMod");
-                UnityEngine.Object.DontDestroyOnLoad(_host);
-                _host.hideFlags = HideFlags.HideAndDontSave;
-                _host.AddComponent<ViewerBehaviour>();
-
-                Log("Viewer Mod initialized. Server starting on http://localhost:5000/");
-            }
-            catch (Exception ex)
-            {
-                Log($"Error initializing Viewer Mod: {ex}");
-            }
+            Log("Viewer Mod initialized. Server starting on http://localhost:5000/");
         }
 
         internal static void Log(string message)

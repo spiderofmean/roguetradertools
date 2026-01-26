@@ -1,59 +1,38 @@
 # Deploy script for Viewer Mod
-# Copies the mod to UnityModManager mods folder
-# Usage: .\scripts\deploy.ps1 [-Configuration Release|Debug]
+# Requires: config.json with ModsFolder path
 
-param(
-    [ValidateSet("Release", "Debug")]
-    [string]$Configuration = "Release",
-    
-    [string]$ModsFolder = ""
-)
+$ConfigPath = Join-Path (Join-Path $PSScriptRoot "..") "config.json"
 
-$ErrorActionPreference = "Stop"
-$ModDir = Join-Path $PSScriptRoot ".." "mod"
-
-# Find mods folder
-if (-not $ModsFolder) {
-    $GamePaths = @(
-        "C:\Program Files (x86)\Steam\steamapps\common\Warhammer 40,000 Rogue Trader\Mods",
-        "C:\Program Files\Steam\steamapps\common\Warhammer 40,000 Rogue Trader\Mods",
-        "$env:USERPROFILE\Games\Warhammer 40,000 Rogue Trader\Mods"
-    )
-    
-    foreach ($path in $GamePaths) {
-        if (Test-Path $path) {
-            $ModsFolder = $path
-            break
-        }
-    }
-    
-    if (-not $ModsFolder) {
-        Write-Host "Could not find mods folder. Specify with -ModsFolder parameter." -ForegroundColor Red
-        exit 1
-    }
+if (-not (Test-Path $ConfigPath)) {
+    Write-Host "ERROR: config.json not found" -ForegroundColor Red
+    Write-Host "Create viewer-mod/config.json with:" -ForegroundColor Yellow
+    Write-Host '{' -ForegroundColor Gray
+    Write-Host '  "ModsFolder": "C:\\Path\\To\\Rogue Trader\\Mods"' -ForegroundColor Gray
+    Write-Host '}' -ForegroundColor Gray
+    exit 1
 }
 
-Write-Host "Deploying ViewerMod to: $ModsFolder" -ForegroundColor Cyan
+$Config = Get-Content $ConfigPath | ConvertFrom-Json
+$ModsFolder = $Config.ModsFolder
 
-# Build first
-& (Join-Path $PSScriptRoot "build.ps1") -Configuration $Configuration
+if (-not (Test-Path $ModsFolder)) {
+    Write-Host "ERROR: ModsFolder path does not exist: $ModsFolder" -ForegroundColor Red
+    exit 1
+}
 
-# Create mod folder
+Write-Host "Deploying to: $ModsFolder" -ForegroundColor Cyan
+
+# Build
+& (Join-Path $PSScriptRoot "build.ps1")
+if ($LASTEXITCODE -ne 0) { exit 1 }
+
+# Copy
+$ModDir = Join-Path (Join-Path $PSScriptRoot "..") "mod"
+$SourceDir = Join-Path (Join-Path (Join-Path $ModDir "bin") "Release") "net472"
 $TargetDir = Join-Path $ModsFolder "ViewerMod"
-if (-not (Test-Path $TargetDir)) {
-    New-Item -ItemType Directory -Path $TargetDir | Out-Null
-}
 
-# Copy files
-$SourceDir = Join-Path $ModDir "bin" $Configuration "net472"
-
-# Copy DLL
+New-Item -ItemType Directory -Path $TargetDir -Force | Out-Null
 Copy-Item (Join-Path $SourceDir "ViewerMod.dll") $TargetDir -Force
-Write-Host "  Copied ViewerMod.dll" -ForegroundColor Gray
-
-# Copy Info.json
 Copy-Item (Join-Path $ModDir "Info.json") $TargetDir -Force
-Write-Host "  Copied Info.json" -ForegroundColor Gray
 
-Write-Host "Deployment complete!" -ForegroundColor Green
-Write-Host "Mod installed to: $TargetDir" -ForegroundColor Gray
+Write-Host "Deployed to: $TargetDir" -ForegroundColor Green

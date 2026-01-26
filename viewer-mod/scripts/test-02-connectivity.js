@@ -6,20 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Load config if it exists
-const CONFIG_PATH = path.join(__dirname, 'test-config.json');
-let config = { baseUrl: 'http://localhost:5000' };
-
-if (fs.existsSync(CONFIG_PATH)) {
-  try {
-    config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
-    console.log(`Using config from test-config.json: ${config.baseUrl}`);
-  } catch (err) {
-    console.warn(`Warning: Failed to parse test-config.json: ${err.message}`);
-  }
-}
-
-const BASE_URL = config.baseUrl;
+const BASE_URL = 'http://localhost:5000';
 
 function fail(message) {
   console.error(`FAIL: ${message}`);

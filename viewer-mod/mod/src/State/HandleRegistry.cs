@@ -48,11 +48,6 @@ namespace ViewerMod.State
         /// </summary>
         public Guid Register(object obj)
         {
-            if (obj == null)
-            {
-                throw new ArgumentNullException(nameof(obj));
-            }
-
             // Check if already registered
             if (_reverseHandles.TryGetValue(obj, out var existingId))
             {

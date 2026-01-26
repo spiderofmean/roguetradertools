@@ -10,17 +10,6 @@ All test scripts follow the same conventions:
 - On failure: a single actionable reason
 - No test framework (plain Node)
 
-## Configuration
-
-- Base URL defaults to `http://localhost:5000`
-- If (and only if) you run the server on a different URL/port, add a local config file (repo-local), e.g. `scripts/test-config.json`:
-
-```json
-{ "baseUrl": "http://localhost:5001" }
-```
-
-Tests read this file if present; otherwise they use the default.
-
 ## Tests
 
 We intentionally keep this to **three** scripts. Each one proves everything “below” it.
@@ -81,3 +70,4 @@ What this proves:
 | 01 | Build/layout issue | Fix `Info.json`, TypeScript, or missing folders |
 | 02 | Server not running or exception | Check the Unity log; verify base URL/port |
 | 03 | Handle/image bug | Reproduce with a single handle; then fix encoding/handle lookup |
+

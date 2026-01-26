@@ -13,13 +13,17 @@ cd viewer-mod
 
 ### 2. Deploy to Game
 
+Create `config.json`:
+```json
+{
+  "ModsFolder": "C:\\Path\\To\\Rogue Trader\\Mods"
+}
+```
+
+Then deploy:
 ```powershell
 .\scripts\deploy.ps1
 ```
-
-Or manually copy:
-- `mod/bin/Release/net472/ViewerMod.dll` → `<GameDir>/Mods/ViewerMod/`
-- `mod/Info.json` → `<GameDir>/Mods/ViewerMod/`
 
 ### 3. Start the Game
 

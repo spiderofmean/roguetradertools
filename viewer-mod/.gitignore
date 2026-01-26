@@ -10,9 +10,10 @@ obj/
 
 # Test outputs
 test-output/
+blueprint-dump/
 
 # Local config
-scripts/test-config.json
+config.json
 .env*
 
 # IDE/OS
