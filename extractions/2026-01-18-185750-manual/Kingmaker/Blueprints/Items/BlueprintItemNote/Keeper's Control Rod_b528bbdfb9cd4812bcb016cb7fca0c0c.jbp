@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "b528bbdfb9cd4812bcb016cb7fca0c0c",
+  "name": "Keeper's Control Rod",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "b528bbdfb9cd4812bcb016cb7fca0c0c",
+      "name": "Keeper's Control Rod"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Amulet_Put_Play",
+    "InventoryTakeSound": "UI_INV_Amulet_Take_Play",
+    "Name": "Keeper's Control Rod",
+    "Description": "A control rod in the shape of a rotary mechanism.",
+    "NameForAcronym": "FelecKey",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b528bbdfb9cd4812bcb016cb7fca0c0c",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "FelecKey",
+    "AssetGuid": "b528bbdfb9cd4812bcb016cb7fca0c0c",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

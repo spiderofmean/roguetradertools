@@ -1,0 +1,248 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+  "guid": "2a33ab7555014ee9995220ae3694a00e",
+  "name": "Tervantias' Limbs",
+  "namespace": "Kingmaker.Blueprints.Items.Weapons",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "$id": {
+      "guid": "2a33ab7555014ee9995220ae3694a00e",
+      "name": "Tervantias' Limbs"
+    },
+    "GainAbility": true,
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Tervantias' Limbs",
+    "Description": "",
+    "ItemType": "Weapon",
+    "AttackType": "Melee",
+    "AttackRange": 1,
+    "AttackOptimalRange": 1,
+    "IsNatural": false,
+    "IsRanged": false,
+    "IsMelee": true,
+    "Weight": 0.0,
+    "HoldingType": "OneHanded",
+    "Range": "Melee",
+    "Heaviness": "NotHeavy",
+    "HasNoDamage": false,
+    "DamageStatBonusFactor": "One",
+    "InventoryEquipSound": "UI_INV_SharpSword_Equip_Play",
+    "InventoryPutSound": "UI_INV_SharpSword_Put_Play",
+    "InventoryTakeSound": "UI_INV_SharpSword_Take_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "Origin": "MeleeWeaponry",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "DrukhariHaemonculus_HandsSpecialClone_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "2a33ab7555014ee9995220ae3694a00e",
+    "AllowContextActionsOnly": false,
+    "m_OnHitActions": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "SingleShot",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 2
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "AOE",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 2
+        }
+      ]
+    },
+    "m_AttackOfOpportunityAbility": {
+      "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+      "Guid": "d7d6427edf5d4a4fa38e96ebcb494c52",
+      "guid": "d7d6427edf5d4a4fa38e96ebcb494c52"
+    },
+    "m_AttackOfOpportunityAbilityFXSettings": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "Category": "Melee",
+    "Family": "Primitive",
+    "Classification": "None",
+    "m_HoldingType": "OneHanded",
+    "m_Range": "Melee",
+    "m_Heaviness": "NotHeavy",
+    "CanBeUsedInGame": true,
+    "m_TypeNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DefaultNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "IsTwoHanded": false,
+    "WarhammerDamage": 10,
+    "WarhammerMaxDamage": 25,
+    "WarhammerPenetration": 15,
+    "DodgePenetration": 0,
+    "AdditionalHitChance": 15,
+    "WarhammerRecoil": 0,
+    "WarhammerMaxDistance": 1,
+    "WarhammerMaxAmmo": -1,
+    "RateOfFire": 1,
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintWeaponEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_DamageType": {
+      "$type": "Kingmaker.UnitLogic.Mechanics.Damage.DamageTypeDescription",
+      "Type": "Rending"
+    },
+    "m_IsNatural": false,
+    "m_DamageStatBonusFactor": "One",
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.WeaponVisualParameters",
+      "HasSpecialAnimation": false,
+      "BurstAnimationDelay": 0.0,
+      "AnimStyle": "BrutalOneHanded",
+      "SoundSize": "Medium",
+      "SoundType": "SlashMetal",
+      "MissSoundType": "MediumBlunt",
+      "EquipSound": "",
+      "UnequipSound": "",
+      "OutOfAmmoSound": "",
+      "SpecialAnimation": "None",
+      "InventoryEquipSound": "UI_INV_SharpSword_Equip_Play",
+      "InventoryPutSound": "UI_INV_SharpSword_Put_Play",
+      "InventoryTakeSound": "UI_INV_SharpSword_Take_Play",
+      "IsBow": false,
+      "IsTorch": false,
+      "HasQuiver": false,
+      "IsTwoHanded": false,
+      "m_WeaponAnimationStyle": "BrutalOneHanded",
+      "m_SpecialAnimation": "None",
+      "m_BurstAnimationDelay": 0.0,
+      "m_WeaponModel": {
+        "$type": "UnityEngine.GameObject",
+        "$skipped": "dangerous"
+      },
+      "m_CachedEquipLinksUpToDate": false,
+      "m_SoundSize": "Medium",
+      "m_SoundType": "SlashMetal",
+      "m_SoundSizeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_SoundTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MuffledTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MissSoundType": "MediumBlunt",
+      "m_EquipSound": "",
+      "m_UnequipSound": "",
+      "m_OutOfAmmoSound": "",
+      "m_InventoryEquipSound": "UI_INV_SharpSword_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_SharpSword_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_SharpSword_Take_Play"
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": true,
+    "IsUnlootable": true,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "IlyaPolitko",
+    "Comment": "Глава IV. Локация HaemonculusLab.\nМили-оружие Гемункула, босса локации. Имеет две оружейные абилки: удар ножом и удар когтями. Не дропается!",
+    "name": "DrukhariHaemonculus_HandsSpecialClone_Item",
+    "AssetGuid": "2a33ab7555014ee9995220ae3694a00e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

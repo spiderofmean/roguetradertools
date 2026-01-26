@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "02b06975e2824b0ab06c6a44bafbbafe",
+  "name": "Internal Report",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "02b06975e2824b0ab06c6a44bafbbafe",
+      "name": "Internal Report"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Internal Report",
+    "Description": "\"I am writing to inform you that two days ago, the discharge was interrupted by a raid launched by the Anvers gang. In the attack, three loader servitors were put out of commission. Furthermore, one cargo container, serial number FVDA1-16165, was stolen along with its contents.\"",
+    "NameForAcronym": "Clue9",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "02b06975e2824b0ab06c6a44bafbbafe",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "Clue9",
+    "AssetGuid": "02b06975e2824b0ab06c6a44bafbbafe",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

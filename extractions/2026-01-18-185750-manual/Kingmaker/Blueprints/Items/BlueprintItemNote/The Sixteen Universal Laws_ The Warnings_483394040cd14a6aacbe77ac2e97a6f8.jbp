@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "483394040cd14a6aacbe77ac2e97a6f8",
+  "name": "\"The Sixteen Universal Laws: The Warnings\"",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "483394040cd14a6aacbe77ac2e97a6f8",
+      "name": "\"The Sixteen Universal Laws: The Warnings\""
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "\"The Sixteen Universal Laws: The Warnings\"",
+    "Description": "A tome containing warnings of the Omnissiah. This set of unshakeable tenets of the Adeptus Mechanicus is hidden from the eyes of the laymen with a special binharic cipher. Only an anointed Tech-Priest can divine the sacred knowledge from this folio.",
+    "NameForAcronym": "WarningsBook_Dataslate",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "483394040cd14a6aacbe77ac2e97a6f8",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "WarningsBook_Dataslate",
+    "AssetGuid": "483394040cd14a6aacbe77ac2e97a6f8",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

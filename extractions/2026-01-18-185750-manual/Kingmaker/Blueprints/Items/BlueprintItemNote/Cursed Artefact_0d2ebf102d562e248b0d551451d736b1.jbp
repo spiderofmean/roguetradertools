@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "0d2ebf102d562e248b0d551451d736b1",
+  "name": "Cursed Artefact",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "0d2ebf102d562e248b0d551451d736b1",
+      "name": "Cursed Artefact"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Stone_Put_Play",
+    "InventoryTakeSound": "UI_INV_Stone_Take_Play",
+    "Name": "Cursed Artefact",
+    "Description": "A mysterious object steeped in warp corruption.",
+    "NameForAcronym": "GuttedShipCursedItem",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "0d2ebf102d562e248b0d551451d736b1",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "GuttedShipCursedItem",
+    "AssetGuid": "0d2ebf102d562e248b0d551451d736b1",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemLifeSustainer",
+  "guid": "b7ae9918e8a947b4a562767fcc477ea3",
+  "name": "",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemLifeSustainer",
+    "$id": {
+      "guid": "b7ae9918e8a947b4a562767fcc477ea3",
+      "name": ""
+    },
+    "ItemType": "StarshipLifeSustainer",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "",
+    "InventoryTakeSound": "",
+    "Name": "",
+    "Description": "",
+    "NameForAcronym": "LifeSustainer6",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b7ae9918e8a947b4a562767fcc477ea3",
+    "AllowContextActionsOnly": false,
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "0",
+    "Comment": "",
+    "name": "LifeSustainer6",
+    "AssetGuid": "b7ae9918e8a947b4a562767fcc477ea3",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

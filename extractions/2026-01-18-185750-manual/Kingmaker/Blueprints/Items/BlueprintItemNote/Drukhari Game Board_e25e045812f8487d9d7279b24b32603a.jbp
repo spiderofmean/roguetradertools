@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "e25e045812f8487d9d7279b24b32603a",
+  "name": "Drukhari Game Board",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "e25e045812f8487d9d7279b24b32603a",
+      "name": "Drukhari Game Board"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Ring_Put_Play",
+    "InventoryTakeSound": "UI_INV_Ring_Take_Play",
+    "Name": "Drukhari Game Board",
+    "Description": "An intricate game board with enchanted figurines of Asuryani and Drukhari. Its owner has the constant feeling of being watched and becomes more sensitive to psychic activity manifestations.",
+    "NameForAcronym": "ItemFarseerUnidentified",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "e25e045812f8487d9d7279b24b32603a",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ItemFarseerUnidentified",
+    "AssetGuid": "e25e045812f8487d9d7279b24b32603a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

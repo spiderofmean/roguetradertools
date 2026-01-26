@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "4241a581631a41938cf45911cdae6cc7",
+  "name": "Healing Battle Dance Infusion",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "4241a581631a41938cf45911cdae6cc7",
+      "name": "Healing Battle Dance Infusion"
+    },
+    "IdentifyDC": 0,
+    "Name": "Healing Battle Dance Infusion",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Medkit_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "Drug",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Medkit_Put_Play",
+    "InventoryTakeSound": "UI_INV_Medkit_Take_Play",
+    "Description": "Until the start of the next {g|Encyclopedia:Turn}turn{/g} the target gains 50 {g|Encyclopedia:TemporaryWounds}temporary wounds{/g} and 1 stack of {g|Encyclopedia:FatiguedEffect}fatigued{/g} until the end of combat.",
+    "NameForAcronym": "HealingBattleDanceInfusion",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "4241a581631a41938cf45911cdae6cc7",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Medkit_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HealingBattleDanceInfusion",
+    "AssetGuid": "4241a581631a41938cf45911cdae6cc7",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

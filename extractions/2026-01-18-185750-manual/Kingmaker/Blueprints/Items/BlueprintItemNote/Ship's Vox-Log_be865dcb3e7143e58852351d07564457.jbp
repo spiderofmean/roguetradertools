@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "be865dcb3e7143e58852351d07564457",
+  "name": "Ship's Vox-Log",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "be865dcb3e7143e58852351d07564457",
+      "name": "Ship's Vox-Log"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Ship's Vox-Log",
+    "Description": "The vox does not produce sound immediately. The officer who made the recording speaks clearly and confidently but also softly, with a barely perceptible vibration in his low, orator-like voice. It seems that the tape is partially damaged.{br}\n\"Entry 1. We landed successfully, but were unable to report to Her Ladyship: the communication channel was filled with interference. The navigation system has been affected as well, so we will not be able to take off anytime soon, let alone return to the ship. Sergeant Damani is looking for the source of the interference. The only thing left to do is to keep a log.\"\n***\n\"Entry 5. Thanks to the information we received earlier, we managed to partially decipher some of the inscriptions on the obelisks. Only the general meaning is clear, the creatures buried here are extremely hostile. We have not been able to identify the source of the interference affecting our communications and navigation. Lady Theodora made it clear that this expedition is extremely important, so we will continue the exploration regardless of obstacles. Whoever finds this vox-log must give it to Her Ladyship personally and no one else.\"\n***\n\"Entry 18. One of the structures being inspected incinerated Corporal Monroe. We buried him with as much dignity as was possible in these barren rocks. His sacrifice need not be in vain, we will be more careful next time, and we will not embarrass Her Ladyship.\"\n***\n\"Entry 19. The explosion of the xeno-artefact damaged the engine, the fuel compartment, and the cargo hold where we were keeping supplies. It is unlikely that we will return to Lady Theodora's flagship, but we have almost completed our task and are about to enter the buildings. What matters is the preservation of the data we have obtained.\"\n***\n\"There were no dead people behind the monoliths. The creatures attacked us as soon as we managed to activate the gate mechanism in one of the buildings. Their weapons destroy flesh and plasteel with equal ease, and their bodies recover from any wounds.\" The words are interrupted by a bang and a yell. \"I will keep recording until my final breath, and I hope it benefits the house of von Valancius. The weapons of the xenos burn with green fire and hurl bolts of lightning, and energy charges burst from their blades. Damani has fallen to the ground and cannot get up, her body is breaking, the rocks beneath it are about to crack. Tell Dahlia that her father gave his life for the good of the von Valancius dynasty, may she be proud of...\"",
+    "NameForAcronym": "TheodoraExpeditionDiary",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "be865dcb3e7143e58852351d07564457",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "TheodoraExpeditionDiary",
+    "AssetGuid": "be865dcb3e7143e58852351d07564457",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

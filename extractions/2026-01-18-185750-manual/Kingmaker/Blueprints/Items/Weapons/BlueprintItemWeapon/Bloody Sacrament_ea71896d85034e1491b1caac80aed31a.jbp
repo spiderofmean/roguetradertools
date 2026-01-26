@@ -1,0 +1,283 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+  "guid": "ea71896d85034e1491b1caac80aed31a",
+  "name": "Bloody Sacrament",
+  "namespace": "Kingmaker.Blueprints.Items.Weapons",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "$id": {
+      "guid": "ea71896d85034e1491b1caac80aed31a",
+      "name": "Bloody Sacrament"
+    },
+    "GainAbility": true,
+    "SubtypeName": "",
+    "SubtypeDescription": "Maces and hammers have a special attack that {g|Encyclopedia:PushGlossary}pushes{/g} enemies away.",
+    "Name": "Bloody Sacrament",
+    "Description": "{g|Encyclopedia:AreaOfEffect}Area attacks{/g} with this maul create a smoke cloud. All creatures that enter that area must pass {g|Encyclopedia:WarhammerToughness}Toughness{/g}, {g|Encyclopedia:WarhammerStrength}Strength{/g}, and {g|Encyclopedia:WarhammerWillpower}Willpower{/g} {g|Encyclopedia:ResistanceTest}resistance tests{/g} with a −{uip|Penalty|0eaf58bc6d7d487e8b78c6a2c31bd2fb} penalty.\n-<indent=5%>On a failed Toughness {g|Encyclopedia:Test}test{/g} the target becomes {g|Encyclopedia:BlindedEffect}blinded{/g} for 2 {g|Encyclopedia:Round}rounds{/g}.</indent>\n-<indent=5%>On a failed Strength test — {g|Encyclopedia:SlowedEffect}slowed{/g} for 2 rounds.</indent>\n-<indent=5%>On a failed Willpower test — {g|Encyclopedia:DisturbedEffect}disturbed{/g} for 2 rounds.</indent>",
+    "ItemType": "Weapon",
+    "AttackType": "Melee",
+    "AttackRange": 1,
+    "AttackOptimalRange": 1,
+    "IsNatural": false,
+    "IsRanged": false,
+    "IsMelee": true,
+    "Weight": 0.0,
+    "HoldingType": "OneHanded",
+    "Range": "Melee",
+    "Heaviness": "NotHeavy",
+    "HasNoDamage": false,
+    "DamageStatBonusFactor": "One",
+    "InventoryEquipSound": "UI_INV_Power_Equip_Play",
+    "InventoryPutSound": "UI_INV_Power_Put_Play",
+    "InventoryTakeSound": "UI_INV_Power_Take_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "Origin": "MeleeWeaponry",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "BloodySacramentPowerMaul_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "ea71896d85034e1491b1caac80aed31a",
+    "AllowContextActionsOnly": false,
+    "m_OnHitActions": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+      "Guid": "",
+      "guid": ""
+    },
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "SingleShot",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 1
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "AOE",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 2
+        },
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": true,
+          "Type": "SingleShot",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "Add",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 2
+        }
+      ]
+    },
+    "m_AttackOfOpportunityAbility": {
+      "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+      "Guid": "a39a31f8f11445cba7e420dce565babc",
+      "guid": "a39a31f8f11445cba7e420dce565babc"
+    },
+    "m_AttackOfOpportunityAbilityFXSettings": {
+      "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+      "Guid": "b42607999b9740c1ac74fc7d63ae0451",
+      "guid": "b42607999b9740c1ac74fc7d63ae0451"
+    },
+    "Category": "Melee",
+    "Family": "Power",
+    "Classification": "MaulOrHammer",
+    "m_HoldingType": "OneHanded",
+    "m_Range": "Melee",
+    "m_Heaviness": "NotHeavy",
+    "CanBeUsedInGame": true,
+    "m_TypeNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DefaultNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "Maces and hammers have a special attack that {g|Encyclopedia:PushGlossary}pushes{/g} enemies away.",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false,
+      "Shared": {
+        "$type": "Kingmaker.Localization.SharedStringAsset",
+        "$skipped": "dangerous"
+      }
+    },
+    "IsTwoHanded": false,
+    "WarhammerDamage": 15,
+    "WarhammerMaxDamage": 19,
+    "WarhammerPenetration": 25,
+    "DodgePenetration": 0,
+    "AdditionalHitChance": 0,
+    "WarhammerRecoil": 0,
+    "WarhammerMaxDistance": 1,
+    "WarhammerMaxAmmo": -1,
+    "RateOfFire": 0,
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintWeaponEnchantmentReference[]",
+      "$count": 1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.BlueprintWeaponEnchantmentReference",
+          "Guid": "33475482d4924c8089c8a877d13eea6f",
+          "guid": "33475482d4924c8089c8a877d13eea6f"
+        }
+      ]
+    },
+    "m_DamageType": {
+      "$type": "Kingmaker.UnitLogic.Mechanics.Damage.DamageTypeDescription",
+      "Type": "Power"
+    },
+    "m_IsNatural": false,
+    "m_DamageStatBonusFactor": "One",
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.WeaponVisualParameters",
+      "HasSpecialAnimation": false,
+      "BurstAnimationDelay": 0.0,
+      "AnimStyle": "OneHandedHammer",
+      "SoundSize": "None",
+      "SoundType": "None",
+      "MissSoundType": "None",
+      "EquipSound": "Foley_WP_M_PowerAxe_Equip_Play",
+      "UnequipSound": "Foley_WP_M_PowerAxe_Remove_Play",
+      "OutOfAmmoSound": "",
+      "SpecialAnimation": "None",
+      "InventoryEquipSound": "UI_INV_Power_Equip_Play",
+      "InventoryPutSound": "UI_INV_Power_Put_Play",
+      "InventoryTakeSound": "UI_INV_Power_Take_Play",
+      "IsBow": false,
+      "IsTorch": false,
+      "HasQuiver": false,
+      "IsTwoHanded": false,
+      "m_WeaponAnimationStyle": "OneHandedHammer",
+      "m_SpecialAnimation": "None",
+      "m_BurstAnimationDelay": 0.0,
+      "m_WeaponModel": {
+        "$type": "UnityEngine.GameObject",
+        "$skipped": "dangerous"
+      },
+      "m_CachedEquipLinksUpToDate": false,
+      "m_SoundSize": "None",
+      "m_SoundType": "None",
+      "m_SoundSizeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2654430898,
+        "ValueHash": 4284352190,
+        "Group": "WeaponSize",
+        "Value": "Large"
+      },
+      "m_SoundTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2011258708,
+        "ValueHash": 2391494160,
+        "Group": "ProjectileType",
+        "Value": "Power"
+      },
+      "m_MuffledTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MissSoundType": "None",
+      "m_EquipSound": "Foley_WP_M_PowerAxe_Equip_Play",
+      "m_UnequipSound": "Foley_WP_M_PowerAxe_Remove_Play",
+      "m_OutOfAmmoSound": "",
+      "m_InventoryEquipSound": "UI_INV_Power_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Power_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Power_Take_Play"
+    },
+    "SpendCharges": false,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "BloodySacramentPowerMaul_Item",
+    "AssetGuid": "ea71896d85034e1491b1caac80aed31a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

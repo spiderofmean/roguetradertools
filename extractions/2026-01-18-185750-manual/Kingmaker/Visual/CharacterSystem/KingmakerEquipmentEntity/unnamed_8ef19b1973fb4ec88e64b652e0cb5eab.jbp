@@ -1,0 +1,149 @@
+{
+  "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity",
+  "guid": "8ef19b1973fb4ec88e64b652e0cb5eab",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Visual.CharacterSystem",
+  "data": {
+    "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity",
+    "$id": {
+      "guid": "8ef19b1973fb4ec88e64b652e0cb5eab",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "8ef19b1973fb4ec88e64b652e0cb5eab",
+    "AllowContextActionsOnly": false,
+    "m_MaleArray": {
+      "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_FemaleArray": {
+      "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_RaceDependent": true,
+    "m_RaceDependentArrays": {
+      "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists[]",
+      "$count": 8,
+      "items": [
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 1,
+            "items": [
+              null
+            ]
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 1,
+            "items": [
+              null
+            ]
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        }
+      ]
+    },
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "name": "KEE_ArmorArbites2",
+    "AssetGuid": "8ef19b1973fb4ec88e64b652e0cb5eab",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

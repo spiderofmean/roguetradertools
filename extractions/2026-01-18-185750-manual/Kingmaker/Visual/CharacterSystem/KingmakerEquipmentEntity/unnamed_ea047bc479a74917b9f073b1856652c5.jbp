@@ -1,0 +1,195 @@
+{
+  "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity",
+  "guid": "ea047bc479a74917b9f073b1856652c5",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Visual.CharacterSystem",
+  "data": {
+    "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity",
+    "$id": {
+      "guid": "ea047bc479a74917b9f073b1856652c5",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "ea047bc479a74917b9f073b1856652c5",
+    "AllowContextActionsOnly": false,
+    "m_MaleArray": {
+      "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+      "$count": 6,
+      "items": [
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "5eac57c62c9f53448826edf1a1efeb06"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "6c4de24b59d430842a3e404674752b74"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "b1bb481b423c3a64f9f711c36d0ac102"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "cdfbcedd1c9f0704f8af31373100c37d"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "85b1aaef9fb0a334d9ef9617b9e7a014"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "73d0cdacd6f56ee4b8313bdc4fbc5dbc"
+        }
+      ]
+    },
+    "m_FemaleArray": {
+      "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+      "$count": 6,
+      "items": [
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "af70abfc3506df74ebb3924cc1a7536c"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "715460eefe3069c4aab16e72cb8bb3c0"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "70b7499b3ecd7654e96442b4278c8cbd"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "7f46cb9b7b82fb24da34889ea409fb59"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "a611a77c83bcfa244ae2c8683143f473"
+        },
+        {
+          "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink",
+          "AssetId": "b146d36acb8caa249ae90a6badbf15ad"
+        }
+      ]
+    },
+    "m_RaceDependent": false,
+    "m_RaceDependentArrays": {
+      "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists[]",
+      "$count": 8,
+      "items": [
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        },
+        {
+          "$type": "Kingmaker.Visual.CharacterSystem.KingmakerEquipmentEntity+TwoLists",
+          "MaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          },
+          "FemaleArray": {
+            "$type": "Kingmaker.ResourceLinks.EquipmentEntityLink[]",
+            "$count": 0,
+            "items": []
+          }
+        }
+      ]
+    },
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "KEE_RogueTraderCrimeLordClothes",
+    "AssetGuid": "ea047bc479a74917b9f073b1856652c5",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

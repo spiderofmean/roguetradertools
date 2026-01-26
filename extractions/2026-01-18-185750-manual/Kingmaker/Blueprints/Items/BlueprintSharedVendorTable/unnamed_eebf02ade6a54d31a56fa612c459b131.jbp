@@ -1,0 +1,26 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+  "guid": "eebf02ade6a54d31a56fa612c459b131",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+    "$id": {
+      "guid": "eebf02ade6a54d31a56fa612c459b131",
+      "name": null
+    },
+    "ReputationPointsToUnlock": 0,
+    "AssetGuidThreadSafe": "eebf02ade6a54d31a56fa612c459b131",
+    "AllowContextActionsOnly": false,
+    "AutoIdentifyAllItems": true,
+    "Author": "NikitaFilatov",
+    "Comment": "",
+    "name": "HaemunculiChapter3_VendorTable_Advanced",
+    "AssetGuid": "eebf02ade6a54d31a56fa612c459b131",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

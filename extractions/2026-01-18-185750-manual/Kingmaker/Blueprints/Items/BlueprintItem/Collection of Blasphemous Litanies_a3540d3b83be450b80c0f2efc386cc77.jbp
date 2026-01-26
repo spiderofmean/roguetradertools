@@ -1,0 +1,86 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+  "guid": "a3540d3b83be450b80c0f2efc386cc77",
+  "name": "Collection of Blasphemous Litanies",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "$id": {
+      "guid": "a3540d3b83be450b80c0f2efc386cc77",
+      "name": "Collection of Blasphemous Litanies"
+    },
+    "Weight": 0.0,
+    "Origin": "Chaos",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 2,
+    "Rarity": "Trash",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Collection of Blasphemous Litanies",
+    "Description": "",
+    "NameForAcronym": "BlasphemousLithanies_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a3540d3b83be450b80c0f2efc386cc77",
+    "AllowContextActionsOnly": false,
+    "m_FlavorText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Chaos",
+    "m_Rarity": "Trash",
+    "m_Tag": "None",
+    "m_IsNotable": false,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 2,
+    "m_InventoryPutSound": "UI_INV_Book_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "m_CachedEnchantments": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Items.Ecnchantments.BlueprintItemEnchantment, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "BlasphemousLithanies_Item",
+    "AssetGuid": "a3540d3b83be450b80c0f2efc386cc77",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

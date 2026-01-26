@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "83fd74d217684dc2be6e5bfc095b0d15",
+  "name": "Cracked Xenochest",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "83fd74d217684dc2be6e5bfc095b0d15",
+      "name": "Cracked Xenochest"
+    },
+    "Weight": 0.0,
+    "Origin": "Xeno",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Heavy_Put_Play",
+    "InventoryTakeSound": "UI_INV_Heavy_Take_Play",
+    "Name": "Cracked Xenochest",
+    "Description": "The small chest made from a strange material has no keyhole or any other openings. The murky crystal on the lid is cracked but continues to glow inscrutably.",
+    "NameForAcronym": "KhraveCrystall",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "83fd74d217684dc2be6e5bfc095b0d15",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "KhraveCrystall",
+    "AssetGuid": "83fd74d217684dc2be6e5bfc095b0d15",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

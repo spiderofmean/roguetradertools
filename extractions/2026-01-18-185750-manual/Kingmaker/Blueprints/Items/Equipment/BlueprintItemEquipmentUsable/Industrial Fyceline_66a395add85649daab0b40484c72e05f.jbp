@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "66a395add85649daab0b40484c72e05f",
+  "name": "Industrial Fyceline",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "66a395add85649daab0b40484c72e05f",
+      "name": "Industrial Fyceline"
+    },
+    "IdentifyDC": 0,
+    "Name": "Industrial Fyceline",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 7.0,
+    "CargoVolumePercent": 25,
+    "Rarity": "Unique",
+    "Tag": "Grenade",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Grenades_Put_Play",
+    "InventoryTakeSound": "UI_INV_Grenades_Take_Play",
+    "Description": "Deals <u>(from 40 to 70)</u> energy damage with 10% armour penetration and {g|Encyclopedia:PushGlossary}pushes{/g} the targets 3 cells away.",
+    "NameForAcronym": "Grenade_GenestealerDynamiteT2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "66a395add85649daab0b40484c72e05f",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Grenade_GenestealerDynamiteT2",
+    "AssetGuid": "66a395add85649daab0b40484c72e05f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

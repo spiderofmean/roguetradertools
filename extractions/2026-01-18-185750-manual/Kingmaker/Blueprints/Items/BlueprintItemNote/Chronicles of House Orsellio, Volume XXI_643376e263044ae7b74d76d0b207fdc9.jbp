@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "643376e263044ae7b74d76d0b207fdc9",
+  "name": "Chronicles of House Orsellio, Volume XXI",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "643376e263044ae7b74d76d0b207fdc9",
+      "name": "Chronicles of House Orsellio, Volume XXI"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Chronicles of House Orsellio, Volume XXI",
+    "Description": "136.M41\nThe death of Novator Jucebio Serapion Orsellio has led to a prolonged conflict among the disparate factions within the House. On the same turn, Neonilla Orsellio departs for the Askellon Sector in the Segmentum Obscurus, heeding the call of our allies, House Sakrobo.{br}\n139.M41\nThe Lords of Terra summon the Navigator Houses to the Segmentum Obscurus to push back Abaddon the Despoiler, a heretic and a servant of Chaos. Twelve of the best Navigators are transferred to the Inquisition and the Imperial Navy. Neonilla Orsellio is presumed missing. A day of mourning is declared.{br}\n161.M41\nHouse Orsellio departs the Segmentum Obscurus. Combat losses: *figures blotted out with red ink*.{br}\n179.M41\nMeropa the All-Seeing Eye ascends to the throne of House Orsellio as the new Novator. A decree is passed to merge House Orsellio and House Sakrobo into a single Navigator House.{br}\n185.M41\nHouse Orsellio and the fleet of the Great Inquisitor Synesius engage the forces of the Renegade Navigator House Urbennto-Mono. Meropa the All-Seeing Eye dies at the hand of an unidentified assailant. *An addendum in red ink states: \"Officio Assassinorum, Pyrr confirmed it.\"*{br}\n200.M41\nThe heir to Meropa the All-Seeing Eye, Lord Navigator Theophilus Orsellio, forever vanishes during a flight to the Calixis Sector together with the Great Inquisitor Synesius. The Novator throne is claimed by Theophilus's nephew, Chionia-Phira Orsellio I.",
+    "NameForAcronym": "OrsellioText",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "643376e263044ae7b74d76d0b207fdc9",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "OrsellioText",
+    "AssetGuid": "643376e263044ae7b74d76d0b207fdc9",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

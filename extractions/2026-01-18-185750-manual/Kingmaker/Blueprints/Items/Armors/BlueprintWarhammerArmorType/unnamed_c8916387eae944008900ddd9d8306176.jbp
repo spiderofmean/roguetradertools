@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "c8916387eae944008900ddd9d8306176",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "c8916387eae944008900ddd9d8306176",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "c8916387eae944008900ddd9d8306176",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Light",
+    "m_DamageAbsorbtionPct": 25,
+    "m_DamageDeflection": 1,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 1,
+    "Author": "Unknown",
+    "Comment": "Броня с доджем для мелишников и спринтеров",
+    "name": "ArmoredBody_ArmorType",
+    "AssetGuid": "c8916387eae944008900ddd9d8306176",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

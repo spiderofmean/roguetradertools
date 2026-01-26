@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "0c936f7957f740a9badbe76851873788",
+  "name": "The Hunter-Father's Armour",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "0c936f7957f740a9badbe76851873788",
+      "name": "The Hunter-Father's Armour"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "The Hunter-Father's Armour",
+    "Description": "The wearer gains +2 {g|Encyclopedia:MovementPoints}MP{/g} and the {g|f:4824d61c41f74e13be50391caf7f413f}Strike of Kurnous{/g} ability.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Light",
+    "DamageAbsorption": 35,
+    "DamageDeflection": 0,
+    "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+    "InventoryPutSound": "UI_INV_Flak_Put_Play",
+    "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 24,
+    "GainAbility": false,
+    "Origin": "Xeno",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "AeldariArmourUniqueCh2V1_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "0c936f7957f740a9badbe76851873788",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "0fa0782686d949a389eefe83f63e4658",
+      "guid": "0fa0782686d949a389eefe83f63e4658"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 35,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 0,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "AnimationFoleySound": "ArmorLeatherMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 1153642577,
+        "Group": "BodyType",
+        "Value": "Flesh"
+      },
+      "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "m_AnimationFoleySound": "ArmorLeatherMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "name": "AeldariArmourUniqueCh2V1_Item",
+    "AssetGuid": "0c936f7957f740a9badbe76851873788",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

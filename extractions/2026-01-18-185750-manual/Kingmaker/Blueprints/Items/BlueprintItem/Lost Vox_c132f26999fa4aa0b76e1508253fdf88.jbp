@@ -1,0 +1,86 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+  "guid": "c132f26999fa4aa0b76e1508253fdf88",
+  "name": "Lost Vox",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "$id": {
+      "guid": "c132f26999fa4aa0b76e1508253fdf88",
+      "name": "Lost Vox"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Lost Vox",
+    "Description": "The vox plays the log of the most recent messages:{br}\n\"353rd Company, come in! This is Private Wilger. I've lost my unit. I've been wandering in this infernal cargo maze for five full days now. Requesting assistance. I've run out of rations; I'm hungry as a dog — I feel like eating the sling on my lasgun. I can see smoke, probably from some kind of camp, but I don't see a path to get there. I'll try to circle around. Wilger out.\"{br}\n+++{br}\n\"This is Private Wilger, come in! I've lost sight of the smoke, can't tell where I am now. I did find a container packed with delicacies, though. Something called roe... which seems to be eggs from actual, genuine fish — all in synth-capsules, vacuum-sealed. There is enough food for a whole company here! Maybe that'll get you to respond? Wilger out.\"{br}\n+++{br}\n\"It's Wilger. Come in. It's been a week. Respond. Anybody.\"{br}\n+++{br}\n\"I hate it. I hate roe.\"",
+    "NameForAcronym": "TW_LostSoldier_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c132f26999fa4aa0b76e1508253fdf88",
+    "AllowContextActionsOnly": false,
+    "m_FlavorText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Miscellaneous",
+    "m_Rarity": "Quest",
+    "m_Tag": "None",
+    "m_IsNotable": true,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 10,
+    "m_InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "m_CachedEnchantments": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Items.Ecnchantments.BlueprintItemEnchantment, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "name": "TW_LostSoldier_Item",
+    "AssetGuid": "c132f26999fa4aa0b76e1508253fdf88",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

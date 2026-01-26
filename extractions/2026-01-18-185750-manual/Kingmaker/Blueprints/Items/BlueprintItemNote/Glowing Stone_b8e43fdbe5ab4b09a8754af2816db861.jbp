@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "b8e43fdbe5ab4b09a8754af2816db861",
+  "name": "Glowing Stone",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "b8e43fdbe5ab4b09a8754af2816db861",
+      "name": "Glowing Stone"
+    },
+    "Weight": 0.0,
+    "Origin": "Jewelry",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Stone_Put_Play",
+    "InventoryTakeSound": "UI_INV_Stone_Take_Play",
+    "Name": "Glowing Stone",
+    "Description": "A rough precious stone lacking a setting. It is always cold to the touch.",
+    "NameForAcronym": "ProtectionAmulet",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b8e43fdbe5ab4b09a8754af2816db861",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ProtectionAmulet",
+    "AssetGuid": "b8e43fdbe5ab4b09a8754af2816db861",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

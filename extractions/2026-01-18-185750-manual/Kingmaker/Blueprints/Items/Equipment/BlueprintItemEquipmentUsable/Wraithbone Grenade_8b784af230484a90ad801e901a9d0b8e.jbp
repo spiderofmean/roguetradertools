@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "8b784af230484a90ad801e901a9d0b8e",
+  "name": "Wraithbone Grenade",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "8b784af230484a90ad801e901a9d0b8e",
+      "name": "Wraithbone Grenade"
+    },
+    "IdentifyDC": 0,
+    "Name": "Wraithbone Grenade",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 7.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "Grenade",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Grenades_Put_Play",
+    "InventoryTakeSound": "UI_INV_Grenades_Take_Play",
+    "Description": "Deals <u>(from 8 to 10)</u> mental {g|Encyclopedia:DamageGlossary}damage{/g} and inflicts +6 stacks of the {g|Encyclopedia:DisturbedEffect}disturbed{/g} effect. Starting from the next {g|Encyclopedia:Round}round{/g}, –1 stack of disturbed is removed every round.\nAdditionally, this grenade reduces the target's {g|Encyclopedia:PsyRating}psy rating{/g} by −1 until the end of combat. This effect does not stack.",
+    "NameForAcronym": "Grenade_Wraithbone",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "8b784af230484a90ad801e901a9d0b8e",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Grenade_Wraithbone",
+    "AssetGuid": "8b784af230484a90ad801e901a9d0b8e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

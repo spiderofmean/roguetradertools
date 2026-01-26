@@ -1,0 +1,26 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+  "guid": "fca925fdd42140739592d6c2c5f6d546",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+    "$id": {
+      "guid": "fca925fdd42140739592d6c2c5f6d546",
+      "name": null
+    },
+    "ReputationPointsToUnlock": 0,
+    "AssetGuidThreadSafe": "fca925fdd42140739592d6c2c5f6d546",
+    "AllowContextActionsOnly": false,
+    "AutoIdentifyAllItems": true,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ExploratorChapter4_VendorTable_Base",
+    "AssetGuid": "fca925fdd42140739592d6c2c5f6d546",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

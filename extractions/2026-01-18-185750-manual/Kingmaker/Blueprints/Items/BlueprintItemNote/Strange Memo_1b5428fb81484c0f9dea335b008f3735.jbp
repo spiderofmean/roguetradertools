@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "1b5428fb81484c0f9dea335b008f3735",
+  "name": "Strange Memo",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "1b5428fb81484c0f9dea335b008f3735",
+      "name": "Strange Memo"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Strange Memo",
+    "Description": "\"1. The holy book by the altar.\n2. That void-damn customs guy (he is always on duty! Does he get any time off? Does he ever leave for a piss? Is he a servitor or something?)\n3. Guess-What\n4. Hangar by the window. Remember to bow to the Emperor through the window!\"",
+    "NameForAcronym": "AcquirerDiary_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "1b5428fb81484c0f9dea335b008f3735",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "AcquirerDiary_plaintext",
+    "AssetGuid": "1b5428fb81484c0f9dea335b008f3735",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

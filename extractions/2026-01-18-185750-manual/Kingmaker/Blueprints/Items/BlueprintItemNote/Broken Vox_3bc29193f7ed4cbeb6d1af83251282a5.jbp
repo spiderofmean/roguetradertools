@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "3bc29193f7ed4cbeb6d1af83251282a5",
+  "name": "Broken Vox",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "3bc29193f7ed4cbeb6d1af83251282a5",
+      "name": "Broken Vox"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Broken Vox",
+    "Description": "\"Big Pugh lost what little remained of his mind since Merd'Kee brought in the latest xenotech haul. I understand that in our business every man looks after himself, but Merd'Kee doesn't even blink an eye when his booby traps mangle our fellows! We spent three days mopping up blood and he just kept dragging more rubbish into his cabin, nursing that vile chunk of stellar metal and glaring at everyone like a wild beast. Throne be my witness, I will personally cut the Stryxis down with a chainsword if {mf|he|she} brings us another dangerous artefact! We're honest Cold Traders, not heretics!\"",
+    "NameForAcronym": "CrackedVox Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "3bc29193f7ed4cbeb6d1af83251282a5",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "CrackedVox Item",
+    "AssetGuid": "3bc29193f7ed4cbeb6d1af83251282a5",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

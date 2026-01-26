@@ -1,0 +1,8 @@
+# Ignore files in the root directory only
+/*
+
+# But not directories
+!*/
+
+# And not .gitignore itself
+!.gitignore

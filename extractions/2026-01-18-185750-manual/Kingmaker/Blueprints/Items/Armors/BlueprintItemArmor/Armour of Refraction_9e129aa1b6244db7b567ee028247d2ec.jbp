@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "9e129aa1b6244db7b567ee028247d2ec",
+  "name": "Armour of Refraction",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "9e129aa1b6244db7b567ee028247d2ec",
+      "name": "Armour of Refraction"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Armour of Refraction",
+    "Description": "This carapace grants the wearer +1 {g|Encyclopedia:Deflection}deflection{/g} and +10% {g|Encyclopedia:WarhammerArmourGlossary}armour{/g} if the wearer has moved during their {g|Encyclopedia:Turn}turn{/g}.\n<b>Base armour property</b>: +2 deflection against human enemies.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "Heavy",
+    "Category": "Heavy",
+    "DamageAbsorption": 55,
+    "DamageDeflection": 3,
+    "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+    "InventoryPutSound": "UI_INV_Flak_Put_Play",
+    "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 1,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 44.0,
+    "CargoVolumePercent": 25,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "Carapace armour whose plates conceal miniature refractor generators that dissipate the energy of impacts. Blueprints for these generators are not contained in the catalogues of the Adeptus Mechanicus.",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "ReinforcedEnforcerCarapace_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "9e129aa1b6244db7b567ee028247d2ec",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "68287a54721b4dbe9ddc9a2e4ce9e2ee",
+      "guid": "68287a54721b4dbe9ddc9a2e4ce9e2ee"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 55,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 3,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "AnimationFoleySound": "ArmorPlateMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 2473969246,
+        "Group": "BodyType",
+        "Value": "Metal"
+      },
+      "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "m_AnimationFoleySound": "ArmorPlateMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "ReinforcedEnforcerCarapace_Item",
+    "AssetGuid": "9e129aa1b6244db7b567ee028247d2ec",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

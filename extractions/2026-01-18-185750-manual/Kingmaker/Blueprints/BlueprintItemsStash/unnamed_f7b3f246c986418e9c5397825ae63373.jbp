@@ -1,0 +1,24 @@
+{
+  "$type": "Kingmaker.Blueprints.BlueprintItemsStash",
+  "guid": "f7b3f246c986418e9c5397825ae63373",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints",
+  "data": {
+    "$type": "Kingmaker.Blueprints.BlueprintItemsStash",
+    "$id": {
+      "guid": "f7b3f246c986418e9c5397825ae63373",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "f7b3f246c986418e9c5397825ae63373",
+    "AllowContextActionsOnly": false,
+    "Author": "Unknown",
+    "Comment": "в это виртуальное хранилище сгружаем сапоги игрока",
+    "name": "BathTime_PlayerGear",
+    "AssetGuid": "f7b3f246c986418e9c5397825ae63373",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

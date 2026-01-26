@@ -1,0 +1,104 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentPetProtocol",
+  "guid": "bc8233eaa121473ea7c928e8bcacfe07",
+  "name": "Blessing of the Immaterium",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentPetProtocol",
+    "$id": {
+      "guid": "bc8233eaa121473ea7c928e8bcacfe07",
+      "name": "Blessing of the Immaterium"
+    },
+    "PetType": "Raven",
+    "ItemType": "PetProtocol",
+    "InventoryEquipSound": "UI_INV_Protocol_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 25,
+    "Rarity": "Unique",
+    "Tag": "Pet",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Protocol_Put_Play",
+    "InventoryTakeSound": "UI_INV_Protocol_Take_Play",
+    "Name": "Blessing of the Immaterium",
+    "Description": "The psyber-raven gains +30 {g|Encyclopedia:WarhammerWillpower}Willpower{/g}.\nWhile in a 4-cell radius around the psyber-raven, the {g|Encyclopedia:CareerOverseerGlossary}Overseer{/g}'s {g|f:fcf1f3b77e3e4cf7ba2cb960e2e6028e}relayed{/g} attacking {g|Encyclopedia:PsykerPowersGlossary}psychic powers{/g} deal +{uip|Damage|de0326772ec8408d8b8e1614cec43697}% more damage and do not count toward the {g|Encyclopedia:AttacksPerTurn}attack limit per turn{/g}. But, whenever the psyber-raven {g|f:fcf1f3b77e3e4cf7ba2cb960e2e6028e}relays{/g} an attacking psychic power, the Overseer suffers damage equal to 10% of their {g|Encyclopedia:MaxWounds}maximum wounds{/g}. Additionally, the Overseer is {g|Encyclopedia:SlowedEffect}slowed{/g} and cannot {g|Encyclopedia:DodgeGlossary}dodge{/g} attacks while in this area.",
+    "NameForAcronym": "WarpgatePsyberRavenProtocol_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "bc8233eaa121473ea7c928e8bcacfe07",
+    "AllowContextActionsOnly": false,
+    "m_PetType": "Raven",
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "name": "WarpgatePsyberRavenProtocol_Item",
+    "AssetGuid": "bc8233eaa121473ea7c928e8bcacfe07",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 2,
+      "items": [
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Evaluators.MyOwner",
+          "$id": {
+            "guid": "1f3c7a7b-bd8d-4753-9378-2ced6a5627a2",
+            "name": null
+          },
+          "AssetGuid": "1f3c7a7b-bd8d-4753-9378-2ced6a5627a2",
+          "AssetGuidShort": "1f3c",
+          "name": "$MyOwner$1f3c7a7b-bd8d-4753-9378-2ced6a5627a2"
+        },
+        {
+          "$type": "Kingmaker.EntitySystem.Properties.Getters.HasFactGetter",
+          "$id": {
+            "guid": "220f2307-9fed-445f-8f04-b3f5c32b8b4a",
+            "name": null
+          },
+          "AddBracketsAroundInnerCaption": true,
+          "IsSimple": true,
+          "AssetGuid": "220f2307-9fed-445f-8f04-b3f5c32b8b4a",
+          "AssetGuidShort": "220f",
+          "m_Fact": {
+            "$type": "Kingmaker.Blueprints.BlueprintUnitFactReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Target": "CurrentEntity",
+          "Settings": {
+            "$type": "Kingmaker.EntitySystem.Properties.BaseGetter.PropertyGetterSettings",
+            "StepLevel": null,
+            "IsCustomProgression": null,
+            "IsDivisionProgression": null,
+            "IsDivisionProgressionStart": null,
+            "UseMin": null,
+            "UseMax": null,
+            "Progression": null,
+            "m_CustomProgression": null,
+            "m_StartLevel": null,
+            "m_StepLevel": null,
+            "Negate": null,
+            "Limit": null,
+            "Min": null,
+            "Max": null
+          },
+          "name": "$HasFactGetter$220f2307-9fed-445f-8f04-b3f5c32b8b4a"
+        }
+      ]
+    }
+  }
+}

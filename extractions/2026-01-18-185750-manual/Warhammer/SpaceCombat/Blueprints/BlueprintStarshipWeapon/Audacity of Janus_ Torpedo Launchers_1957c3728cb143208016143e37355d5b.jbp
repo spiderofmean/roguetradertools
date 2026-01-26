@@ -1,0 +1,130 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+  "guid": "1957c3728cb143208016143e37355d5b",
+  "name": "\"Audacity of Janus\" Torpedo Launchers",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "$id": {
+      "guid": "1957c3728cb143208016143e37355d5b",
+      "name": "\"Audacity of Janus\" Torpedo Launchers"
+    },
+    "ItemType": "StarshipWeapon",
+    "AllowSeries": false,
+    "HasSeries": false,
+    "GainAbility": true,
+    "ForcedRampColorPresetIndex": -1,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "The design of this exquisite weapon makes use of Aeldari mechanisms of war. Only a Rogue Trader can afford to possess a weapon that so outrageously disregards the laws of the Adeptus Mechanicus.",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "\"Audacity of Janus\" Torpedo Launchers",
+    "Description": "{g|Encyclopedia:TorpedoLaunchersSpace}Torpedo tubes{/g} capable of firing 4 Aeldari sonic torpedoes with 22 {g|Encyclopedia:SpaceBattleDamageGlossary}damage{/g} warheads.",
+    "NameForAcronym": "LauncherSpecial1_Weapon",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "1957c3728cb143208016143e37355d5b",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": false,
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Custom",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 0
+        }
+      ]
+    },
+    "WeaponType": "TorpedoTubes",
+    "AllowedSlots": {
+      "$type": "Warhammer.SpaceCombat.Blueprints.Slots.WeaponSlotType[]",
+      "$count": 1,
+      "items": [
+        "Prow"
+      ]
+    },
+    "DamageInstances": 1,
+    "DelayBetweenProjectiles": 0.0,
+    "ShotsInSeries": 1,
+    "DelayInSeries": 0.0,
+    "m_SoundTypeSwitch": {
+      "$type": "Kingmaker.Sound.AkSwitchReference",
+      "GroupHash": 0,
+      "ValueHash": 0,
+      "Group": "",
+      "Value": ""
+    },
+    "m_DefaultAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "c5defdfd89c84b0f8011bd063b29f5cc",
+      "guid": "c5defdfd89c84b0f8011bd063b29f5cc"
+    },
+    "m_AlternateAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "234131abf56c43d59b8424ff42b2af3c",
+      "guid": "234131abf56c43d59b8424ff42b2af3c"
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyIvanovGD",
+    "Comment": "",
+    "name": "LauncherSpecial1_Weapon",
+    "AssetGuid": "1957c3728cb143208016143e37355d5b",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

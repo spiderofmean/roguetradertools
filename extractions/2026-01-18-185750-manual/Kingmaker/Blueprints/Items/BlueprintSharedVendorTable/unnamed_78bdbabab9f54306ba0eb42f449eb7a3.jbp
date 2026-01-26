@@ -1,0 +1,26 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+  "guid": "78bdbabab9f54306ba0eb42f449eb7a3",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+    "$id": {
+      "guid": "78bdbabab9f54306ba0eb42f449eb7a3",
+      "name": null
+    },
+    "ReputationPointsToUnlock": 0,
+    "AssetGuidThreadSafe": "78bdbabab9f54306ba0eb42f449eb7a3",
+    "AllowContextActionsOnly": false,
+    "AutoIdentifyAllItems": true,
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "name": "DrusianChapter4_VendorTable_DLC2",
+    "AssetGuid": "78bdbabab9f54306ba0eb42f449eb7a3",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

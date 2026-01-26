@@ -1,0 +1,130 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+  "guid": "7abd20e00dd94010a39390fe4f4e269f",
+  "name": "Shadow Lance Turret",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "$id": {
+      "guid": "7abd20e00dd94010a39390fe4f4e269f",
+      "name": "Shadow Lance Turret"
+    },
+    "ItemType": "StarshipWeapon",
+    "AllowSeries": false,
+    "HasSeries": false,
+    "GainAbility": true,
+    "ForcedRampColorPresetIndex": -1,
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Shadow Lance Turret",
+    "Description": "A medium ranged {g|Encyclopedia:DorsalSpace}dorsal{/g} {g|Encyclopedia:LanceWeaponSpace}lance weapon{/g} dealing 25 {g|Encyclopedia:SpaceBattleDamageGlossary}damage{/g}.",
+    "NameForAcronym": "Aeldari_TurretLance_weapon",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "7abd20e00dd94010a39390fe4f4e269f",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": false,
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Custom",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 0
+        }
+      ]
+    },
+    "WeaponType": "Lances",
+    "AllowedSlots": {
+      "$type": "Warhammer.SpaceCombat.Blueprints.Slots.WeaponSlotType[]",
+      "$count": 1,
+      "items": [
+        "Dorsal"
+      ]
+    },
+    "DamageInstances": 1,
+    "DelayBetweenProjectiles": 0.0,
+    "ShotsInSeries": 1,
+    "DelayInSeries": 0.0,
+    "m_SoundTypeSwitch": {
+      "$type": "Kingmaker.Sound.AkSwitchReference",
+      "GroupHash": 0,
+      "ValueHash": 0,
+      "Group": "",
+      "Value": ""
+    },
+    "m_DefaultAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "94a2a039213e4bdeb060efe27aabefdb",
+      "guid": "94a2a039213e4bdeb060efe27aabefdb"
+    },
+    "m_AlternateAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyIvanovGD",
+    "Comment": "",
+    "name": "Aeldari_TurretLance_weapon",
+    "AssetGuid": "7abd20e00dd94010a39390fe4f4e269f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

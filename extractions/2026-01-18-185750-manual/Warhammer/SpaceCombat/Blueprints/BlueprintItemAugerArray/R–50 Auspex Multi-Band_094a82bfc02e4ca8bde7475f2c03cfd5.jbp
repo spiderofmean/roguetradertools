@@ -1,0 +1,69 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+  "guid": "094a82bfc02e4ca8bde7475f2c03cfd5",
+  "name": "R–50 Auspex Multi-Band",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+    "$id": {
+      "guid": "094a82bfc02e4ca8bde7475f2c03cfd5",
+      "name": "R–50 Auspex Multi-Band"
+    },
+    "ItemType": "StarshipAugerArray",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 90.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "R–50 Auspex Multi-Band",
+    "Description": "Provides voidship weapons with targeting data, granting 98% hit chance and 5% critical hit chance.",
+    "NameForAcronym": "AugerHit3",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "094a82bfc02e4ca8bde7475f2c03cfd5",
+    "AllowContextActionsOnly": false,
+    "hitChances": 98,
+    "critChances": 5,
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyIvanovGD",
+    "Comment": "",
+    "name": "AugerHit3",
+    "AssetGuid": "094a82bfc02e4ca8bde7475f2c03cfd5",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

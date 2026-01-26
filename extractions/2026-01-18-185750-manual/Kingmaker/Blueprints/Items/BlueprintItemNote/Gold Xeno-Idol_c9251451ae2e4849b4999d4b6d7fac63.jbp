@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "c9251451ae2e4849b4999d4b6d7fac63",
+  "name": "Gold Xeno-Idol",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "c9251451ae2e4849b4999d4b6d7fac63",
+      "name": "Gold Xeno-Idol"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "",
+    "InventoryTakeSound": "",
+    "Name": "Gold Xeno-Idol",
+    "Description": "Light flickers on a metallic figurine, one depicting a mysterious alien amphibian.",
+    "NameForAcronym": "GoldenToad",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c9251451ae2e4849b4999d4b6d7fac63",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "GoldenToad",
+    "AssetGuid": "c9251451ae2e4849b4999d4b6d7fac63",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

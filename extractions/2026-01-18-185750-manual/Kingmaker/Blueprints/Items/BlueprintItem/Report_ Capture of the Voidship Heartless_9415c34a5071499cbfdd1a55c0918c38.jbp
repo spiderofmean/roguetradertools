@@ -1,0 +1,86 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+  "guid": "9415c34a5071499cbfdd1a55c0918c38",
+  "name": "Report: Capture of the Voidship Heartless",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "$id": {
+      "guid": "9415c34a5071499cbfdd1a55c0918c38",
+      "name": "Report: Capture of the Voidship Heartless"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Report: Capture of the Voidship Heartless",
+    "Description": "\"Boarded the Heartless as part of the unit led by S. Anthar. Neutralised the target 'Sargona.' The captured vessel was scrapped.\" The word \"scrapped\" has been circled several times in ink.",
+    "NameForAcronym": "DLC2_VP_PrefectNotesHS",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "9415c34a5071499cbfdd1a55c0918c38",
+    "AllowContextActionsOnly": false,
+    "m_FlavorText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Miscellaneous",
+    "m_Rarity": "Quest",
+    "m_Tag": "None",
+    "m_IsNotable": true,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 1,
+    "m_InventoryPutSound": "UI_INV_Book_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "m_CachedEnchantments": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Items.Ecnchantments.BlueprintItemEnchantment, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "DLC2_VP_PrefectNotesHS",
+    "AssetGuid": "9415c34a5071499cbfdd1a55c0918c38",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

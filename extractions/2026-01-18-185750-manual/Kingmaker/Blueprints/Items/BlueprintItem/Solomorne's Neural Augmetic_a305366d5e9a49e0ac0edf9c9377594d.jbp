@@ -1,0 +1,86 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+  "guid": "a305366d5e9a49e0ac0edf9c9377594d",
+  "name": "Solomorne's Neural Augmetic",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "$id": {
+      "guid": "a305366d5e9a49e0ac0edf9c9377594d",
+      "name": "Solomorne's Neural Augmetic"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_BodyPart_Put",
+    "InventoryTakeSound": "UI_INV_BodyPart_Take",
+    "Name": "Solomorne's Neural Augmetic",
+    "Description": "The brain implant that once linked the Proctor and Glaito together. The Aquila is barely recognisable beneath the gory chunks of flesh.",
+    "NameForAcronym": "SolomornePart_item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "a305366d5e9a49e0ac0edf9c9377594d",
+    "AllowContextActionsOnly": false,
+    "m_FlavorText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "None",
+    "m_Rarity": "Quest",
+    "m_Tag": "None",
+    "m_IsNotable": true,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 10,
+    "m_InventoryPutSound": "UI_INV_BodyPart_Put",
+    "m_InventoryTakeSound": "UI_INV_BodyPart_Take",
+    "m_CachedEnchantments": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Items.Ecnchantments.BlueprintItemEnchantment, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "SolomornePart_item",
+    "AssetGuid": "a305366d5e9a49e0ac0edf9c9377594d",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "1356f2e8357e4a9eabf027254a710694",
+  "name": "Uncanny Sphere",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "1356f2e8357e4a9eabf027254a710694",
+      "name": "Uncanny Sphere"
+    },
+    "Weight": 0.0,
+    "Origin": "Xeno",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 100,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Stone_Put_Play",
+    "InventoryTakeSound": "UI_INV_Stone_Take_Play",
+    "Name": "Uncanny Sphere",
+    "Description": "The pictograms are embossed on a perfectly smooth surface, but when you try to read them your head begins to spin, and the symbols inexplicably change their positions right before your eyes.",
+    "NameForAcronym": "StrangeSphere",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "1356f2e8357e4a9eabf027254a710694",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "StrangeSphere",
+    "AssetGuid": "1356f2e8357e4a9eabf027254a710694",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 6,
+      "items": [
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "0f051c1a-13c1-4b0f-bd87-9906cdb0a138",
+            "name": null
+          },
+          "AssetGuid": "0f051c1a-13c1-4b0f-bd87-9906cdb0a138",
+          "AssetGuidShort": "0f05",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$0f051c1a-13c1-4b0f-bd87-9906cdb0a138"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "d30f3064-17b3-4d51-b7a0-572e2a09b7b4",
+            "name": null
+          },
+          "AssetGuid": "d30f3064-17b3-4d51-b7a0-572e2a09b7b4",
+          "AssetGuidShort": "d30f",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$d30f3064-17b3-4d51-b7a0-572e2a09b7b4"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.UpdateEtudes",
+          "$id": {
+            "guid": "f35edec8-1e75-45f6-8767-e32fbff51023",
+            "name": null
+          },
+          "AssetGuid": "f35edec8-1e75-45f6-8767-e32fbff51023",
+          "AssetGuidShort": "f35e",
+          "name": "$UpdateEtudes$f35edec8-1e75-45f6-8767-e32fbff51023"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "53790758817f4927a734ec154f555bb3",
+            "name": null
+          },
+          "AssetGuid": "53790758817f4927a734ec154f555bb3",
+          "AssetGuidShort": "5379",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$53790758817f4927a734ec154f555bb3"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "ef974e6cbb504f8c96ea9297ec17ee52",
+            "name": null
+          },
+          "AssetGuid": "ef974e6cbb504f8c96ea9297ec17ee52",
+          "AssetGuidShort": "ef97",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$ef974e6cbb504f8c96ea9297ec17ee52"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.UpdateEtudes",
+          "$id": {
+            "guid": "1288b834-4b3f-4361-b7b8-007bc84b06cd",
+            "name": null
+          },
+          "AssetGuid": "1288b834-4b3f-4361-b7b8-007bc84b06cd",
+          "AssetGuidShort": "1288",
+          "name": "$UpdateEtudes$1288b834-4b3f-4361-b7b8-007bc84b06cd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+  "guid": "c851b939410d4f29b6da6ab51c983fad",
+  "name": "",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemPlasmaDrives",
+    "$id": {
+      "guid": "c851b939410d4f29b6da6ab51c983fad",
+      "name": ""
+    },
+    "ItemType": "StarshipPlasmaDrives",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "",
+    "InventoryTakeSound": "",
+    "Name": "",
+    "Description": "",
+    "NameForAcronym": "DLC2_Heartless_PlasmaDrive",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c851b939410d4f29b6da6ab51c983fad",
+    "AllowContextActionsOnly": false,
+    "Speed": 13,
+    "Inertia": 3,
+    "Evasion": 0,
+    "PushPhase": 2,
+    "FinishPhase": 3,
+    "m_ExplosionWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "08ef4ea46e3c4166909a50e90881e164",
+      "guid": "08ef4ea46e3c4166909a50e90881e164"
+    },
+    "m_ExplosionAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "598828cfb9bc4f0d80ca817cf17956a4",
+      "guid": "598828cfb9bc4f0d80ca817cf17956a4"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "DLC2_Heartless_PlasmaDrive",
+    "AssetGuid": "c851b939410d4f29b6da6ab51c983fad",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

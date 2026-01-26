@@ -1,0 +1,86 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+  "guid": "cd9e13968a284b3390df9df424fb9fb7",
+  "name": "Carbon-Fibre Plates",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItem",
+    "$id": {
+      "guid": "cd9e13968a284b3390df9df424fb9fb7",
+      "name": "Carbon-Fibre Plates"
+    },
+    "Weight": 0.0,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 5,
+    "Rarity": "Trash",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Carbon-Fibre Plates",
+    "Description": "",
+    "NameForAcronym": "CarbonFibreStrips_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "cd9e13968a284b3390df9df424fb9fb7",
+    "AllowContextActionsOnly": false,
+    "m_FlavorText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Armours",
+    "m_Rarity": "Trash",
+    "m_Tag": "None",
+    "m_IsNotable": false,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 5,
+    "m_InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "m_CachedEnchantments": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.Items.Ecnchantments.BlueprintItemEnchantment, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "CarbonFibreStrips_Item",
+    "AssetGuid": "cd9e13968a284b3390df9df424fb9fb7",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

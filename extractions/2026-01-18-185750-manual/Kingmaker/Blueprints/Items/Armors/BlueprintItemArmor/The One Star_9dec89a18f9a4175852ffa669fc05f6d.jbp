@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "9dec89a18f9a4175852ffa669fc05f6d",
+  "name": "The One Star",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "9dec89a18f9a4175852ffa669fc05f6d",
+      "name": "The One Star"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "The One Star",
+    "Description": "After using a {g|Encyclopedia:HeroicAct}heroic act{/g}, the wearer immediately uses {g|f:c647c1c4a1a14c9cb31217ee439164ff}War Hymn{/g} or {g|f:85e6ce25a6d64313b9ff39a8013d1b43}Furious Recital{/g} (regardless of its {g|Encyclopedia:Cooldown}cooldown{/g}).\n<b>Base armour property</b>: +15 {g|Encyclopedia:WarhammerStrength}Strength{/g}.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "Power",
+    "Category": "Power",
+    "DamageAbsorption": 80,
+    "DamageDeflection": 7,
+    "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+    "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+    "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 2,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 44.0,
+    "CargoVolumePercent": 30,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "This set of Adepta Sororitas power armour once belonged to Saint Argenta herself, who is revered both in the Calixis Sector and the Koronus Expanse alike. The very sight of this majestic armour ignites the fire of faith in the human soul.",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "SororitasPowerArmourFire_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "9dec89a18f9a4175852ffa669fc05f6d",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "befc6d221bed4b019245ff828822c3eb",
+      "guid": "befc6d221bed4b019245ff828822c3eb"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 80,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 7,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "AnimationFoleySound": "ArmorPlateMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2536163366,
+        "ValueHash": 2473969246,
+        "Group": "TargetType",
+        "Value": "Metal"
+      },
+      "m_InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "m_AnimationFoleySound": "ArmorPlateMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "SororitasPowerArmourFire_Item",
+    "AssetGuid": "9dec89a18f9a4175852ffa669fc05f6d",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

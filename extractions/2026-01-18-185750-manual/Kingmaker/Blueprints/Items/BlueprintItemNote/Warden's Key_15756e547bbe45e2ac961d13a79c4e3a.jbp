@@ -1,0 +1,155 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "15756e547bbe45e2ac961d13a79c4e3a",
+  "name": "Warden's Key",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "15756e547bbe45e2ac961d13a79c4e3a",
+      "name": "Warden's Key"
+    },
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Warden's Key",
+    "Description": "",
+    "NameForAcronym": "JailKey_OverseerDoor",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "15756e547bbe45e2ac961d13a79c4e3a",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "name": "JailKey_OverseerDoor",
+    "AssetGuid": "15756e547bbe45e2ac961d13a79c4e3a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 6,
+      "items": [
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "f2d2d33c-708f-4497-a3bc-e259e9169c47",
+            "name": null
+          },
+          "AssetGuid": "f2d2d33c-708f-4497-a3bc-e259e9169c47",
+          "AssetGuidShort": "f2d2",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$f2d2d33c-708f-4497-a3bc-e259e9169c47"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "f91ae27a-d195-4d6e-8763-42eff4018932",
+            "name": null
+          },
+          "AssetGuid": "f91ae27a-d195-4d6e-8763-42eff4018932",
+          "AssetGuidShort": "f91a",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$f91ae27a-d195-4d6e-8763-42eff4018932"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.UpdateEtudes",
+          "$id": {
+            "guid": "ad52ccd6-48ab-4747-9e58-989a6a01ec8e",
+            "name": null
+          },
+          "AssetGuid": "ad52ccd6-48ab-4747-9e58-989a6a01ec8e",
+          "AssetGuidShort": "ad52",
+          "name": "$UpdateEtudes$ad52ccd6-48ab-4747-9e58-989a6a01ec8e"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "402041a2-8233-4301-996f-07e94dc10d37",
+            "name": null
+          },
+          "AssetGuid": "402041a2-8233-4301-996f-07e94dc10d37",
+          "AssetGuidShort": "4020",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$402041a2-8233-4301-996f-07e94dc10d37"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "22bafcc4-8472-4746-9d48-52ef5049544e",
+            "name": null
+          },
+          "AssetGuid": "22bafcc4-8472-4746-9d48-52ef5049544e",
+          "AssetGuidShort": "22ba",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$22bafcc4-8472-4746-9d48-52ef5049544e"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.UpdateEtudes",
+          "$id": {
+            "guid": "aeb23dca-0574-47b3-b254-5ce57bb6f981",
+            "name": null
+          },
+          "AssetGuid": "aeb23dca-0574-47b3-b254-5ce57bb6f981",
+          "AssetGuidShort": "aeb2",
+          "name": "$UpdateEtudes$aeb23dca-0574-47b3-b254-5ce57bb6f981"
+        }
+      ]
+    }
+  }
+}

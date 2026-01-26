@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "b9f39321b65d4f16af45974a742d438e",
+  "name": "Handwritten Letter With a Seal",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "b9f39321b65d4f16af45974a742d438e",
+      "name": "Handwritten Letter With a Seal"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Handwritten Letter With a Seal",
+    "Description": "\"Esteemed Theodora,{br}\nA change in circumstances has demanded your immediate assistance in our mutual cause. Forthwith upon receiving this letter and performing the necessary preparations of the crew, you are to depart for the Rykad System. One of my acolytes, Interrogator Heinrix van Calox, operates there at the present time. Upon your arrival in the system, you will, without delay, make contact with him and offer any assistance required of you, after which you will provide him passage to the Furibundus System aboard your ship. On Footfall, the Interrogator will remove himself from your presence to await further instructions.{br}\nAnticipating any questions you may have, I will stress that the nature of Interrogator van Calox's activities on Rykad Minoris is of no concern to you. If required, van Calox himself will disclose the details of his mission.{br}\nMay the Emperor's light be with you.{br}\nX. C.\"",
+    "NameForAcronym": "InquisitorLetter",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b9f39321b65d4f16af45974a742d438e",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "InquisitorLetter",
+    "AssetGuid": "b9f39321b65d4f16af45974a742d438e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

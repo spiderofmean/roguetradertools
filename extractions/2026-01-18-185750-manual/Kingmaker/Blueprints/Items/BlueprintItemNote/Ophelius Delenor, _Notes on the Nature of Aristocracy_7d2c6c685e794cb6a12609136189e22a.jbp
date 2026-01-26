@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "7d2c6c685e794cb6a12609136189e22a",
+  "name": "Ophelius Delenor, \"Notes on the Nature of Aristocracy\"",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "7d2c6c685e794cb6a12609136189e22a",
+      "name": "Ophelius Delenor, \"Notes on the Nature of Aristocracy\""
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Ophelius Delenor, \"Notes on the Nature of Aristocracy\"",
+    "Description": "\"To be an Aristocrat is to exist in a higher state of being, without a doubt. Each of us is born to realise one supreme purpose — to lead Humanity to perfection through our example, perfection which the lesser beings have forgotten in the endless cycle of war and service. Only by attending to their physical, intellectual, and spiritual needs can an Aristocrat fully devote themselves to that for which they were born — creative passions, whether that be the fine arts, the written word, government, or other more refined spheres of worldly knowledge. An Aristocrat's passion is in itself a virtue and the highest good.\nAn Aristocrat must satisfy these needs by any means open to them. Nothing stimulates a weary mind like fine amasec, a good flogging, or enjoyment of carnal pleasures with women, men, and animals. In the thrill of passion, an Aristocrat is at liberty to torture or maim the object of their desire. If the clergy frown upon such an act, repent, atone for the apostasy with jewels, and forgive them their closed minds, for only an Aristocrat is given to understand that such acts are in service of a grand purpose.\nShould an Aristocrat deliberately curtail their own desires in some way and fail to appreciate the gifts granted them as one of nature's higher beings, then in what way do they differ from the dust beneath one's feet, from the mindless beast, or from the crude, deceitful, useless rabble? Such a pretender is an agonising stain on our noble society, and it behoves every True Aristocrat to return our lost brother to the fold or to stamp out his contemptible life as gladly as we might crush a vexatious bug beneath our boot.\"",
+    "NameForAcronym": "OnTheJoysOfFlesh_Book",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "7d2c6c685e794cb6a12609136189e22a",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "OnTheJoysOfFlesh_Book",
+    "AssetGuid": "7d2c6c685e794cb6a12609136189e22a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

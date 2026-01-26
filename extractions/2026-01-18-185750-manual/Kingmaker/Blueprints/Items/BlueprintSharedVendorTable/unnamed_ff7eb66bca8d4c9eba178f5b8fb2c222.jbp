@@ -1,0 +1,26 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+  "guid": "ff7eb66bca8d4c9eba178f5b8fb2c222",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintSharedVendorTable",
+    "$id": {
+      "guid": "ff7eb66bca8d4c9eba178f5b8fb2c222",
+      "name": null
+    },
+    "ReputationPointsToUnlock": 0,
+    "AssetGuidThreadSafe": "ff7eb66bca8d4c9eba178f5b8fb2c222",
+    "AllowContextActionsOnly": false,
+    "AutoIdentifyAllItems": true,
+    "Author": "YuriyElburih",
+    "Comment": "",
+    "name": "ExploratorChapter2_VendorTable_DLC2",
+    "AssetGuid": "ff7eb66bca8d4c9eba178f5b8fb2c222",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

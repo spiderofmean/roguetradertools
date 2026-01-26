@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "7d3001156fec8ce499be74f5476140a4",
+  "name": "Crimson Haze",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "7d3001156fec8ce499be74f5476140a4",
+      "name": "Crimson Haze"
+    },
+    "IdentifyDC": 0,
+    "Name": "Crimson Haze",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 1.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "Drug",
+    "AllowMakeStackable": true,
+    "FlavorText": "A stimulant that links the pain and pleasure centres of the brain. The unholy potion is rumoured to be brewed with mutant blood.",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Drugs_Put_Play",
+    "InventoryTakeSound": "UI_INV_Drugs_Take_Play",
+    "Description": "Requires {g|Encyclopedia:SoulMarkCorruption}Heretical{/g} — Adherent\nThe user suffers {g|Encyclopedia:BleedingEffect}bleeding{/g} (6). As long as the user is bleeding, they get +100% {g|Encyclopedia:CritChancesAndCritDamageGlossary}critical damage{/g}.",
+    "NameForAcronym": "Drug_Bloodshot",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "7d3001156fec8ce499be74f5476140a4",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Drug_Bloodshot",
+    "AssetGuid": "7d3001156fec8ce499be74f5476140a4",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+  "guid": "7924905692bb470c8053a4de76023478",
+  "name": "X-470 Ultimo Array",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+    "$id": {
+      "guid": "7924905692bb470c8053a4de76023478",
+      "name": "X-470 Ultimo Array"
+    },
+    "ItemType": "StarshipAugerArray",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 80.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "X-470 Ultimo Array",
+    "Description": "Provides voidship weapons with targeting data, granting 90% hit chance and 20% critical hit chance.",
+    "NameForAcronym": "AugerCrit2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "7924905692bb470c8053a4de76023478",
+    "AllowContextActionsOnly": false,
+    "hitChances": 90,
+    "critChances": 20,
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyIvanovGD",
+    "Comment": "",
+    "name": "AugerCrit2",
+    "AssetGuid": "7924905692bb470c8053a4de76023478",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "46539cc2624644b8b169c0c49f1090b9",
+  "name": "Blasphemous Prism",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "46539cc2624644b8b169c0c49f1090b9",
+      "name": "Blasphemous Prism"
+    },
+    "Weight": 0.0,
+    "Origin": "Chaos",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 100,
+    "Rarity": "Trash",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Stone_Put_Play",
+    "InventoryTakeSound": "UI_INV_Stone_Take_Play",
+    "Name": "Blasphemous Prism",
+    "Description": "A glass prism crafted by the cultists of the Final Dawn. It belonged to their leader, Aurora. If you look through it long enough, your vision begins to deceive your mind, showing what could be instead of what is.",
+    "NameForAcronym": "Warpglass_item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "46539cc2624644b8b169c0c49f1090b9",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Warpglass_item",
+    "AssetGuid": "46539cc2624644b8b169c0c49f1090b9",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

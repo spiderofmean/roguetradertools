@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "3a4eebf212974ba68d6867981c240b1b",
+  "name": "Blood Phial",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "3a4eebf212974ba68d6867981c240b1b",
+      "name": "Blood Phial"
+    },
+    "IdentifyDC": 0,
+    "Name": "Blood Phial",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 8.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Unique",
+    "Tag": "Grenade",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": false,
+    "InventoryPutSound": "UI_INV_Grenades_Put_Play",
+    "InventoryTakeSound": "UI_INV_Grenades_Take_Play",
+    "Description": "Creates a pool of blood which has the same properties as if created with the {g|f:e299c13f2278479bbd4e23269af5657c}Raining Blood{/g} ability. Whenever {g|f:e299c13f2278479bbd4e23269af5657c}Raining Blood{/g} is used, +1 charge of blood phial is restored.",
+    "NameForAcronym": "Grenade_BloodPhial",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "3a4eebf212974ba68d6867981c240b1b",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": false,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Grenades_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": true,
+    "IsNonRemovable": true,
+    "IsUnlootable": true,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Grenade_BloodPhial",
+    "AssetGuid": "3a4eebf212974ba68d6867981c240b1b",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

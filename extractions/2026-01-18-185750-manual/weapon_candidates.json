@@ -1,0 +1,1202 @@
+[
+  {
+    "Guid": "be03a9726a8a4b6991c0e76eba1301d7",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment",
+    "Namespace": "Kingmaker.Blueprints.Items.Ecnchantments"
+  },
+  {
+    "Guid": "800d7bc0c93b46cea5716353cea78748",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment",
+    "Namespace": "Kingmaker.Blueprints.Items.Ecnchantments"
+  },
+  {
+    "Guid": "c26c1a7993ee4461be423cc96f885810",
+    "Name": "Melee",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "6b4f1321cd6e4f919bd19059def2799c",
+    "Name": "[Civitas Pattern] Autogun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "439720b238c94780ac50ae3270673471",
+    "Name": "[Mezoa-Pattern] Autogun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ff30bc4470f5496c8d29818da6c6931e",
+    "Name": "Autogun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "0ca6b2b96f914d21926d84ecfd839b6f",
+    "Name": "[Retobi-Pattern] Autopistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2802cf103af344f8b9d780ae4fb74a25",
+    "Name": "Orthlak Mark IV",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "c0f657dfd9ad4462906d0d4a376c52a5",
+    "Name": "Autopistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "b5bad5e8104d4b928dc13fdb10a5e8ec",
+    "Name": "Weighty Axe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "b61740707f6b477f9ed139b22a81d245",
+    "Name": "Axe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "94dac8fb47b24c449024fff7c12c1f31",
+    "Name": "Blast Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "5a086adc8f024026a236e8e33fcc17bf",
+    "Name": "Modified Bolter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2e6f4680bfcc45349d02830f518e04a3",
+    "Name": "Bolter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "81a90625db8843e1b778505974056e41",
+    "Name": "[Mezoa-Pattern] Bolt Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "dd398dc0ed674b429497636c8fcd9091",
+    "Name": "Bolt Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a50db54c76a44ac9a8986c8a602d66b4",
+    "Name": "Calibrated Heavy Stubber",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "f25530c2b1ce48068662f7c8ef8414b2",
+    "Name": "Hardened Chainaxe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "43bec0b433d84bfb8bf98e8e87423145",
+    "Name": "Chainaxe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "75eae8904b504e0abf0dfe1ce34ac08f",
+    "Name": "Rusty Heavy Rock Saw",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "658a4de07b894b67915121ab2f590c6a",
+    "Name": "[Sol Pattern] Chainsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "d1fcb447486c4163b178e248f9ebc929",
+    "Name": "Chainsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "12d75eca428e4b6f9b43d16d35b46ea2",
+    "Name": "Combat Shotgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "f47d4365f4a94452bceb66830d901ff4",
+    "Name": "Dark Lance",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "39ba93f8f6764e18a7aa7bac105f449f",
+    "Name": "Silent Verdict",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "4dfe082b46394fc998ebf9b24419adc4",
+    "Name": "Spinner's Blade",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "86bc8b80beec416cb1c0f25c8f4197a5",
+    "Name": "Stinger Ring",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "c5d8f6b15c7c48b78c5bf7440565be45",
+    "Name": "Elite Chainsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "5e66561885884f72921b37cd57773443",
+    "Name": "[Mezoa-Pattern] Hand Flamer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ac421717dfd84b8f9a2381e7bcbec4f9",
+    "Name": "Hand Flamer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2c8b2e940be549fbb322adff722200f0",
+    "Name": "Flamer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "fcaa04148dbe4734bc9b222fc7045152",
+    "Name": "[Retobi-Pattern] Foehammer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "1c7a3dcf6afa4b48a7028642e596ab61",
+    "Name": "[Ryza-Pattern] Foehammer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "7d145260c96243869af97d0b300d420a",
+    "Name": "Force Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "b9676cf1f0554d81873f78f38087baca",
+    "Name": "[LD-Pattern] Industrial Hammer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "46064eabb37d49fd9e416f24e5873a12",
+    "Name": "[Retobi-Pattern] Greatsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "88863b6b0c61404b96b01c2bc648ba5e",
+    "Name": "Greatsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "5020b8ea95534d0f99d3ffafbe6184fd",
+    "Name": "Bringer of Terror",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "b11dc12ae9e943c29cce0aa7d52bf980",
+    "Name": "Heavy Bolter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "7faebaad0c8e412b888b9189abb308e9",
+    "Name": "Heavy Flamer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "aacdd9b948cf4ae2b7b17617837ff6be",
+    "Name": "Hot Shot Lasgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "082334e491e34c65b464c90e317d4e7f",
+    "Name": "Hot Shot Laspistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "62f65e161ace4e49bc00f3247d92cda5",
+    "Name": "[Mezoa-Pattern] Hexrifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "778ad38329514c87bb1205dea466fc2e",
+    "Name": "Hunting Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "7287e2663dff4a43878d391f7a0e33a1",
+    "Name": "Industrial Hammer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "383d03680e6642038cfa3fd94c89fbd1",
+    "Name": "Knife",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "130e8a68f5ca4bda9049f035e3baaa58",
+    "Name": "Scrappy Lasgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "7c87f37bc5b1470dad58941f6777452c",
+    "Name": "[Retobi-Pattern] Lasgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "d40596aa846a4b5d926814ccb64939b9",
+    "Name": "Lasgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "c19182971ae54259ba718566486ef204",
+    "Name": "Laspistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "05159922d36a4018bdcab94a4a3f979c",
+    "Name": "Longlas",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "57c6247ab74e4d93b36cbfe55d508a0f",
+    "Name": "Marksman Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "e3c064c362884cd699844699b478ac69",
+    "Name": "Meltagun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ad57f94e09524be28ac484ac1213f217",
+    "Name": "Modified Lasgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "bb5718e4f32941769ce934dd21543513",
+    "Name": "Needle Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "87104954d3a6498ca6c4e2985b345b76",
+    "Name": "Omnissian Axe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "040c9c0ec1c3453d88ab289a41dff1d4",
+    "Name": "Needle Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "94929fd63b1f492e90497dd1786eea03",
+    "Name": "Improved Shuriken Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a98d90045f054725870925b23bf8a195",
+    "Name": "Power Axe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "10c144767c71462ca67bd477c724a72e",
+    "Name": "Power Claymore",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "4e020e39ed9149f2913e0350d850c6fd",
+    "Name": "Master-Crafted Power Maul",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "33170608963441409d260ff82b74ae42",
+    "Name": "Power Maul",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "9c190bd2019742db8697ac91da1d985e",
+    "Name": "Power Pick",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "151141ef419646ce9caa562670a898c3",
+    "Name": "Ripper Autopistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "8b204cf8f3c24a05a902d6b890e38daf",
+    "Name": "Scrappy Autogun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "9827f6f6bcc143928633c74a769b2e9d",
+    "Name": "Scrappy Autopistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "baee09db5e54485eb8e18569c96e1779",
+    "Name": "Serrated Mono-Knife",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "aa877cb85c9b48918907fdb562b718bf",
+    "Name": "Shock Baton",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "7dc658dc5ad54417a9b2723d43bc8945",
+    "Name": "Shotgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "18ab1db71b0749188f2cf56b301de967",
+    "Name": "Shredder Shotgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "4d1a06582e3147d09228433ac3882a63",
+    "Name": "Shuriken Catapult",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "74a91d0251d447c798efab2f72c604dc",
+    "Name": "Shuriken Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "69748c23aa1c4adca0c27de877f4ab34",
+    "Name": "Well-Maintained Sniper Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "bb427b937c304ece913793a020aea87f",
+    "Name": "Rebel's Sniper Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a5130a7096a546bf883574db563c4c57",
+    "Name": "Sniper Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "94c2ccbdace84264840452921c33462b",
+    "Name": "Splinter Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "64914940171c44eaaeaab968c13c6a3f",
+    "Name": "Stolen Autocannon",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "df0daf689be7420fbc39e7ffaad8a508",
+    "Name": "Storm Bolter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "e1de396a86f74948811040c0f35e20fa",
+    "Name": "Stubcarbine",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "9fa99f0f43fd406bb2037a3d7819ef4b",
+    "Name": "Stub Revolver",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2c74b713133948c0b3f06badb21f7ad3",
+    "Name": "Stub Revolver",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "be494784cef340d8b8db9f11d3d30d31",
+    "Name": "[Mezoa-Pattern] Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "d4aea232298c48e891aba05a4f4eea74",
+    "Name": "[Mars-Pattern] Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "844682664a39452a87545e89bbb900c5",
+    "Name": "Manufactured Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ef4d82495e9645e3bbefeabc23a3dfe3",
+    "Name": "Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2c8ce78dacb04e7da9190cc5dd443874",
+    "Name": "Thunder Hammer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "9789705abb9241d2acc21fb592567ad2",
+    "Name": "[Mars-Pattern] Axe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "95200d41fd964283b29c9c67880fe12a",
+    "Name": "Starbreaker Lance Weapon (Prototype)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "be242f51ce154c2ca3f80bce46ddde1c",
+    "Name": "Mezoa Lance Weapon",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "9f7a674c7d4942e5aef5ee7d859e2528",
+    "Name": "Sunhammer Lance Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "387ac3bcfda24f0282d76dcb291e709c",
+    "Name": "Voidsunder Lance Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "f755371dfed041328d6059095b1b233a",
+    "Name": "Mars-Pattern Macro-Battery (Extended)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "c26ad6be87b54c1bb9350c94bde88eb8",
+    "Name": "Mars-Pattern Prow Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "7bdc12cf63124a86b41cc7ca929d015d",
+    "Name": "Mars-Pattern Macro-Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "4f1fc55e29314ddcbc3ee34b459db589",
+    "Name": "Stygies-Pattern Macro-Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "447d08b9463748c5a0d02c39ab568265",
+    "Name": "Archeotech Macro Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "cdbfe889c4cb431fa25317a53e9534bb",
+    "Name": "Stygian-Pattern Dual-Module Macro-Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "1a2ba3cdac504d7d8d0590619c669f37",
+    "Name": "Mezoa Macro-Cannons",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "6518daf8214046c9a928cafc8a06715a",
+    "Name": "Thunderstrike Macro-Cannons",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "35f3489eaebe435b94a648851eb23fca",
+    "Name": "Meltabomb Mortar",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "68ee047775cb4e56a9b4f89c9099539a",
+    "Name": "Small Plasma Macro-Cannon",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "ac6b7fde51814bbfa915a11e13d44cbb",
+    "Name": "Ryza-Pattern Plasma Battery (Shortened)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "9a8850f0b6604093a9ffbcfdcceeb00b",
+    "Name": "Ryza-Pattern Plasma Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "c7aae6b2140b414a8bc0d1b965f405c9",
+    "Name": "Hecutor-Pattern Plasma Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "6686a316685046afad20fb7db7bbdfc6",
+    "Name": "Archeotech Plasma Battery",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "0358caa9041c469ab3bc3630ee9089bd",
+    "Name": "Plasma Autoloader",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "af76b20518564ddf9c6019d035dd979b",
+    "Name": "Voss-Pattern Torpedo Tubes (Plasma)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "e0b5e66f90be4bedb4ca2979880db290",
+    "Name": "Fortis-Pattern Torpedo Tubes (Plasma)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "6d04ff1e8ebf4ed39b44f0c4535737fd",
+    "Name": "Fortis-Pattern Torpedo Tubes (Melta)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "b424e260a6204e8f8660c1f2ad7b5ce9",
+    "Name": "Gryphonne-Pattern Torpedo Tubes (Plasma)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "c42e9b3de7d04bf2810b91e102cc40cd",
+    "Name": "Gryphonne-Pattern Torpedo Tube (Melta Torpedoes)",
+    "FullType": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "Namespace": "Warhammer.SpaceCombat.Blueprints"
+  },
+  {
+    "Guid": "cd5fa172af484872820ffbb0d713985b",
+    "Name": "[Mezoa-Pattern] Arc Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "89922abe7a3b4a1d9359ba7d316114fc",
+    "Name": "Arc Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "f5042e3db22b4057b14b0dc49e98e7f4",
+    "Name": "The Roar",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "5f9136fdcb6846288046825103057caa",
+    "Name": "Anver Chainsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ff3551eed6ee4b9a854e5f3812886455",
+    "Name": "[C-Delphim Pattern] Omnissian Axe",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "0f1194cdb530486f83be00c653ccab49",
+    "Name": "Unfading Valour",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "cb34168a173b49efbe261847ad8c8ff6",
+    "Name": "Heirloom Autopistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "e339f2b8e5854b54bf5af6c7642f35c0",
+    "Name": "[Retobi-Pattern] Bolter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "c64f179c441c4abba2966c6eb69cd7b3",
+    "Name": "Carnage",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "40244487985946b6891ad3ddff905146",
+    "Name": "Wrath of Saint Drusus",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "c021b67cbf084ccba92c6faafdb44f29",
+    "Name": "Dead Shot Stub Revolver",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "298bd4183b9048b296ae1367870be2bd",
+    "Name": "Bloody Pact",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ba955627a3444b52b374bc92e5a592f6",
+    "Name": "[Orthlack-Pattern] Stub Revolver",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "66c1d85de9c3439eb49c488954fafe45",
+    "Name": "Reconstructed Flamer Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "768d7be5dfa9454fa3d0493b869c7093",
+    "Name": "Focus Meltagun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "55c1ef16027a48b2bbf694797e19336b",
+    "Name": "Foehammer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ffec3e6ca92043b29c435d677985fc8c",
+    "Name": "Soulsiphon",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "4dbd3d83e1f542d5b1b35dbc9a3ce6e9",
+    "Name": "Veilrender",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "48ad9b97df454a6193d03ce18a54512d",
+    "Name": "Triumph of Retribution",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "b6e69939220e4338bc07519cae3c860e",
+    "Name": "Awakened Nightmare",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "3620f05386b44a0d86f2ffc6ee4ab0b3",
+    "Name": "Will to Live",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "6e959928644941898894055a95dcc199",
+    "Name": "Cursebringer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a2077f2e36904590aa251821af1c66f1",
+    "Name": "Heavy Emergency Cutter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "44570efd38534b0eb3227fad6598e236",
+    "Name": "Life-Draining Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "880be9ee37f6436cab915965b28ebf3d",
+    "Name": "[Mezoa-Pattern] Autopistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "243fbd87bf7c47318362e3ecf8518e62",
+    "Name": "[Mezoa-Pattern] Sniper Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ed88d48af2ca421d9549c91333c3dbb2",
+    "Name": "[Drusus Prime Pattern] Shotgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2520cf8df7b743168dd6e75ddd1c235f",
+    "Name": "Modified Splinter Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "dfd8efd6797f4ec591559a1da7019f9d",
+    "Name": "Noble Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "65e5065d182d49fba7a78e81f02a23d6",
+    "Name": "Nullifying Shotgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "649a9d18b18e45708c13514f501103b9",
+    "Name": "Officer's Chainsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "3ae1104c65ed44448e61a181bf527885",
+    "Name": "Unquenchable Fury",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ade735e5ee0047c8928404c26bf90333",
+    "Name": "Earthbreaker",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "072a9436539d4469915b121da1671a9f",
+    "Name": "Precise Bolter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ba7fa6b44b8642bab33ba029ad24e950",
+    "Name": "Precise Lasgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "9b79a2eb0cd848809dfad32e7ef23458",
+    "Name": "Precise Laspistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2059b9aeefb24b1fb1072c08b9859439",
+    "Name": "Deadly Repeater",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "7c25fe227e9a4e8ebe152349853eb083",
+    "Name": "The Ripper",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "86970d2bac284aecae61ff4865b4af01",
+    "Name": "Roaring Thunder",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "b3c1e3fd6b6642c18f2140ec47be104f",
+    "Name": "Serrated Great Sword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "e45711cd0c3444b4ac4be52fb2e6d5bb",
+    "Name": "Blast Wave",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "6259eb20b70a4eb7909a84b38c2faaf1",
+    "Name": "Unstable Flamer",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "1bd52c7f2fd44aaaac159a2e21873961",
+    "Name": "Webber",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a9320f6175c9449f8edefc7f0e4baaea",
+    "Name": "Aeldari Chainsword",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a04a3307b5a64f50ac27a5ba711bb380",
+    "Name": "[Retobi-Pattern] Plasma Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "052a48be6dcf47d18abd96ed8ac77128",
+    "Name": "Plasma Pistol",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ca7818adf938458e9928210835766178",
+    "Name": "Heavy Plasma Gun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "43dff36fe61140958ca891a8634a8673",
+    "Name": "Plasma Gun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "83a02653263b4e418b7b7d3fd51fc1f6",
+    "Name": "Bloodhound Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a04c9bf3d2044ba69ba8037ffcf7351b",
+    "Name": "Red Crystal Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "6c1d4cbd9da34cadb7be88f97467e202",
+    "Name": "Staff of House Orsellio",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "40e5b4ba7d8640438143bd1f3367ca84",
+    "Name": "Staff of Orsellio Guardian",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "86e14af9aa91406ba1c00fe44e609913",
+    "Name": "Warp Guide Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "aac1b16141ce4a9ebdce7970cc4fbd7a",
+    "Name": "Biomancer's Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "16ac3e0bae2243b59d3e735817142f00",
+    "Name": "Diviner's Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "bff869dc979f4229af857cb15cb294ac",
+    "Name": "Psychic Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "c2e9878620fd4653b06a96e4cda2c967",
+    "Name": "Pyromancer's Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "266766be7aab4142af87ba3e76e0ddce",
+    "Name": "Sanctified Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "434561775c6840889db51d764667aacb",
+    "Name": "Staff of Endless Flame",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "49aaaa5ff4c84a479390becd15d70504",
+    "Name": "Telepath's Staff",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "714bca98165b4b18b626b26ebf1f05b0",
+    "Name": "Singing Spear",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "d97225a9905b44b898b021b7f1984277",
+    "Name": "Balanced Maul",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "e7b66906f6b24f9da7375b29a44f63e4",
+    "Name": "Excruciator Maul",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "385a8305390b4db7bd60d0b63f0e71b4",
+    "Name": "Sturdy Shotgun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "cdc9b6a7f66c4edf82195278fee072de",
+    "Name": "Acid Spitter",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a6ad7d7ecf2c4f8ebac00998f9aa5946",
+    "Name": "Fusion Gun",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "604cd5213440464791f5a834dbaf65be",
+    "Name": "Drukhari Klaive",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "4ec59f09523148f98cb05d63f63e5d4f",
+    "Name": "Cry of Agony",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "a223f91296d24d65a3390651c247ed83",
+    "Name": "Wanderer's Portent",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "9caaa7b9089a4b88aad4c385081ee29d",
+    "Name": "Bane of Sorrow",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "1344f02029274817a17ced1009fe206c",
+    "Name": "Ynnealith",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "db96ff8975434c40b78705377291ff4e",
+    "Name": "Aeldari Long Rifle",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "9fe311eafb3e444bb00c69b9fe6675c4",
+    "Name": "Venom Blade",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "567dc59213fd9664c8cb291643439714",
+    "Name": "unnamed",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintCategoryDefaults",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "48a8934b35abf4b448e8db36a3b9b49d",
+    "Name": "Trap",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "ad834fc7ac6ac2d4180e07f3f50d36e2",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "749d6f028bd41724597ce1f2ec8dcf68",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "8d8e61ba5006ffe4b83dd5e501e8fe41",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "724ef74ced3f39649bbfd7affe340f45",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "7349eb6b255251f41be0dc9431b0bdc5",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "2c4910d557da3ad48ad28b9fe625949f",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "decf5257e111ffd489db3eecafcf1814",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "0650857100500ba4485d05a1a8108f44",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "bae2b2a9b5666f543b09711e60a4f763",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "fd2c8cbaf3e6b37458d9b123fbc5d582",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "6e6a6896966fce04e966cb57e3e05536",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "4297c9c8839414a4e903bf1ff3ad5694",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "4ca9981171c90db47852bd07efcd226b",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  },
+  {
+    "Guid": "0f00208b435be3947a8b069249abe361",
+    "Name": "",
+    "FullType": "Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon",
+    "Namespace": "Kingmaker.Blueprints.Items.Weapons"
+  }
+]

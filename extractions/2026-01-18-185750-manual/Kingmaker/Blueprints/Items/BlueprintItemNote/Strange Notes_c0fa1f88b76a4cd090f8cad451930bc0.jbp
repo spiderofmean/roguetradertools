@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "c0fa1f88b76a4cd090f8cad451930bc0",
+  "name": "Strange Notes",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "c0fa1f88b76a4cd090f8cad451930bc0",
+      "name": "Strange Notes"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Strange Notes",
+    "Description": "The notebook contains detailed observations, formulae, and diagrams, and is thickly covered in a viscous greenish liquid. Almost all the pages are firmly glued together, their contents turned into blurry stains.\n\"...riment No. 78. Outcome: failu...bject capable of maintaining minimal vital... falls short of every...quireme... Degree of ...sical abnormalities and deformities unacceptable.\n...ilure. Upon being removed from the ...psule, the subject's vital pro... ceased in an excruciating manner following a brain ...rhage and multiple interna...eeding.\n...riment No. 13... Outcome: partial succ...cimen capable of maintaining basic vital proc...es but only if continually neurally ...mulated by means of drilling through the elbow, knee, and hip joints.\nExperiment No. 21. Outcome: ...u... The last ...x subjects conform to the minimum requirements, but their capabilities are limited. They are incapable of lear... no capacity for... of the original organism...\"",
+    "NameForAcronym": "StrangeReport",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c0fa1f88b76a4cd090f8cad451930bc0",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "StrangeReport",
+    "AssetGuid": "c0fa1f88b76a4cd090f8cad451930bc0",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

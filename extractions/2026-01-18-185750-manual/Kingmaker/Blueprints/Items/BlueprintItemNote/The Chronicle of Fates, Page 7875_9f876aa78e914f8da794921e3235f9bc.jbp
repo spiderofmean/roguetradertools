@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "9f876aa78e914f8da794921e3235f9bc",
+  "name": "The Chronicle of Fates, Page 7875",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "9f876aa78e914f8da794921e3235f9bc",
+      "name": "The Chronicle of Fates, Page 7875"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "The Chronicle of Fates, Page 7875",
+    "Description": "\"The Chronicle of Fates, by Gorgorius Falt\"{br}\n\"Chapter 0406\"{br}\n\"I am impure, and my body is impure. Vital fluids not my own are stirring within me, as though woodboring beetles were digging their filthy tunnels through my frame. I must destroy this vice. I must squeeze it out. It is customary to replace an old vessel, and I have replaced my rotten cage with chambers of gold; yet, I still feel filthy, for if the contents are spoilt and not merely the shell, then what can be done to achieve redemption? My face is burning — a borrowed face, a weak face. I must take off the fetters of my skin and cleanse its inner side of vice take it away O Emperor take it away and give me a new cage!\"",
+    "NameForAcronym": "FW_BookOfFate_item_4",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "9f876aa78e914f8da794921e3235f9bc",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "FW_BookOfFate_item_4",
+    "AssetGuid": "9f876aa78e914f8da794921e3235f9bc",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "ef261dfb9dfc44829841cd89b533dc66",
+  "name": "Blade Shard",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "ef261dfb9dfc44829841cd89b533dc66",
+      "name": "Blade Shard"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_SharpSword_Put_Play",
+    "InventoryTakeSound": "UI_INV_SharpSword_Take_Play",
+    "Name": "Blade Shard",
+    "Description": "A blade made from a mysterious metal that shimmers with unnatural colours.",
+    "NameForAcronym": "SmallShardofEdgeBlade",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "ef261dfb9dfc44829841cd89b533dc66",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AntonKharybin",
+    "Comment": "",
+    "name": "SmallShardofEdgeBlade",
+    "AssetGuid": "ef261dfb9dfc44829841cd89b533dc66",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

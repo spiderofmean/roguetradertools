@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "32c048d7e551412a9338d790f0201fa3",
+  "name": "Lectionary of the Revelations of the Emperor-Progenitor",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "32c048d7e551412a9338d790f0201fa3",
+      "name": "Lectionary of the Revelations of the Emperor-Progenitor"
+    },
+    "Weight": 0.0,
+    "Origin": "Xeno",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": false,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Lectionary of the Revelations of the Emperor-Progenitor",
+    "Description": "The book contains the blasphemous tenets of the cult of the Nourishers of the Afflicted. It speaks of the insatiable Emperor-Progenitor and his impending coming that will bestow miraculous unity upon all the faithful.",
+    "NameForAcronym": "GenestealerBook",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "32c048d7e551412a9338d790f0201fa3",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "name": "GenestealerBook",
+    "AssetGuid": "32c048d7e551412a9338d790f0201fa3",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

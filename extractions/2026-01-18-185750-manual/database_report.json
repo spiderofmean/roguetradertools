@@ -1,0 +1,18 @@
+{
+  "GuidSourceMember": "PackFile",
+  "GuidSourceCount": 157016,
+  "TotalGuids": 157016,
+  "DirectBlueprints": 4955,
+  "LoadedByGuid": 152059,
+  "FailedByGuid": 2,
+  "SampleFailures": [
+    {
+      "Guid": "47e4133b7600478380da95297f062d66",
+      "Reason": "TryGetBlueprint returned null"
+    },
+    {
+      "Guid": "a9402b5454fd45f4a4a8b497146d1656",
+      "Reason": "TryGetBlueprint returned null"
+    }
+  ]
+}

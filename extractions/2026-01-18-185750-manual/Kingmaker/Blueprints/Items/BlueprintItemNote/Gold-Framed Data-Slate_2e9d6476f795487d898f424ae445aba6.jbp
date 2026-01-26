@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "2e9d6476f795487d898f424ae445aba6",
+  "name": "Gold-Framed Data-Slate",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "2e9d6476f795487d898f424ae445aba6",
+      "name": "Gold-Framed Data-Slate"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Gold-Framed Data-Slate",
+    "Description": "\"Jervas, may the Immortal Emperor guard you with His grace!\nI have done everything I possibly could. Grab Angette and Jolanta and flee this cursed world as soon as possible! I left the writ of passage and some savings in our secret cache at the Spire of Pride under one of the wanted posters. May the Master of Mankind bless Acticus for his assistance. I still have unfinished business at the department, so we will reunite on Footfall.\nYour loving brother, Lamprecht von Grotten\"",
+    "NameForAcronym": "FathersDataslateItem",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "2e9d6476f795487d898f424ae445aba6",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "name": "FathersDataslateItem",
+    "AssetGuid": "2e9d6476f795487d898f424ae445aba6",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

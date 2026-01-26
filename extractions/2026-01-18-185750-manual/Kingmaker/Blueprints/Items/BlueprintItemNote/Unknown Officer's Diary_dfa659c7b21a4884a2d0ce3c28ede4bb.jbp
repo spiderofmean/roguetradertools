@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "dfa659c7b21a4884a2d0ce3c28ede4bb",
+  "name": "Unknown Officer's Diary",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "dfa659c7b21a4884a2d0ce3c28ede4bb",
+      "name": "Unknown Officer's Diary"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Unknown Officer's Diary",
+    "Description": "\"I'm tired. How long has it been since Doomsday? I think it was the thirty-sixth year when the heretical cholera wiped out half of our people, including the old bookkeeper, Heilgar. Time has stood still for us since. It was so long ago... and what a convenient solution to the overpopulation problem, hah! The commanders think we bought this 'coincidence.' Morons. Still, when I look in the mirror, I see my father — the same wrinkles by the eyes, grey temples. Which means that I'm over sixty. And we've been underground for longer than half a century. No sky, no sun, no joy. And no hope. If that damned propagandist scribe tells me one more time that I 'must not lose faith' — I will make him eat his own tongue!\nSure, we were once so certain that we had won — the weapon of the Great Ally boggled the mind. I still remember how the skies shook, before me and my ma and father were evacuated to this wretched bunker. But where has it led us? When I took over my father's post at the comm station, I learned that we had long since lost all communication with other PDF bases. And the stars respond to our calls with silence.\nThese days we don't hear any bombs landing outside, but things are still restless in the old bunker — first a water purifier failure, then a fire in the medicae unit. Rats chewed holes in the exposure suits, and now we can't go up to the surface anymore. Are these accidents? Or have we had a saboteur in our midst all these years? I'll keep an eye on the troops. I don't believe in miracles, but... we still have enough supplies on the lower levels to last us another fifty years or so. If Yuald can finally sort the air duct problem, that is! Next time we meet, I should ask how the repairs are going.\"",
+    "NameForAcronym": "SoldierDiary",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "dfa659c7b21a4884a2d0ce3c28ede4bb",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "name": "SoldierDiary",
+    "AssetGuid": "dfa659c7b21a4884a2d0ce3c28ede4bb",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

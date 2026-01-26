@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "70dea47af5bb4b18bf02a9b50b575439",
+  "name": "Prison Diary of Aati Shan, Part Two",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "70dea47af5bb4b18bf02a9b50b575439",
+      "name": "Prison Diary of Aati Shan, Part Two"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Prison Diary of Aati Shan, Part Two",
+    "Description": "\"Ha ha ha, I swear, the Emperor hasn't forsaken me!\nGuess who just came down the shuttle gangway among the fresh batch of prisoners? CLENSIN-Throne-damned-WILLIA! Former Administratum clerk. No — THE clerk. The very same scum who lost the writ about the missing payment. He's the reason I'm in this hole.\nDon't know what they threw him in for, but I've never felt better in my life. He's not just behind the same bars as me, he's fresh meat, and I'm a venerable optimate respected by everyone in the colony.\nThe warden just came up with a new improvement: from now on, anyone who underperforms, misbehaves, or causes trouble any other way is to be punished by the 'community.' Specifically, by the local best and brightest. Yours truly, the optimates!\nThe last two sods who failed to meet the quota were stripped naked, whipped, and thrown into cages in the big barracks. That's where they have to eat, sleep, and shit now with everyone watching. I thought to myself then: that isn't right, they've taken these punishments too far. But now...\nJust you wait, you piece of groxshit. I'll get you for something. Those cages are calling your name...\"",
+    "NameForAcronym": "RaicadiFiliaDairy2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "70dea47af5bb4b18bf02a9b50b575439",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "RaicadiFiliaDairy2",
+    "AssetGuid": "70dea47af5bb4b18bf02a9b50b575439",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

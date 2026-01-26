@@ -1,0 +1,130 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+  "guid": "c42e9b3de7d04bf2810b91e102cc40cd",
+  "name": "Gryphonne-Pattern Torpedo Tube (Melta Torpedoes)",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "$id": {
+      "guid": "c42e9b3de7d04bf2810b91e102cc40cd",
+      "name": "Gryphonne-Pattern Torpedo Tube (Melta Torpedoes)"
+    },
+    "ItemType": "StarshipWeapon",
+    "AllowSeries": false,
+    "HasSeries": false,
+    "GainAbility": true,
+    "ForcedRampColorPresetIndex": -1,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 55.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Gryphonne-Pattern Torpedo Tube (Melta Torpedoes)",
+    "Description": "{g|Encyclopedia:TorpedoLaunchersSpace}Torpedo tubes{/g} capable of firing 5 melta torpedoes with 27 {g|Encyclopedia:SpaceBattleDamageGlossary}damage{/g} warheads.",
+    "NameForAcronym": "LauncherStrong2_Weapon",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c42e9b3de7d04bf2810b91e102cc40cd",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": false,
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Custom",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 0
+        }
+      ]
+    },
+    "WeaponType": "TorpedoTubes",
+    "AllowedSlots": {
+      "$type": "Warhammer.SpaceCombat.Blueprints.Slots.WeaponSlotType[]",
+      "$count": 1,
+      "items": [
+        "Prow"
+      ]
+    },
+    "DamageInstances": 1,
+    "DelayBetweenProjectiles": 0.0,
+    "ShotsInSeries": 1,
+    "DelayInSeries": 0.0,
+    "m_SoundTypeSwitch": {
+      "$type": "Kingmaker.Sound.AkSwitchReference",
+      "GroupHash": 0,
+      "ValueHash": 0,
+      "Group": "",
+      "Value": ""
+    },
+    "m_DefaultAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "e0e450da235949d6b60abda310e83ab8",
+      "guid": "e0e450da235949d6b60abda310e83ab8"
+    },
+    "m_AlternateAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "f572353931834f53bf1fe863a00e25a1",
+      "guid": "f572353931834f53bf1fe863a00e25a1"
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyIvanovGD",
+    "Comment": "",
+    "name": "LauncherStrong2_Weapon",
+    "AssetGuid": "c42e9b3de7d04bf2810b91e102cc40cd",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

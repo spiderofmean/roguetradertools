@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "8f25439b4ded446c852b78af3864ed1c",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "8f25439b4ded446c852b78af3864ed1c",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "8f25439b4ded446c852b78af3864ed1c",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Medium",
+    "m_DamageAbsorbtionPct": 60,
+    "m_DamageDeflection": 9,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "ServitorBigArmour_ArmorType",
+    "AssetGuid": "8f25439b4ded446c852b78af3864ed1c",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "554743abb67e40f7b669ca89a896b50e",
+  "name": "Haemonculus's Notes",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "554743abb67e40f7b669ca89a896b50e",
+      "name": "Haemonculus's Notes"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 1,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Haemonculus's Notes",
+    "Description": "\"'Deliverance' as the activation order codeword? Excellent.\"\n\"43. Sequential joint removal, starting with the fingers. The process resulted in death, as in every previous instance. The body will be reformed and regrown.\"\n\"59. Internal organs excised and placed into an alkaline solution without severance from the nervous system. The subject is observing its dismemberment and experiencing the pain at its full intensity. The agony strengthens the connection to the veil, but the body is weak and inevitably perishes.\"\n\"71. The subject's body disintegrates faster with each new assembly. Thermobox introduced into the torso for alternate cooling and heating with constant electrical stimulation. The subject survived for 4 minutes longer compared to the previous resurrection.\"\n\"75. Physical torture discontinued. Audiovisual headband placed on the subject's head to broadcast images of its suffering kin into its consciousness. Cardiac arrest recorded 19 minutes later.\"\n\"96. Subject in possession of all previous knowledge including memories of pain and death, and therefore fully compliant. Phenomenal strengthening of the veil connection observed, but the body survives for no longer than three minutes under any set of conditions.\"",
+    "NameForAcronym": "HaemonculusResearch2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "554743abb67e40f7b669ca89a896b50e",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HaemonculusResearch2",
+    "AssetGuid": "554743abb67e40f7b669ca89a896b50e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

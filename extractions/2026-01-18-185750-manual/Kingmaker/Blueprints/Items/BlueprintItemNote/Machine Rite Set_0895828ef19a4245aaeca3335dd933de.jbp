@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "0895828ef19a4245aaeca3335dd933de",
+  "name": "Machine Rite Set",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "0895828ef19a4245aaeca3335dd933de",
+      "name": "Machine Rite Set"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.1,
+    "CargoVolumePercent": 0,
+    "Rarity": "Common",
+    "Tag": "SkillCheckConsumable",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Machine Rite Set",
+    "Description": "A set of sacred oils and cogitograms that can appease the keeper of any technology. Provides an additional opportunity to call out a machine spirit and interact with a device. An expendable item.",
+    "NameForAcronym": "Consumable_RitualSet",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "0895828ef19a4245aaeca3335dd933de",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Consumable_RitualSet",
+    "AssetGuid": "0895828ef19a4245aaeca3335dd933de",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

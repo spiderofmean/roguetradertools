@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "4d46edd304744c5cb1de8c92f53a216f",
+  "name": "Chronicle of Case #68302720-LA2987-B4-126",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "4d46edd304744c5cb1de8c92f53a216f",
+      "name": "Chronicle of Case #68302720-LA2987-B4-126"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Chronicle of Case #68302720-LA2987-B4-126",
+    "Description": "The parchment looks grease-marked and old, as though it has passed through many, many pairs of hands.\n\"Servant of the Imperium Elias Tantanal filed a declaration with the Adeptus Administratum that he is the sole heir of House Tantanal and the legal sovereign of the northern continent of the planet Ergona-Rex. According to the submission, Elias Tantanal cannot exercise his right to this inheritance, as the wider family tree includes an individual who shares his full legal name. According to the petitioner, this individual is his great-grandfather. Given the loss of documents confirming the death of the second claimant to the inheritance, Elias Tantanal is petitioning for confirmation of this relative's death and permission for the enactment of his inheritance rights.\nPetition received. Preliminary review period: up to 15 Terran years.\n***\nForwarded for review. 23 Terran years, 4 cycles from date of submission.\n***\nRequest for a copy of the death certificate of Elias Tantanal sent to the archive of the Departmento Munitorum. 28 Terran years, 2 cycles from date of submission.\n***\nRequest rejected. 39 Terran years, 11 cycles from date of submission.\n***\nSecond request sent to the archive. 44 Terran years, 4 cycles from date of submission.\n***\nRequest approved. 52 Terran years from date of submission.\n***\nAfter 48 repeated petitions from Elias Tantanal, a third request was sent to the archive. 79 Terran years, 7 cycles from date of submission.\n***\nCopy of death certificate of Elias Tantanal, great-grandfather to the petitioner, received. 84 Terran years, 6 cycles from date of submission.\n***\nDocuments forwarded for formulation of decision granting permission for the enactment of the inheritance rights of Elias Tantanal, sole heir of his house and legal sovereign of the northern continent of the planet Ergona-Rex. 101 Terran years, 5 cycles from date of submission.\n***\nDeath of Elias Tantanal recorded by servants of the Adeptus Administratum. Place of death: Queue 16 (Wills, Legacies, and Inheritances), Waiting Hall, Palace of the Adeptus Administratum, Dargonus. 106 Terran years, 2 cycles from date of submission.\n***\nDeath certificate of Elias Tantanal sent to the archive of the Departmento Munitorum. 114 Terran years, 10 cycles from date of submission.\n***\nPetition for the enactment of inheritance rights following the death of Elias Tantanal and for the issuance of a copy of the death certificate received from the deceased's daughter, Eliaza Tantanal. 114 Terran years, 11 cycles from date of submission.\"",
+    "NameForAcronym": "Jae_Q1CaseChronicle",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "4d46edd304744c5cb1de8c92f53a216f",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "Jae_Q1CaseChronicle",
+    "AssetGuid": "4d46edd304744c5cb1de8c92f53a216f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

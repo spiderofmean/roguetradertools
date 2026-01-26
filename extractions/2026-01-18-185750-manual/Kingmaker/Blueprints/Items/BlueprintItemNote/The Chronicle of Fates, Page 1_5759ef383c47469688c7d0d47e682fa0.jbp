@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "5759ef383c47469688c7d0d47e682fa0",
+  "name": "The Chronicle of Fates, Page 1",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "5759ef383c47469688c7d0d47e682fa0",
+      "name": "The Chronicle of Fates, Page 1"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "The Chronicle of Fates, Page 1",
+    "Description": "\"The Chronicle of Fates, by Gorgorius Falt\"{br}\n\"Chapter 1\"{br}\n\"Let these instructions enlighten all who walk in my footsteps.{br}\nHe That Holdeth the Key permits none but His most faithful to change their fates, and I, the eminent Gorgorius Falt, have no right to fail Him. This my present work will describe how a soul becomes purified and the rituals required to prepare it for its momentous turn of fate, these being things that any servant of His who intends to break the shackles of their former life will have to undergo.\"",
+    "NameForAcronym": "FW_BookOfFate_item_1",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "5759ef383c47469688c7d0d47e682fa0",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "FW_BookOfFate_item_1",
+    "AssetGuid": "5759ef383c47469688c7d0d47e682fa0",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

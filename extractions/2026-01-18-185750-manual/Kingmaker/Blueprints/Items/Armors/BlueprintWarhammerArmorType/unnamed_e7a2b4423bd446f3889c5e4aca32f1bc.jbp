@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "e7a2b4423bd446f3889c5e4aca32f1bc",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "e7a2b4423bd446f3889c5e4aca32f1bc",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "e7a2b4423bd446f3889c5e4aca32f1bc",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Light",
+    "m_DamageAbsorbtionPct": 30,
+    "m_DamageDeflection": 0,
+    "m_RangedHitChanceBonus": 10,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 0,
+    "Author": "Unknown",
+    "Comment": "Броня с Ranged Hit Bonus для стрелков",
+    "name": "TacticalArmour_ArmorType",
+    "AssetGuid": "e7a2b4423bd446f3889c5e4aca32f1bc",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

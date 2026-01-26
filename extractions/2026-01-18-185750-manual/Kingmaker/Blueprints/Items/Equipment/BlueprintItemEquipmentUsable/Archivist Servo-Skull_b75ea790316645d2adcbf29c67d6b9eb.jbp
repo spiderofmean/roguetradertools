@@ -1,0 +1,442 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "b75ea790316645d2adcbf29c67d6b9eb",
+  "name": "Archivist Servo-Skull",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "b75ea790316645d2adcbf29c67d6b9eb",
+      "name": "Archivist Servo-Skull"
+    },
+    "IdentifyDC": 0,
+    "Name": "Archivist Servo-Skull",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_MetalScarp_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "Pet",
+    "AllowMakeStackable": true,
+    "FlavorText": "This servo-skull is designed to spread the glory and splendour of its mighty owner.",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Description": "",
+    "NameForAcronym": "HeraldServoskull4_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b75ea790316645d2adcbf29c67d6b9eb",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_MetalScarp_Equip_Play",
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "префаб ServoSkull_04",
+    "name": "HeraldServoskull4_Item",
+    "AssetGuid": "b75ea790316645d2adcbf29c67d6b9eb",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 22,
+      "items": [
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.StopCutscene",
+          "$id": {
+            "guid": "5d106c0f9bcf4327adaf257eafae6245",
+            "name": null
+          },
+          "ShowCheck": false,
+          "AssetGuid": "5d106c0f9bcf4327adaf257eafae6245",
+          "AssetGuidShort": "5d10",
+          "m_Cutscene": {
+            "$type": "Kingmaker.Blueprints.CutsceneReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_CheckType": "Params",
+          "name": "$StopCutscene$5d106c0f9bcf4327adaf257eafae6245"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "46423ddb-cb3f-4bd3-94e9-6b56536314ce",
+            "name": null
+          },
+          "AssetGuid": "46423ddb-cb3f-4bd3-94e9-6b56536314ce",
+          "AssetGuidShort": "4642",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$46423ddb-cb3f-4bd3-94e9-6b56536314ce"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "9d022928-e56c-46ed-af45-b033d34d855f",
+            "name": null
+          },
+          "AssetGuid": "9d022928-e56c-46ed-af45-b033d34d855f",
+          "AssetGuidShort": "9d02",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$9d022928-e56c-46ed-af45-b033d34d855f"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "e4912cf2-468c-41f2-a292-55c2d8530853",
+            "name": null
+          },
+          "AssetGuid": "e4912cf2-468c-41f2-a292-55c2d8530853",
+          "AssetGuidShort": "e491",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$e4912cf2-468c-41f2-a292-55c2d8530853"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "d8b4748f-ece9-405c-85c8-6d9c802333ec",
+            "name": null
+          },
+          "AssetGuid": "d8b4748f-ece9-405c-85c8-6d9c802333ec",
+          "AssetGuidShort": "d8b4",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$d8b4748f-ece9-405c-85c8-6d9c802333ec"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "215ab1de-5403-4a69-8acf-dec84dddffb3",
+            "name": null
+          },
+          "AssetGuid": "215ab1de-5403-4a69-8acf-dec84dddffb3",
+          "AssetGuidShort": "215a",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$215ab1de-5403-4a69-8acf-dec84dddffb3"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "d58e53d7-a6c4-44b7-a1db-f85554680f05",
+            "name": null
+          },
+          "AssetGuid": "d58e53d7-a6c4-44b7-a1db-f85554680f05",
+          "AssetGuidShort": "d58e",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$d58e53d7-a6c4-44b7-a1db-f85554680f05"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "66ea8889-506b-4622-aa19-d402d3a5d90e",
+            "name": null
+          },
+          "AssetGuid": "66ea8889-506b-4622-aa19-d402d3a5d90e",
+          "AssetGuidShort": "66ea",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$66ea8889-506b-4622-aa19-d402d3a5d90e"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "f38389f0-7d92-4204-94e1-a5bc4656ad3b",
+            "name": null
+          },
+          "AssetGuid": "f38389f0-7d92-4204-94e1-a5bc4656ad3b",
+          "AssetGuidShort": "f383",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$f38389f0-7d92-4204-94e1-a5bc4656ad3b"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.PlayCutscene",
+          "$id": {
+            "guid": "c021ad46-1de0-4e3c-be74-7c2f5b013b04",
+            "name": null
+          },
+          "AssetGuid": "c021ad46-1de0-4e3c-be74-7c2f5b013b04",
+          "AssetGuidShort": "c021",
+          "m_Cutscene": {
+            "$type": "Kingmaker.Blueprints.CutsceneReference",
+            "Guid": null,
+            "guid": null
+          },
+          "PutInQueue": false,
+          "CheckExistence": true,
+          "Parameters": {
+            "$type": "Kingmaker.Designers.EventConditionActionSystem.NamedParameters.ParametrizedContextSetter",
+            "Parameters": null,
+            "AdditionalParams": null
+          },
+          "name": "$PlayCutscene$c021ad46-1de0-4e3c-be74-7c2f5b013b04"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Evaluators.PlayerFamiliarEvaluator",
+          "$id": {
+            "guid": "d4713732-5a05-4e0c-9aaa-2d2a78e8c94c",
+            "name": null
+          },
+          "AssetGuid": "d4713732-5a05-4e0c-9aaa-2d2a78e8c94c",
+          "AssetGuidShort": "d471",
+          "name": "$PlayerFamiliarEvaluator$d4713732-5a05-4e0c-9aaa-2d2a78e8c94c"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.StopCutscene",
+          "$id": {
+            "guid": "8097c7e0-0a65-4b05-928d-6e40cddcdf1f",
+            "name": null
+          },
+          "ShowCheck": false,
+          "AssetGuid": "8097c7e0-0a65-4b05-928d-6e40cddcdf1f",
+          "AssetGuidShort": "8097",
+          "m_Cutscene": {
+            "$type": "Kingmaker.Blueprints.CutsceneReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_CheckType": "Params",
+          "name": "$StopCutscene$8097c7e0-0a65-4b05-928d-6e40cddcdf1f"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.Conditional",
+          "$id": {
+            "guid": "39aadedd-b0e6-4571-b8d4-3c617184c3d8",
+            "name": null
+          },
+          "AssetGuid": "39aadedd-b0e6-4571-b8d4-3c617184c3d8",
+          "AssetGuidShort": "39aa",
+          "Comment": "",
+          "ConditionsChecker": {
+            "$type": "Kingmaker.ElementsSystem.ConditionsChecker",
+            "HasConditions": null,
+            "Operation": null,
+            "Conditions": null
+          },
+          "IfTrue": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "IfFalse": {
+            "$type": "Kingmaker.ElementsSystem.ActionList",
+            "HasActions": null,
+            "Actions": null
+          },
+          "name": "$Conditional$39aadedd-b0e6-4571-b8d4-3c617184c3d8"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "03f5d71b-a2f8-4a6b-9c83-8f157c0327c7",
+            "name": null
+          },
+          "AssetGuid": "03f5d71b-a2f8-4a6b-9c83-8f157c0327c7",
+          "AssetGuidShort": "03f5",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$03f5d71b-a2f8-4a6b-9c83-8f157c0327c7"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "5c7ed414-1f49-4871-95ac-b5fd03df6dc8",
+            "name": null
+          },
+          "AssetGuid": "5c7ed414-1f49-4871-95ac-b5fd03df6dc8",
+          "AssetGuidShort": "5c7e",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$5c7ed414-1f49-4871-95ac-b5fd03df6dc8"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "da8d6cc1-3223-405b-81ef-ff4820d4f40f",
+            "name": null
+          },
+          "AssetGuid": "da8d6cc1-3223-405b-81ef-ff4820d4f40f",
+          "AssetGuidShort": "da8d",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$da8d6cc1-3223-405b-81ef-ff4820d4f40f"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "ad31d4f5-17d2-4540-84b2-e45ce924202d",
+            "name": null
+          },
+          "AssetGuid": "ad31d4f5-17d2-4540-84b2-e45ce924202d",
+          "AssetGuidShort": "ad31",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$ad31d4f5-17d2-4540-84b2-e45ce924202d"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "357b7507-fefc-4182-b791-290363165311",
+            "name": null
+          },
+          "AssetGuid": "357b7507-fefc-4182-b791-290363165311",
+          "AssetGuidShort": "357b",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$357b7507-fefc-4182-b791-290363165311"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "24f25001-7a8b-4fe8-b076-858a5e5ae68b",
+            "name": null
+          },
+          "AssetGuid": "24f25001-7a8b-4fe8-b076-858a5e5ae68b",
+          "AssetGuidShort": "24f2",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$24f25001-7a8b-4fe8-b076-858a5e5ae68b"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Conditions.CurrentAreaIs",
+          "$id": {
+            "guid": "6d6ec7d44fba4b518b9b7c907174ad88",
+            "name": null
+          },
+          "AssetGuid": "6d6ec7d44fba4b518b9b7c907174ad88",
+          "AssetGuidShort": "6d6e",
+          "m_Area": {
+            "$type": "Kingmaker.Blueprints.BlueprintAreaReference",
+            "Guid": null,
+            "guid": null
+          },
+          "Not": false,
+          "name": "$CurrentAreaIs$6d6ec7d44fba4b518b9b7c907174ad88"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Actions.PlayCutscene",
+          "$id": {
+            "guid": "04a8caf0-8810-4136-9cfa-1bb406c789f7",
+            "name": null
+          },
+          "AssetGuid": "04a8caf0-8810-4136-9cfa-1bb406c789f7",
+          "AssetGuidShort": "04a8",
+          "m_Cutscene": {
+            "$type": "Kingmaker.Blueprints.CutsceneReference",
+            "Guid": null,
+            "guid": null
+          },
+          "PutInQueue": false,
+          "CheckExistence": true,
+          "Parameters": {
+            "$type": "Kingmaker.Designers.EventConditionActionSystem.NamedParameters.ParametrizedContextSetter",
+            "Parameters": null,
+            "AdditionalParams": null
+          },
+          "name": "$PlayCutscene$04a8caf0-8810-4136-9cfa-1bb406c789f7"
+        },
+        {
+          "$type": "Kingmaker.Designers.EventConditionActionSystem.Evaluators.PlayerFamiliarEvaluator",
+          "$id": {
+            "guid": "36832f86-e844-4ebc-85d9-e6dee335ce59",
+            "name": null
+          },
+          "AssetGuid": "36832f86-e844-4ebc-85d9-e6dee335ce59",
+          "AssetGuidShort": "3683",
+          "name": "$PlayerFamiliarEvaluator$36832f86-e844-4ebc-85d9-e6dee335ce59"
+        }
+      ]
+    }
+  }
+}

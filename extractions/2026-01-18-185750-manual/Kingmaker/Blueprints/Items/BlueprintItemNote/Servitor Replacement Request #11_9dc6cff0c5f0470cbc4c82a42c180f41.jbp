@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "9dc6cff0c5f0470cbc4c82a42c180f41",
+  "name": "Servitor Replacement Request #11",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "9dc6cff0c5f0470cbc4c82a42c180f41",
+      "name": "Servitor Replacement Request #11"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Paper_Put_Play",
+    "InventoryTakeSound": "UI_INV_Paper_Take_Play",
+    "Name": "Servitor Replacement Request #11",
+    "Description": "\"Esteemed Tech-Priest Deltar, this is unacceptable. For the tenth time, you've sent us the same faulty servitors. It's been over two weeks, and we still can't raise the lift that's stuck between our platform and platform 92-M, all because of your servitors. For the love of the Throne, decommission these things if you can't fix them! Respectfully, Shift Foreman Nije.\"",
+    "NameForAcronym": "BrokenServitorsNote_item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "9dc6cff0c5f0470cbc4c82a42c180f41",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "KseniyaUrchenko",
+    "Comment": "",
+    "name": "BrokenServitorsNote_item",
+    "AssetGuid": "9dc6cff0c5f0470cbc4c82a42c180f41",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

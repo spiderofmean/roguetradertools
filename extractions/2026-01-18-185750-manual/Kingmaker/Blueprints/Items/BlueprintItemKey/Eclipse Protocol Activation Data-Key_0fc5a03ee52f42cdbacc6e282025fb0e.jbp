@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemKey",
+  "guid": "0fc5a03ee52f42cdbacc6e282025fb0e",
+  "name": "Eclipse Protocol Activation Data-Key",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemKey",
+    "$id": {
+      "guid": "0fc5a03ee52f42cdbacc6e282025fb0e",
+      "name": "Eclipse Protocol Activation Data-Key"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Quest",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Eclipse Protocol Activation Data-Key",
+    "Description": "This tiny object contains a spark of unadulterated rage, primed at any moment to expel the power from all devices in the enforcers' post, reducing them to a pile of lifeless metal.",
+    "NameForAcronym": "LT_SF_InfokeyEclipse_Key",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "0fc5a03ee52f42cdbacc6e282025fb0e",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "name": "LT_SF_InfokeyEclipse_Key",
+    "AssetGuid": "0fc5a03ee52f42cdbacc6e282025fb0e",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

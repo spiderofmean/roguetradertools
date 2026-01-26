@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "64f3c9a2ca2b408cb80980da6f38345f",
+  "name": "Makeshift Heavy Xenomesh",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "64f3c9a2ca2b408cb80980da6f38345f",
+      "name": "Makeshift Heavy Xenomesh"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Makeshift Heavy Xenomesh",
+    "Description": "<b>Base armour property</b>: +2 {g|Encyclopedia:Deflection}deflection{/g} against non-human enemies.\n<b>Additional property</b>: +5 {g|Encyclopedia:HitPoints}wounds{/g}.",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "Heavy",
+    "Category": "Heavy",
+    "DamageAbsorption": 60,
+    "DamageDeflection": 4,
+    "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+    "InventoryPutSound": "UI_INV_Leather_Put_Play",
+    "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 1,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 85.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Pattern",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "HeavyXenoMeshOrigin1_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "64f3c9a2ca2b408cb80980da6f38345f",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "68287a54721b4dbe9ddc9a2e4ce9e2ee",
+      "guid": "68287a54721b4dbe9ddc9a2e4ce9e2ee"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 60,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 4,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "AnimationFoleySound": "ArmorLeatherMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 2473969246,
+        "Group": "BodyType",
+        "Value": "Metal"
+      },
+      "m_InventoryEquipSound": "UI_INV_Leather_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Leather_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Leather_Take_Play",
+      "m_AnimationFoleySound": "ArmorLeatherMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HeavyXenoMeshOrigin1_Item",
+    "AssetGuid": "64f3c9a2ca2b408cb80980da6f38345f",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

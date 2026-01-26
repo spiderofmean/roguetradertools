@@ -1,0 +1,75 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+  "guid": "939f0a321e144e1b80122a37d84f4056",
+  "name": "Flak Ammo Arsenal (Upgrade)",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemArsenal",
+    "$id": {
+      "guid": "939f0a321e144e1b80122a37d84f4056",
+      "name": "Flak Ammo Arsenal (Upgrade)"
+    },
+    "ItemType": "StarshipArsenal",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Flak Ammo Arsenal (Upgrade)",
+    "Description": "Allows flak shots to be fired from kinetic {g|Encyclopedia:MacroCannonsSpace}macro-cannons{/g}.\nThe flak shot deals 22 damage to each target in a 3×3 area.",
+    "NameForAcronym": "ArsenalFlak2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "939f0a321e144e1b80122a37d84f4056",
+    "AllowContextActionsOnly": false,
+    "AppliedWeaponType": "Macrobatteries",
+    "FilterDamageType": "Impact",
+    "m_VariantWeapon": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipWeaponReference",
+      "Guid": "1f1ce9f8518b4748bc2965d914c961c5",
+      "guid": "1f1ce9f8518b4748bc2965d914c961c5"
+    },
+    "m_VariantAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "",
+    "name": "ArsenalFlak2",
+    "AssetGuid": "939f0a321e144e1b80122a37d84f4056",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

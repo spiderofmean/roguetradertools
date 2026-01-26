@@ -1,0 +1,130 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+  "guid": "68ee047775cb4e56a9b4f89c9099539a",
+  "name": "Small Plasma Macro-Cannon",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintStarshipWeapon",
+    "$id": {
+      "guid": "68ee047775cb4e56a9b4f89c9099539a",
+      "name": "Small Plasma Macro-Cannon"
+    },
+    "ItemType": "StarshipWeapon",
+    "AllowSeries": true,
+    "HasSeries": false,
+    "GainAbility": true,
+    "ForcedRampColorPresetIndex": -1,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 15,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "Small Plasma Macro-Cannon",
+    "Description": "Short-range {g|Encyclopedia:DorsalSpace}dorsal{/g} plasma {g|Encyclopedia:MacroCannonsSpace}macro-cannons{/g}, which fire 8 shots, dealing 10 damage per shot.",
+    "NameForAcronym": "MacroLigthPlasmaDLC2_Weapon",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "68ee047775cb4e56a9b4f89c9099539a",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": false,
+    "WeaponAbilities": {
+      "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbilityContainer",
+      "$count": -1,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.Items.Equipment.WeaponAbility",
+          "IsNone": false,
+          "HideFields": false,
+          "ShowOnHitActions": false,
+          "Type": "Custom",
+          "Mode": "Default",
+          "m_Ability": {
+            "$type": "Kingmaker.Blueprints.BlueprintAbilityReference",
+            "Guid": null,
+            "guid": null
+          },
+          "m_FXSettings": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityFXSettings+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "OnHitOverrideType": "None",
+          "m_OnHitActions": {
+            "$type": "Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbilityAdditionalEffect+Reference",
+            "Guid": null,
+            "guid": null
+          },
+          "AP": 0
+        }
+      ]
+    },
+    "WeaponType": "Macrobatteries",
+    "AllowedSlots": {
+      "$type": "Warhammer.SpaceCombat.Blueprints.Slots.WeaponSlotType[]",
+      "$count": 1,
+      "items": [
+        "Dorsal"
+      ]
+    },
+    "DamageInstances": 8,
+    "DelayBetweenProjectiles": 0.2,
+    "ShotsInSeries": 1,
+    "DelayInSeries": 0.0,
+    "m_SoundTypeSwitch": {
+      "$type": "Kingmaker.Sound.AkSwitchReference",
+      "GroupHash": 0,
+      "ValueHash": 0,
+      "Group": "",
+      "Value": ""
+    },
+    "m_DefaultAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "81a99a60bdce454398f79208a8ba208a",
+      "guid": "81a99a60bdce454398f79208a8ba208a"
+    },
+    "m_AlternateAmmo": {
+      "$type": "Kingmaker.Blueprints.BlueprintStarshipAmmoReference",
+      "Guid": "",
+      "guid": ""
+    },
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "Unknown",
+    "Comment": "",
+    "name": "MacroLigthPlasmaDLC2_Weapon",
+    "AssetGuid": "68ee047775cb4e56a9b4f89c9099539a",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+  "guid": "46b34c7bf5d24e0bafee84ea33bd3fac",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintWarhammerArmorType",
+    "$id": {
+      "guid": "46b34c7bf5d24e0bafee84ea33bd3fac",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "46b34c7bf5d24e0bafee84ea33bd3fac",
+    "AllowContextActionsOnly": false,
+    "ArmorCategory": "Light",
+    "m_DamageAbsorbtionPct": 40,
+    "m_DamageDeflection": 4,
+    "m_RangedHitChanceBonus": 0,
+    "m_DodgeMod": 1.0,
+    "m_MovePointsAdjustment": 0,
+    "Author": "Unknown",
+    "Comment": "Броня для NPC\n",
+    "name": "AeldariGuardianArmour_ArmorType",
+    "AssetGuid": "46b34c7bf5d24e0bafee84ea33bd3fac",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

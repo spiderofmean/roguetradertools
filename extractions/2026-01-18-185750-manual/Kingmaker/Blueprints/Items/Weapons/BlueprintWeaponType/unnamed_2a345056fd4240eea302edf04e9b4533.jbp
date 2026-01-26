@@ -1,0 +1,130 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType",
+  "guid": "2a345056fd4240eea302edf04e9b4533",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items.Weapons",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType",
+    "$id": {
+      "guid": "2a345056fd4240eea302edf04e9b4533",
+      "name": null
+    },
+    "IsNatural": true,
+    "DamageStatBonusFactor": "One",
+    "Kingmaker.UI.Models.Tooltip.Base.IUIDataProvider.Name": "",
+    "Kingmaker.UI.Models.Tooltip.Base.IUIDataProvider.Description": "",
+    "Kingmaker.UI.Models.Tooltip.Base.IUIDataProvider.NameForAcronym": "ClawsJBeastComWeaponType",
+    "AssetGuidThreadSafe": "2a345056fd4240eea302edf04e9b4533",
+    "AllowContextActionsOnly": false,
+    "warhammerHitEffects": {
+      "$type": "Kingmaker.Blueprints.BlueprintBuffReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "warhammerCritEffects": {
+      "$type": "Kingmaker.Blueprints.BlueprintBuffReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "Category": "Melee",
+    "Family": "Primitive",
+    "m_TypeNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DefaultNameText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_DescriptionText": {
+      "$type": "Kingmaker.Localization.LocalizedString",
+      "Key": "",
+      "Text": "",
+      "m_Key": "",
+      "m_ShouldProcessLocale": "enGB",
+      "m_IsReportedAsMissingString": false
+    },
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Weapons.WeaponVisualParameters",
+      "HasSpecialAnimation": true,
+      "BurstAnimationDelay": 0.0,
+      "AnimStyle": "None",
+      "SoundSize": "None",
+      "SoundType": "None",
+      "MissSoundType": "None",
+      "EquipSound": "",
+      "UnequipSound": "",
+      "OutOfAmmoSound": "",
+      "SpecialAnimation": "Claw",
+      "InventoryEquipSound": "",
+      "InventoryPutSound": "",
+      "InventoryTakeSound": "",
+      "IsBow": false,
+      "IsTorch": false,
+      "HasQuiver": false,
+      "IsTwoHanded": false,
+      "m_WeaponAnimationStyle": "None",
+      "m_SpecialAnimation": "Claw",
+      "m_BurstAnimationDelay": 0.0,
+      "m_CachedEquipLinksUpToDate": false,
+      "m_SoundSize": "None",
+      "m_SoundType": "None",
+      "m_SoundSizeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_SoundTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MuffledTypeSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 0,
+        "ValueHash": 0,
+        "Group": "",
+        "Value": ""
+      },
+      "m_MissSoundType": "None",
+      "m_EquipSound": "",
+      "m_UnequipSound": "",
+      "m_OutOfAmmoSound": "",
+      "m_InventoryEquipSound": "",
+      "m_InventoryPutSound": "",
+      "m_InventoryTakeSound": ""
+    },
+    "m_DamageType": {
+      "$type": "Kingmaker.UnitLogic.Mechanics.Damage.DamageTypeDescription",
+      "Type": "Rending"
+    },
+    "m_IsNatural": true,
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintWeaponEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "m_DamageStatBonusFactor": "One",
+    "Author": "VadimBgatzev",
+    "Comment": "",
+    "name": "ClawsJBeastComWeaponType",
+    "AssetGuid": "2a345056fd4240eea302edf04e9b4533",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

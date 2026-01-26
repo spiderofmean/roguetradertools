@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "d0d84acf2c6c4fb79c38954eb9771093",
+  "name": "Engraved Pendant",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "d0d84acf2c6c4fb79c38954eb9771093",
+      "name": "Engraved Pendant"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Amulet_Put_Play",
+    "InventoryTakeSound": "UI_INV_Amulet_Take_Play",
+    "Name": "Engraved Pendant",
+    "Description": "A gold pendant with a silver inscription: \"To my darling S. from D.\" Inside are hand-painted portraits of an elderly man, his wife, and daughter.",
+    "NameForAcronym": "PendantItem",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "d0d84acf2c6c4fb79c38954eb9771093",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AndreySaenko",
+    "Comment": "",
+    "name": "PendantItem",
+    "AssetGuid": "d0d84acf2c6c4fb79c38954eb9771093",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

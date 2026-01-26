@@ -1,0 +1,111 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+  "guid": "c96f2967dbcc4b05a2a503a38266d5ae",
+  "name": "Holy Vestment",
+  "namespace": "Kingmaker.Blueprints.Items.Armors",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor",
+    "$id": {
+      "guid": "c96f2967dbcc4b05a2a503a38266d5ae",
+      "name": "Holy Vestment"
+    },
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "Name": "Holy Vestment",
+    "Description": "<b>Base armour property</b>:\n<indent=5%>+{uip|Armour|45d920f667354737be5efb18e0ddc6df}% {g|Encyclopedia:WarhammerArmourGlossary}armour{/g}</indent>\n<indent=5%>+{uip|TechUse|45d920f667354737be5efb18e0ddc6df} to {g|Encyclopedia:SkillTechUse}Tech-Use{/g}</indent>",
+    "ItemType": "Armor",
+    "RaceRestriction": "Human",
+    "ProficiencyGroup": "None",
+    "Category": "Medium",
+    "DamageAbsorption": 20,
+    "DamageDeflection": 0,
+    "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+    "InventoryPutSound": "UI_INV_Flak_Put_Play",
+    "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+    "Weight": 0.0,
+    "ForcedRampColorPresetIndex": 0,
+    "GainAbility": false,
+    "Origin": "Armours",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 20,
+    "Rarity": "Unique",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "Blessed by Omnissiah's adherents.",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "NameForAcronym": "HolyVestment_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "c96f2967dbcc4b05a2a503a38266d5ae",
+    "AllowContextActionsOnly": false,
+    "m_Type": {
+      "$type": "Kingmaker.Blueprints.BlueprintArmorTypeReference",
+      "Guid": "98b410bd49bd4b74b00c78b5b4fba32f",
+      "guid": "98b410bd49bd4b74b00c78b5b4fba32f"
+    },
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 20,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 0,
+    "m_VisualParameters": {
+      "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+      "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "AnimationFoleySound": "ArmorFlakMediumMovement",
+      "<Prototype>k__BackingField": {
+        "$type": "Kingmaker.Blueprints.Items.Armors.ArmorVisualParameters",
+        "InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "AnimationFoleySound": "",
+        "m_SoundSwitch": {
+          "$type": "Kingmaker.Sound.AkSwitchReference",
+          "GroupHash": null,
+          "ValueHash": null,
+          "Group": null,
+          "Value": null
+        },
+        "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+        "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+        "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+        "m_AnimationFoleySound": ""
+      },
+      "m_SoundSwitch": {
+        "$type": "Kingmaker.Sound.AkSwitchReference",
+        "GroupHash": 2785291349,
+        "ValueHash": 1153642577,
+        "Group": "BodyType",
+        "Value": "Flesh"
+      },
+      "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_Flak_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_Flak_Take_Play",
+      "m_AnimationFoleySound": "ArmorFlakMediumMovement"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "HolyVestment_Item",
+    "AssetGuid": "c96f2967dbcc4b05a2a503a38266d5ae",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

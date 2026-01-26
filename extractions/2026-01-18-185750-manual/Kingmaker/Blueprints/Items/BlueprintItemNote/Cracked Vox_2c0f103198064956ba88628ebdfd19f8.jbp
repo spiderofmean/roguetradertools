@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "2c0f103198064956ba88628ebdfd19f8",
+  "name": "Cracked Vox",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "2c0f103198064956ba88628ebdfd19f8",
+      "name": "Cracked Vox"
+    },
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalTool_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalTool_Take_Play",
+    "Name": "Cracked Vox",
+    "Description": "A furious male voice is coming from the old vox: \"This is Captain Trevor Durhath, calling the Bullion. Get your arses back to the surface and get me out of here, you shits! My guts may be fused to my suit, but I'm not dead yet, no matter how much you wish it were otherwise!\" A moment later, the raging tone gives way to strangled rasping, \"Hey! Can any of you hear me? Respond! I'll pay double, just don't leave me here... DAMN IT! It was going so well! We even figured out how to open the first sphere thanks to the pattern on the floor! Yeah... Yeah... Who knew there'd be so much trouble with the second one? I didn't. They didn't either... Cowards! The moment that beam was directed back — I was already lying with my guts turned inside out, and they were running off with my goods! Ohhh... Emperor, you whoreson, why'd You leave me like that! I'm scared... Oh yes, yes... No, I don't want to die. Not alone! Aren't You supposed to watch over all Your children? Quiet... Quiet, you lot, shut it already! I can't even hear myself!\" The recording is silent for a few moments. All you can hear is the sound of someone pounding the shell of a void suit with the recording device. \"I'm cold. I wonder if I'll die from lack of oxygen, or will my organs give out earlier? THE DAMNED GOD! THE DAMNED IMPERIUM! IN THE END, YOU WILL ALL SERVE THE TRUE MASTERS!\" The human speech gradually deteriorates into an indecipherable mixture of howling and clicking sounds.",
+    "NameForAcronym": "PirateVoxItem",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "2c0f103198064956ba88628ebdfd19f8",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "PirateVoxItem",
+    "AssetGuid": "2c0f103198064956ba88628ebdfd19f8",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

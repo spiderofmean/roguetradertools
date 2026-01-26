@@ -1,0 +1,45 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemsList",
+  "guid": "04726c65f34e49e88746ebc78d96b2b5",
+  "name": "unnamed",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemsList",
+    "$id": {
+      "guid": "04726c65f34e49e88746ebc78d96b2b5",
+      "name": null
+    },
+    "AssetGuidThreadSafe": "04726c65f34e49e88746ebc78d96b2b5",
+    "AllowContextActionsOnly": false,
+    "m_Items": {
+      "$type": "Kingmaker.Blueprints.BlueprintItemReference[]",
+      "$count": 3,
+      "items": [
+        {
+          "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+          "Guid": "be47d7114b064f208abc1f6fcfeba5ee",
+          "guid": "be47d7114b064f208abc1f6fcfeba5ee"
+        },
+        {
+          "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+          "Guid": "f64d05621dda496b9443c90eaebf4393",
+          "guid": "f64d05621dda496b9443c90eaebf4393"
+        },
+        {
+          "$type": "Kingmaker.Blueprints.BlueprintItemReference",
+          "Guid": "075661cb81334420b842ba751f443b68",
+          "guid": "075661cb81334420b842ba751f443b68"
+        }
+      ]
+    },
+    "Author": "AlexeyPolezhaev",
+    "Comment": "",
+    "name": "MetallReagentsList",
+    "AssetGuid": "04726c65f34e49e88746ebc78d96b2b5",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "1a70d2d6a2e446eebb5f3b877e728bdb",
+  "name": "Reverend Hieronymus's Teaching on the Path of Saint Drusus",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "1a70d2d6a2e446eebb5f3b877e728bdb",
+      "name": "Reverend Hieronymus's Teaching on the Path of Saint Drusus"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Reverend Hieronymus's Teaching on the Path of Saint Drusus",
+    "Description": "This thin pamphlet exudes a faint caustic smell, likely that of fresh inscriber ink.\n\"Our being is steeped in degradation, and no longer can we imagine existing outside it. Are you capable of perceiving the depths to which this heinous miasma has rooted itself in our lives?\nPompous aristocrats indulge in despicable revelries behind their tall palace walls and planetary masters vie to possess the greatest luxuries while you and your family choke on your corpse starch slop after a gruelling work shift.\nMillions of soldiers die in the dirt to combat xenoprofanity while their commanders, their duties forgotten, squabble among themselves, seeing every death as nothing more than a stone in the monument of their own glory.\nScholars pursue forbidden and mind-twisting knowledge, the righteous break their oaths and spread lies, Arbites thieve worse than any criminal would, and you are sullied by vicious degeneracy of which you are not even aware.\nThis pernicious rot is all-pervading, for there is none who has not succumbed to it. Does it frighten you to be in their midst? In our midst?\nWill you carry on calmly living in this impious loathsomeness, hiding your gaze from the world and hiding the world from your gaze? Will you become like a mindless servitor, or will you honestly realise the sheer baseness and repulsiveness of creation?\nAnd then you will renounce your former life.\nAnd you will accept your new self.\nAnd relinquish your worldly affairs!\nAnd follow the road that was paved for us by Saint Drusus, Warrior and Conqueror of Sectors Uncharted!\nAnd leave behind the sacrilege-ridden world, and, as is our Immortal Emperor's will, join our sacred crusade to walk the path that leads out of the murk of apostasy and irreverence and into the darkness of the unknown and unfathomed!\nIt is in this darkness that we will light the candles of true faith, for only in their fires can we still find motes of light.\"",
+    "NameForAcronym": "DrusianBook_Item",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "1a70d2d6a2e446eebb5f3b877e728bdb",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "DrusianBook_Item",
+    "AssetGuid": "1a70d2d6a2e446eebb5f3b877e728bdb",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

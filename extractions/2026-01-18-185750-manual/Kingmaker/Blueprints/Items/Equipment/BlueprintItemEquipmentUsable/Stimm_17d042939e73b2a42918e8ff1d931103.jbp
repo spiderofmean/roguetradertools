@@ -1,0 +1,69 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+  "guid": "17d042939e73b2a42918e8ff1d931103",
+  "name": "Stimm",
+  "namespace": "Kingmaker.Blueprints.Items.Equipment",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable",
+    "$id": {
+      "guid": "17d042939e73b2a42918e8ff1d931103",
+      "name": "Stimm"
+    },
+    "IdentifyDC": 0,
+    "Name": "Stimm",
+    "ItemType": "Usable",
+    "SubtypeName": "Consumable",
+    "InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": true,
+    "Weight": 0.0,
+    "Origin": "Tech",
+    "IsNotable": false,
+    "ProfitFactorCost": 24.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "Drug",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "InventoryPutSound": "UI_INV_Drugs_Put_Play",
+    "InventoryTakeSound": "UI_INV_Drugs_Take_Play",
+    "Description": "The user immediately gains +4 {g|Encyclopedia:MovementPoints}MP{/g} and +4 {g|Encyclopedia:ActionPoints}AP{/g}. For the next {g|Encyclopedia:Turn}turn{/g} their MP and AP are reduced by −2.",
+    "NameForAcronym": "Drug_Stimm",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "17d042939e73b2a42918e8ff1d931103",
+    "AllowContextActionsOnly": false,
+    "RemoveFromSlotWhenNoCharges": true,
+    "Type": "Other",
+    "m_IdentifyDC": 0,
+    "m_InventoryEquipSound": "UI_INV_Drugs_Equip_Play",
+    "m_BeltItemPrefab": {
+      "$type": "UnityEngine.GameObject",
+      "$skipped": "dangerous"
+    },
+    "m_Enchantments": {
+      "$type": "Kingmaker.Blueprints.BlueprintEquipmentEnchantmentReference[]",
+      "$count": 0,
+      "items": []
+    },
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "НАЗВАНИЕ МЕНЯТЬ НЕЛЬЗЯ, так как оно используется в тексте ачивки Fully Prepared - Готов ко встрече",
+    "name": "Drug_Stimm",
+    "AssetGuid": "17d042939e73b2a42918e8ff1d931103",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

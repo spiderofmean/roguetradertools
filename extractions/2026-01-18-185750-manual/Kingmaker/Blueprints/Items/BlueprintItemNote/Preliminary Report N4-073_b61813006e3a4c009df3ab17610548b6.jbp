@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "b61813006e3a4c009df3ab17610548b6",
+  "name": "Preliminary Report N4-073",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "b61813006e3a4c009df3ab17610548b6",
+      "name": "Preliminary Report N4-073"
+    },
+    "Weight": 0.0,
+    "Origin": "None",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_MetalScarp_Put_Play",
+    "InventoryTakeSound": "UI_INV_MetalScarp_Take_Play",
+    "Name": "Preliminary Report N4-073",
+    "Description": "\"Reporter: Unit Q-59/0, research group.\nSubject of study: Active samples of the terrible disease. Assigned name: tech-blight.\nEffect: The tech-blight is capable of corroding matter and destroying it from within at a terrifying speed. This deadly plague infects mechanisms as well as any metals and other materials used as their basis. No technology known to the crimson priesthood — neither gifts from the great Omnissiah nor heretical products of xenos — can withstand this onslaught. The disease poisons and warps the very essence and taints the code of sacred mechanisms.\nObservations: The tech-blight triggers an effect that is repulsive at its core: it transforms metals into horrific forms of an unpredictable nature. During testing, it demonstrated the ability to fuse solid matter with organic objects, creating something new as a result. The phenomenon was assigned the name 'tech-splicing.'\nMethod of transportation: ceramic capsules. Burnt clay is the only thing that can contain the pestilence. Extra caution must be taken given the containers' fragility. Any damage might result in an uncontrolled outbreak. Damaging the containers is _UNACCEPTABLE_.\nCurrent stage: Tests to subjugate the tech-blight to His will and turn it into a weapon subject to the Omnissiah's wisdom. Test result assessment: success.\nNote: The tests triggered an event recorded under the name Incident N872-04. The Quest for Knowledge in His name will continue.\nHypothesis 1: The tech-blight was created in the darkness of unknown worlds. Away from the eye of the Great Creator.\nHypothesis 2: Any taint that exists to harm the Machine God's creations can and will be bent to His will.\"",
+    "NameForAcronym": "TheodoraDataSlate1Kyava_item_Unlock",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b61813006e3a4c009df3ab17610548b6",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "VladimirZuev",
+    "Comment": "",
+    "name": "TheodoraDataSlate1Kyava_item_Unlock",
+    "AssetGuid": "b61813006e3a4c009df3ab17610548b6",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

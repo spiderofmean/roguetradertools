@@ -1,0 +1,69 @@
+{
+  "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+  "guid": "b994673c37e642f0bd151ac71ca373c4",
+  "name": "X-38 Auspex Multi-Band",
+  "namespace": "Warhammer.SpaceCombat.Blueprints",
+  "data": {
+    "$type": "Warhammer.SpaceCombat.Blueprints.BlueprintItemAugerArray",
+    "$id": {
+      "guid": "b994673c37e642f0bd151ac71ca373c4",
+      "name": "X-38 Auspex Multi-Band"
+    },
+    "ItemType": "StarshipAugerArray",
+    "ForcedRampColorPresetIndex": -1,
+    "GainAbility": false,
+    "Weight": 0.0,
+    "Origin": "ShipComponents",
+    "IsNotable": false,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Arsenal_Put_Play",
+    "InventoryTakeSound": "UI_INV_Arsenal_Take_Play",
+    "Name": "X-38 Auspex Multi-Band",
+    "Description": "Provides voidship weapons with targeting data, granting 90% hit chance and 10% critical hit chance.\nAdditionally, provides allies with targeting data, increasing their {g|Encyclopedia:LanceWeaponSpace}lance weapons{/g}' and {g|Encyclopedia:MacroCannonsSpace}macro-cannons{/g}' damage by +20% and hit chance by +30%.",
+    "NameForAcronym": "AugerDLC2",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "b994673c37e642f0bd151ac71ca373c4",
+    "AllowContextActionsOnly": false,
+    "hitChances": 90,
+    "critChances": 10,
+    "StarshipEE": {
+      "$type": "StarshipEquipmentEntity",
+      "$skipped": "dangerous"
+    },
+    "IsBroken": false,
+    "AssembleItemRequirements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.Blueprints.BlueprintPartsCargoReference, Code, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    },
+    "AssembleItemRequiredScrap": 0,
+    "DisassembleScrapGiven": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "EvgeniyShanhiev",
+    "Comment": "Передает орудиям данные для нацеливания, обеспечивая шанс попадания 90% и шанс критического попадания 10%.\nТак же передает данные союзным кораблям, тем самым урон наносимый ими  увеличивается на 15% и шанс попадания на 30%.",
+    "name": "AugerDLC2",
+    "AssetGuid": "b994673c37e642f0bd151ac71ca373c4",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}

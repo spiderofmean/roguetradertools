@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT Database - Warhammer 40K: Rogue Trader</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+    <style>
+        /* Additional SPA styles */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: var(--text-muted);
+        }
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 15px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .search-info {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-info .clear-btn {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-info .clear-btn:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        .no-results h2 {
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+        }
+        .item-card {
+            cursor: pointer;
+        }
+        .item-card a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .item-card a:hover {
+            text-decoration: none;
+        }
+        .stat-value.damage { color: #ff6b6b; }
+        .stat-value.penetration { color: #ffd93d; }
+        .stat-value.range { color: #6bcb77; }
+
+        .abilities-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .ability-tag {
+            background: var(--bg-tertiary);
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+        .ability-tag .ap {
+            color: var(--accent);
+            margin-left: 6px;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+        .pagination button {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .pagination button:hover:not(:disabled) {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .pagination .page-info {
+            color: var(--text-muted);
+        }
+        .db-size {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+        }
+        .sort-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+        }
+        .sort-controls label {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        .sort-controls select {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .sort-controls select:hover {
+            border-color: var(--accent);
+        }
+        .sort-controls select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        /* Item detail page styles */
+        .item-detail-page {
+            max-width: 900px;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .detail-header {
+            display: flex;
+            align-items: center;
+            padding: 25px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+        .detail-icon {
+            width: 100px;
+            height: 100px;
+            background: var(--bg-primary);
+            border: 3px solid var(--border);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 25px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+        .detail-title h1 {
+            font-size: 1.75rem;
+            margin-bottom: 10px;
+        }
+        .detail-meta {
+            display: flex;
+            gap: 15px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+        }
+        .detail-section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px 25px;
+            margin-bottom: 20px;
+        }
+        .detail-section h2 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        .description-text {
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        .flavor-text {
+            line-height: 1.7;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .tech-info {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .tech-info code {
+            background: var(--bg-tertiary);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+        }
+        .stat-box {
+            background: var(--bg-tertiary);
+            padding: 12px 15px;
+            border-radius: 6px;
+        }
+        .stat-box .label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+        .stat-box .value {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1>RT Database</h1>
+                <div class="subtitle">Warhammer 40K: Rogue Trader</div>
+                <div class="db-size" id="db-size"></div>
+            </div>
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search all items..." id="search-input">
+            </div>
+            <div id="nav-categories">
+                <!-- Categories loaded dynamically -->
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="page-header">
+                <h1 id="page-title">Loading...</h1>
+                <p class="description" id="page-description"></p>
+            </div>
+
+            <div id="search-info-container"></div>
+
+            <div class="sort-controls" id="sort-controls">
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select">
+                    <option value="name-asc">Name (A-Z)</option>
+                    <option value="name-desc">Name (Z-A)</option>
+                    <option value="rarity-asc">Rarity (Common first)</option>
+                    <option value="rarity-desc">Rarity (Unique first)</option>
+                </select>
+            </div>
+
+            <div id="content">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <span>Loading item database...</span>
+                </div>
+            </div>
+
+            <div id="pagination-container"></div>
+        </main>
+    </div>
+
+    <script>
+        // Global state
+        let db = null;
+        let fuse = null;
+        let currentItems = [];
+        let currentPage = 1;
+        let currentSort = 'name-asc';
+        const ITEMS_PER_PAGE = 50;
+
+        // Rarity order for sorting
+        const RARITY_ORDER = {
+            'Common': 1,
+            'Uncommon': 2,
+            'Rare': 3,
+            'VeryRare': 4,
+            'Unique': 5
+        };
+
+        // Load the database
+        async function loadDatabase() {
+            try {
+                const startTime = performance.now();
+                const response = await fetch('items.json');
+                const loadTime = performance.now() - startTime;
+
+                db = await response.json();
+
+                // Show database size info
+                const sizeKB = (response.headers.get('content-length') / 1024).toFixed(1);
+                document.getElementById('db-size').textContent = `Loaded ${db.items.length.toLocaleString()} items in ${loadTime.toFixed(0)}ms`;
+
+                // Initialize Fuse.js for fuzzy search
+                fuse = new Fuse(db.items, {
+                    keys: [
+                        { name: 'name', weight: 2 },
+                        { name: 'description', weight: 1 },
+                        { name: 'family', weight: 0.5 },
+                        { name: 'type', weight: 0.5 }
+                    ],
+                    threshold: 0.3,
+                    includeScore: true
+                });
+
+                renderNavigation();
+                handleRouteChange();
+            } catch (error) {
+                console.error('Failed to load database:', error);
+                document.getElementById('content').innerHTML =
+                    '<div class="no-results"><h2>Failed to load database</h2><p>' + error.message + '</p></div>';
+            }
+        }
+
+        // Render sidebar navigation
+        function renderNavigation() {
+            const nav = document.getElementById('nav-categories');
+
+            let html = '<div class="nav-section"><div class="nav-section-title">Browse</div>';
+
+            // Equipment categories
+            const equipmentCats = ['all', 'weapons', 'armor', 'shields', 'helmets', 'gloves', 'boots', 'cloaks', 'rings', 'amulets', 'usables'];
+            equipmentCats.forEach(catId => {
+                const cat = db.categories[catId];
+                if (cat) {
+                    const count = db.counts[catId] || 0;
+                    html += `<a href="#/${catId}" class="nav-item" data-category="${catId}">
+                        ${cat.title} <span class="count">${count.toLocaleString()}</span>
+                    </a>`;
+                }
+            });
+
+            html += '</div><div class="nav-section"><div class="nav-section-title">Starship</div>';
+
+            // Starship categories
+            const starshipCats = ['starship-weapons', 'void-shields', 'plasma-drives', 'auger-arrays'];
+            starshipCats.forEach(catId => {
+                const cat = db.categories[catId];
+                if (cat) {
+                    const count = db.counts[catId] || 0;
+                    html += `<a href="#/${catId}" class="nav-item" data-category="${catId}">
+                        ${cat.title} <span class="count">${count.toLocaleString()}</span>
+                    </a>`;
+                }
+            });
+
+            html += '</div>';
+            nav.innerHTML = html;
+        }
+
+        // Parse the URL hash
+        function parseHash() {
+            const hash = window.location.hash.slice(1) || '/all';
+            const parts = hash.split('?');
+            const path = parts[0].slice(1) || 'all'; // Remove leading /
+
+            const params = new URLSearchParams(parts[1] || '');
+            const query = params.get('q') || '';
+            const page = parseInt(params.get('page')) || 1;
+
+            // Check if this is an item detail route: /item/{id}
+            if (path.startsWith('item/')) {
+                const itemId = path.slice(5); // Remove 'item/' prefix
+                return { category: null, query: '', page: 1, itemId };
+            }
+
+            return { category: path, query, page, itemId: null };
+        }
+
+        // Update URL hash
+        function setHash(category, query = '', page = 1) {
+            let hash = `#/${category}`;
+            const params = new URLSearchParams();
+            if (query) params.set('q', query);
+            if (page > 1) params.set('page', page.toString());
+            const paramStr = params.toString();
+            if (paramStr) hash += '?' + paramStr;
+
+            if (window.location.hash !== hash) {
+                window.location.hash = hash;
+            }
+        }
+
+        // Handle route changes
+        function handleRouteChange() {
+            if (!db) return;
+
+            const { category, query, page, itemId } = parseHash();
+            currentPage = page;
+
+            // If viewing an item detail page
+            if (itemId) {
+                renderItemDetailPage(itemId);
+                return;
+            }
+
+            // Show sort controls for list view
+            document.getElementById('sort-controls').style.display = 'flex';
+
+            // Update active nav item
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.toggle('active', item.dataset.category === category);
+            });
+
+            // Update search input
+            const searchInput = document.getElementById('search-input');
+            if (searchInput.value !== query) {
+                searchInput.value = query;
+            }
+
+            // Filter items
+            let items = db.items;
+
+            // Category filter
+            if (category !== 'all') {
+                items = items.filter(item => item.category === category);
+            }
+
+            // Search filter
+            if (query) {
+                const results = fuse.search(query);
+                const matchIds = new Set(results.map(r => r.item.id));
+                items = items.filter(item => matchIds.has(item.id));
+                // Sort by search relevance
+                const scoreMap = new Map(results.map(r => [r.item.id, r.score]));
+                items.sort((a, b) => (scoreMap.get(a.id) || 1) - (scoreMap.get(b.id) || 1));
+            }
+
+            // Apply sorting (unless search results - keep relevance order)
+            if (!query) {
+                items = sortItems(items, currentSort);
+            }
+
+            currentItems = items;
+
+            // Update page header
+            const catInfo = db.categories[category] || { title: 'Items', icon: '' };
+            document.getElementById('page-title').textContent = query
+                ? `Search: "${query}"`
+                : catInfo.title;
+            document.getElementById('page-description').textContent =
+                `${items.length.toLocaleString()} items${category !== 'all' ? ' in ' + catInfo.title.toLowerCase() : ''}`;
+
+            // Search info bar
+            const searchInfoContainer = document.getElementById('search-info-container');
+            if (query) {
+                searchInfoContainer.innerHTML = `
+                    <div class="search-info">
+                        <span>Showing ${items.length.toLocaleString()} results for "<strong>${escapeHtml(query)}</strong>"${category !== 'all' ? ' in ' + catInfo.title : ''}</span>
+                        <button class="clear-btn" onclick="clearSearch()">Clear Search</button>
+                    </div>
+                `;
+            } else {
+                searchInfoContainer.innerHTML = '';
+            }
+
+            renderItems();
+        }
+
+        // Render items
+        function renderItems() {
+            const content = document.getElementById('content');
+            const paginationContainer = document.getElementById('pagination-container');
+
+            if (currentItems.length === 0) {
+                content.innerHTML = '<div class="no-results"><h2>No items found</h2><p>Try a different search or category.</p></div>';
+                paginationContainer.innerHTML = '';
+                return;
+            }
+
+            // Pagination
+            const totalPages = Math.ceil(currentItems.length / ITEMS_PER_PAGE);
+            const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+            const pageItems = currentItems.slice(startIdx, startIdx + ITEMS_PER_PAGE);
+
+            // Render item cards
+            let html = '<div class="item-grid">';
+            pageItems.forEach(item => {
+                html += renderItemCard(item);
+            });
+            html += '</div>';
+            content.innerHTML = html;
+
+            // Render pagination
+            if (totalPages > 1) {
+                paginationContainer.innerHTML = `
+                    <div class="pagination">
+                        <button onclick="goToPage(${currentPage - 1})" ${currentPage <= 1 ? 'disabled' : ''}>Previous</button>
+                        <span class="page-info">Page ${currentPage} of ${totalPages}</span>
+                        <button onclick="goToPage(${currentPage + 1})" ${currentPage >= totalPages ? 'disabled' : ''}>Next</button>
+                    </div>
+                `;
+            } else {
+                paginationContainer.innerHTML = '';
+            }
+
+            // Scroll to top on page change
+            window.scrollTo(0, 0);
+        }
+
+        // Render a single item card
+        function renderItemCard(item) {
+            const rarityClass = getRarityClass(item.rarity);
+            let statsHtml = '';
+
+            // Clean up type labels
+            const categoryLabels = {
+                'helmets': 'Helmet',
+                'gloves': 'Gloves',
+                'boots': 'Boots',
+                'cloaks': 'Cloak',
+                'rings': 'Ring',
+                'amulets': 'Amulet',
+                'shields': 'Shield',
+                'usables': 'Consumable'
+            };
+            let typeLabel = categoryLabels[item.category] || item.type.replace('Blueprint', '').replace('Item', '').replace('Equipment', '');
+
+            if (item.category === 'weapons') {
+                const attackType = item.isRanged ? 'Ranged' : item.isMelee ? 'Melee' : '';
+                typeLabel = [attackType, item.family].filter(Boolean).join(' • ') || typeLabel;
+                statsHtml = `
+                    <div class="stat-row">
+                        <span class="stat-label">Damage</span>
+                        <span class="stat-value damage">${item.damageMin}-${item.damageMax}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Penetration</span>
+                        <span class="stat-value penetration">${item.penetration}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Range</span>
+                        <span class="stat-value range">${item.range}</span>
+                    </div>
+                `;
+            } else if (item.category === 'armor') {
+                typeLabel = item.armorCategory ? item.armorCategory + ' Armor' : 'Armor';
+                statsHtml = `
+                    <div class="stat-row">
+                        <span class="stat-label">Absorption</span>
+                        <span class="stat-value">${item.damageAbsorption}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Deflection</span>
+                        <span class="stat-value">${item.damageDeflection}</span>
+                    </div>
+                `;
+            } else if (item.category === 'starship-weapons') {
+                typeLabel = item.weaponType || 'Starship Weapon';
+                const slots = Array.isArray(item.allowedSlots) ? item.allowedSlots.join(', ') : '';
+                statsHtml = `
+                    <div class="stat-row">
+                        <span class="stat-label">Shots</span>
+                        <span class="stat-value">${item.damageInstances}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Slot</span>
+                        <span class="stat-value">${slots || 'Any'}</span>
+                    </div>
+                `;
+            } else if (item.category === 'void-shields') {
+                typeLabel = 'Void Shield Generator';
+                statsHtml = `
+                    <div class="stat-row">
+                        <span class="stat-label">Shield Bonus</span>
+                        <span class="stat-value">${item.shieldStrength || 0}</span>
+                    </div>
+                `;
+            } else if (item.category === 'plasma-drives') {
+                typeLabel = 'Plasma Drive';
+                statsHtml = `
+                    <div class="stat-row">
+                        <span class="stat-label">Speed</span>
+                        <span class="stat-value">${item.speed || 0}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Maneuver</span>
+                        <span class="stat-value">${item.maneuverability || 0}</span>
+                    </div>
+                `;
+            } else if (item.category === 'auger-arrays') {
+                typeLabel = 'Auger Array';
+                statsHtml = `
+                    <div class="stat-row">
+                        <span class="stat-label">Detection</span>
+                        <span class="stat-value">${item.detectionRadius || 0}</span>
+                    </div>
+                `;
+            }
+
+            // Add rarity to all cards
+            statsHtml += `
+                <div class="stat-row">
+                    <span class="stat-label">Rarity</span>
+                    <span class="stat-value rarity-${rarityClass}">${item.rarity}</span>
+                </div>
+            `;
+
+            // Truncate description for card display
+            const shortDesc = item.description
+                ? cleanDescription(item.description).slice(0, 120) + (item.description.length > 120 ? '...' : '')
+                : '';
+
+            return `
+                <div class="item-card" onclick="showItemDetail('${item.id}')">
+                    <div class="item-card-header">
+                        <div class="item-icon rarity-border-${rarityClass}">[IMG]</div>
+                        <div class="item-title-area">
+                            <div class="item-name rarity-${rarityClass}">${escapeHtml(item.name)}</div>
+                            <div class="item-type">${escapeHtml(typeLabel)}</div>
+                        </div>
+                    </div>
+                    <div class="item-card-body">
+                        <div class="item-stats">${statsHtml}</div>
+                        ${shortDesc ? `<div class="item-description">${escapeHtml(shortDesc)}</div>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Navigate to item detail page
+        function showItemDetail(itemId) {
+            window.location.hash = `#/item/${itemId}`;
+        }
+
+        // Render item detail page in main content
+        function renderItemDetailPage(itemId) {
+            const item = db.items.find(i => i.id === itemId);
+            const content = document.getElementById('content');
+            const paginationContainer = document.getElementById('pagination-container');
+            const searchInfoContainer = document.getElementById('search-info-container');
+
+            // Hide sort controls and pagination for detail view
+            document.getElementById('sort-controls').style.display = 'none';
+            paginationContainer.innerHTML = '';
+            searchInfoContainer.innerHTML = '';
+
+            if (!item) {
+                document.getElementById('page-title').textContent = 'Item Not Found';
+                document.getElementById('page-description').textContent = '';
+                content.innerHTML = `
+                    <div class="no-results">
+                        <h2>Item not found</h2>
+                        <p>The item with ID "${escapeHtml(itemId)}" was not found.</p>
+                        <a href="#/all" class="back-link">Back to all items</a>
+                    </div>
+                `;
+                return;
+            }
+
+            const rarityClass = getRarityClass(item.rarity);
+            const catInfo = db.categories[item.category] || { title: 'Item' };
+
+            // Update page header
+            document.getElementById('page-title').textContent = item.name;
+            document.getElementById('page-description').textContent = `${catInfo.title} - ${item.rarity}`;
+
+            // Clear nav active states for item pages
+            document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
+
+            let statsHtml = '';
+
+            if (item.category === 'weapons') {
+                statsHtml = `
+                    <div class="stat-box"><div class="label">Damage</div><div class="value">${item.damageMin} - ${item.damageMax}</div></div>
+                    <div class="stat-box"><div class="label">Armour Penetration</div><div class="value">${item.penetration}%</div></div>
+                    ${item.dodgePenetration ? `<div class="stat-box"><div class="label">Dodge Penalty</div><div class="value">-${item.dodgePenetration}</div></div>` : ''}
+                    ${item.rateOfFire !== undefined ? `<div class="stat-box"><div class="label">Rate of Fire</div><div class="value">${item.rateOfFire}${item.recoil ? ` (Recoil ${item.recoil})` : ''}</div></div>` : ''}
+                    <div class="stat-box"><div class="label">Range</div><div class="value">${item.range}</div></div>
+                    ${item.ammo !== undefined ? `<div class="stat-box"><div class="label">Max Ammo</div><div class="value">${item.ammo}</div></div>` : ''}
+                    ${item.family ? `<div class="stat-box"><div class="label">Family</div><div class="value">${item.family}</div></div>` : ''}
+                    ${item.holdingType ? `<div class="stat-box"><div class="label">Holding</div><div class="value">${item.holdingType}</div></div>` : ''}
+                    ${item.damageType ? `<div class="stat-box"><div class="label">Damage Type</div><div class="value">${item.damageType}</div></div>` : ''}
+                `;
+            } else if (item.category === 'armor') {
+                statsHtml = `
+                    <div class="stat-box"><div class="label">Damage Absorption</div><div class="value">${item.damageAbsorption}%</div></div>
+                    <div class="stat-box"><div class="label">Damage Deflection</div><div class="value">${item.damageDeflection}</div></div>
+                    <div class="stat-box"><div class="label">Category</div><div class="value">${item.armorCategory || 'Unknown'}</div></div>
+                `;
+            } else if (item.category === 'starship-weapons') {
+                const slots = Array.isArray(item.allowedSlots) ? item.allowedSlots.join(', ') : 'Any';
+                statsHtml = `
+                    <div class="stat-box"><div class="label">Weapon Type</div><div class="value">${item.weaponType || 'Unknown'}</div></div>
+                    <div class="stat-box"><div class="label">Damage Instances</div><div class="value">${item.damageInstances}</div></div>
+                    <div class="stat-box"><div class="label">Allowed Slots</div><div class="value">${slots}</div></div>
+                `;
+            } else if (item.category === 'void-shields') {
+                statsHtml = `
+                    <div class="stat-box"><div class="label">Shield Strength Bonus</div><div class="value">${item.shieldStrength || 0}</div></div>
+                `;
+            } else if (item.category === 'plasma-drives') {
+                statsHtml = `
+                    <div class="stat-box"><div class="label">Speed</div><div class="value">${item.speed || 0}</div></div>
+                    <div class="stat-box"><div class="label">Maneuverability</div><div class="value">${item.maneuverability || 0}</div></div>
+                `;
+            } else if (item.category === 'auger-arrays') {
+                statsHtml = `
+                    <div class="stat-box"><div class="label">Detection Radius Bonus</div><div class="value">${item.detectionRadius || 0}</div></div>
+                `;
+            }
+
+            // Abilities section for weapons
+            let abilitiesHtml = '';
+            if (item.abilities && item.abilities.length > 0) {
+                abilitiesHtml = `
+                    <div class="detail-section">
+                        <h2>Weapon Abilities</h2>
+                        <div class="abilities-list">
+                            ${item.abilities.map(ab => `<span class="ability-tag">${ab.type}<span class="ap">${ab.ap} AP</span></span>`).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            const detailHtml = `
+                <div class="item-detail-page">
+                    <a href="#/${item.category}" class="back-link">&larr; Back to ${catInfo.title}</a>
+
+                    <div class="detail-header">
+                        <div class="detail-icon rarity-border-${rarityClass}">[IMG]</div>
+                        <div class="detail-title">
+                            <h1 class="rarity-${rarityClass}">${escapeHtml(item.name)}</h1>
+                            <div class="detail-meta">
+                                <span class="rarity-${rarityClass}">${item.rarity}</span>
+                                <span>${catInfo.title}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    ${statsHtml ? `<div class="detail-section"><h2>Statistics</h2><div class="stats-grid">${statsHtml}</div></div>` : ''}
+                    ${abilitiesHtml}
+
+                    <div class="detail-section">
+                        <h2>Description</h2>
+                        <p class="description-text">${formatDescription(item.description) || 'No description available.'}</p>
+                    </div>
+
+                    ${item.flavorText ? `<div class="detail-section"><h2>Flavor Text</h2><p class="flavor-text">${formatDescription(item.flavorText)}</p></div>` : ''}
+
+                    <div class="detail-section">
+                        <h2>Technical Info</h2>
+                        <p class="tech-info">GUID: <code>${item.id}</code></p>
+                    </div>
+                </div>
+            `;
+
+            content.innerHTML = detailHtml;
+            window.scrollTo(0, 0);
+        }
+
+        // Go to page
+        function goToPage(page) {
+            const { category, query } = parseHash();
+            currentPage = page;
+            setHash(category, query, page);
+        }
+
+        // Clear search
+        function clearSearch() {
+            const { category } = parseHash();
+            document.getElementById('search-input').value = '';
+            setHash(category);
+        }
+
+        // Helper: Get rarity CSS class
+        function getRarityClass(rarity) {
+            const map = {
+                'Common': 'common',
+                'Uncommon': 'uncommon',
+                'Rare': 'rare',
+                'VeryRare': 'veryrare',
+                'Unique': 'unique'
+            };
+            return map[rarity] || 'common';
+        }
+
+        // Helper: Escape HTML
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Helper: Format description with proper HTML handling
+        // Returns safe HTML - do NOT call escapeHtml on the result
+        function formatDescription(text) {
+            if (!text) return '';
+
+            // Step 1: Escape everything first for safety
+            let result = escapeHtml(text);
+
+            // Step 2: Handle game-specific curly brace markup
+            // {g|Encyclopedia:...}text{/g} -> just the text
+            result = result.replace(/\{g\|[^}]+\}([^{]*)\{\/g\}/g, '$1');
+            // {unit_stat|StatName|modifier} -> readable text
+            result = result.replace(/\{unit_stat\|(\w+)\|(\w+)\}/g, '[$1 $2]');
+            // Remove orphan {/g} tags
+            result = result.replace(/\{\/g\}/g, '');
+            // Remove any other {tag} patterns
+            result = result.replace(/\{[^}]+\}/g, '');
+
+            // Step 3: Convert safe HTML tags back to actual HTML
+            // Bold: &lt;b&gt;...&lt;/b&gt; -> <strong>...</strong>
+            result = result.replace(/&lt;b&gt;/gi, '<strong>');
+            result = result.replace(/&lt;\/b&gt;/gi, '</strong>');
+
+            // Italic: &lt;i&gt;...&lt;/i&gt; -> <em>...</em>
+            result = result.replace(/&lt;i&gt;/gi, '<em>');
+            result = result.replace(/&lt;\/i&gt;/gi, '</em>');
+
+            // Underline: &lt;u&gt;...&lt;/u&gt; -> <u>...</u>
+            result = result.replace(/&lt;u&gt;/gi, '<u>');
+            result = result.replace(/&lt;\/u&gt;/gi, '</u>');
+
+            // Step 4: Handle indent tags - convert to bullet points
+            // &lt;indent=X%&gt;...&lt;/indent&gt; -> bullet point
+            result = result.replace(/&lt;indent=[^&]*&gt;/gi, '');
+            result = result.replace(/&lt;\/indent&gt;/gi, '');
+
+            // Step 5: Clean up list markers and make them proper
+            // Pattern: "- text" at line starts -> bullet
+            result = result.replace(/\s*-\s+/g, ' • ');
+
+            // Step 6: Line breaks for readability
+            result = result.replace(/\n/g, '<br>');
+
+            return result.trim();
+        }
+
+        // Helper: Clean description for plain text display (card previews)
+        function cleanDescription(text) {
+            if (!text) return '';
+            // Remove all HTML-like tags
+            let result = text.replace(/<[^>]+>/g, '');
+            // Remove game curly brace markup
+            result = result.replace(/\{g\|[^}]+\}([^{]*)\{\/g\}/g, '$1');
+            result = result.replace(/\{[^}]+\}/g, '');
+            // Clean up whitespace
+            result = result.replace(/\s+/g, ' ');
+            return result.trim();
+        }
+
+        // Helper: Sort items
+        function sortItems(items, sortKey) {
+            const sorted = [...items];
+            switch (sortKey) {
+                case 'name-asc':
+                    sorted.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+                    break;
+                case 'name-desc':
+                    sorted.sort((a, b) => (b.name || '').localeCompare(a.name || ''));
+                    break;
+                case 'rarity-asc':
+                    sorted.sort((a, b) => {
+                        const diff = (RARITY_ORDER[a.rarity] || 0) - (RARITY_ORDER[b.rarity] || 0);
+                        return diff !== 0 ? diff : (a.name || '').localeCompare(b.name || '');
+                    });
+                    break;
+                case 'rarity-desc':
+                    sorted.sort((a, b) => {
+                        const diff = (RARITY_ORDER[b.rarity] || 0) - (RARITY_ORDER[a.rarity] || 0);
+                        return diff !== 0 ? diff : (a.name || '').localeCompare(b.name || '');
+                    });
+                    break;
+            }
+            return sorted;
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            loadDatabase();
+
+            // Search input with debounce
+            let searchTimeout;
+            document.getElementById('search-input').addEventListener('input', (e) => {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    const { category } = parseHash();
+                    setHash(category, e.target.value.trim(), 1);
+                }, 300);
+            });
+
+            // Enter key in search
+            document.getElementById('search-input').addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    clearTimeout(searchTimeout);
+                    const { category } = parseHash();
+                    setHash(category, e.target.value.trim(), 1);
+                }
+            });
+
+            // Sort dropdown
+            document.getElementById('sort-select').addEventListener('change', (e) => {
+                currentSort = e.target.value;
+                currentPage = 1;
+                const { category, query } = parseHash();
+                setHash(category, query, 1);
+                handleRouteChange();
+            });
+
+        });
+
+        // Hash change listener
+        window.addEventListener('hashchange', handleRouteChange);
+    </script>
+</body>
+</html>

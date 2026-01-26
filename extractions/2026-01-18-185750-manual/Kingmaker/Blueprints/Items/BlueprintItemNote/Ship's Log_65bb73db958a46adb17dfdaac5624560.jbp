@@ -1,0 +1,48 @@
+{
+  "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+  "guid": "65bb73db958a46adb17dfdaac5624560",
+  "name": "Ship's Log",
+  "namespace": "Kingmaker.Blueprints.Items",
+  "data": {
+    "$type": "Kingmaker.Blueprints.Items.BlueprintItemNote",
+    "$id": {
+      "guid": "65bb73db958a46adb17dfdaac5624560",
+      "name": "Ship's Log"
+    },
+    "Weight": 0.0,
+    "Origin": "Miscellaneous",
+    "IsNotable": true,
+    "ProfitFactorCost": 0.0,
+    "CargoVolumePercent": 10,
+    "Rarity": "Common",
+    "Tag": "None",
+    "AllowMakeStackable": true,
+    "FlavorText": "",
+    "SubtypeName": "",
+    "SubtypeDescription": "",
+    "ItemType": "NonUsable",
+    "IsActuallyStackable": true,
+    "IdentifyDC": 0,
+    "InventoryPutSound": "UI_INV_Book_Put_Play",
+    "InventoryTakeSound": "UI_INV_Book_Take_Play",
+    "Name": "Ship's Log",
+    "Description": "The ship's log is encrypted, but the last entry was written in Gothic:\n\"I, Inquisitor Yutan Holl, captain of the Black Ship Monarchia's Bane, write this record for the eyes of any faithful servant of the Emperor who may chance to read it.\nMy vessel dutifully departed Terra to collect the Imperium's rightful tithes from its loyal worlds and then to return to the Segmentum Solar with thousands of psykers in our holds. Our mission was proceeding smoothly, but shortly after our warp jump, the Incident occurred.\nThe Main Confinement Cell was the source of the insurrection. It was the holding site for an especially dangerous passenger who possessed high psychic potential and was known to incite disobedience in others. I do not know how he was able to free himself or how he summoned the forces of Chaos to abet him. His psychic outburst spread rapidly across the entire vessel, sending other passengers into a frenzy and causing them to attack my acolytes.\nI have given the order for the passenger holds to be purged and activated the automatic intruder elimination systems, but I have no doubt that this measure will be unsuccessful.\nNot wishing to surrender the Monarchia's Bane into the hands of these deranged mutants, I have set course to orbit a nearby planet at a slight deviation. Sooner or later, the deviation will result in the ship drifting out of orbit and crashing to the planet's surface.\nKeep the faith, and exterminate any mercy in your soul.\"",
+    "NameForAcronym": "CaptainsDiary_plaintext",
+    "ShowDisplayName": true,
+    "ShowDescription": true,
+    "AssetGuidThreadSafe": "65bb73db958a46adb17dfdaac5624560",
+    "AllowContextActionsOnly": false,
+    "m_Weight": 0.0,
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "Author": "ElenaMironova",
+    "Comment": "",
+    "name": "CaptainsDiary_plaintext",
+    "AssetGuid": "65bb73db958a46adb17dfdaac5624560",
+    "m_AllElements": {
+      "$type": "System.Collections.Generic.List`1[[Kingmaker.ElementsSystem.Element, RogueTrader.GameCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+      "$count": 0,
+      "items": []
+    }
+  }
+}
