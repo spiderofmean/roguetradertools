@@ -7,6 +7,101 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
     <style>
+        /* Filter controls */
+        .filter-controls {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .filter-section {
+            margin-bottom: 15px;
+        }
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+        .filter-section-title {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .filter-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .filter-chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 12px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+        .filter-chip:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+        .filter-chip.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #000;
+        }
+        .filter-chip input {
+            display: none;
+        }
+        .clear-filters-btn {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            margin-left: auto;
+        }
+        .clear-filters-btn:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+        .filter-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .filter-header h3 {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            margin: 0;
+        }
+        .active-filter-count {
+            background: var(--accent);
+            color: #000;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+
+        /* GitHub link */
+        .github-link {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            z-index: 1000;
+            color: var(--text-muted);
+            transition: color 0.2s;
+        }
+        .github-link:hover {
+            color: var(--text-primary);
+        }
+
         /* Additional SPA styles */
         .loading {
             display: flex;
@@ -254,6 +349,11 @@
 </head>
 <body>
     <div class="container">
+        <a href="https://github.com/spiderofmean/roguetradertools" target="_blank" class="github-link" title="View on GitHub">
+            <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+        </a>
         <nav class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <h1>RT Database</h1>
@@ -286,6 +386,69 @@
                 </select>
             </div>
 
+            <div class="filter-controls" id="filter-controls">
+                <div class="filter-header">
+                    <h3>Filters</h3>
+                    <span class="active-filter-count" id="active-filter-count" style="display: none;">0</span>
+                    <button class="clear-filters-btn" id="clear-filters-btn" style="display: none;">Clear All</button>
+                </div>
+
+                <div class="filter-section" id="filter-rarity">
+                    <div class="filter-section-title">Rarity</div>
+                    <div class="filter-options">
+                        <label class="filter-chip" data-filter="rarity" data-value="Common">
+                            <input type="checkbox"> Common
+                        </label>
+                        <label class="filter-chip" data-filter="rarity" data-value="Pattern">
+                            <input type="checkbox"> Pattern
+                        </label>
+                        <label class="filter-chip" data-filter="rarity" data-value="Unique">
+                            <input type="checkbox"> Unique
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-section" id="filter-weapon-type" style="display: none;">
+                    <div class="filter-section-title">Weapon Type</div>
+                    <div class="filter-options">
+                        <label class="filter-chip" data-filter="weaponType" data-value="melee">
+                            <input type="checkbox"> Melee
+                        </label>
+                        <label class="filter-chip" data-filter="weaponType" data-value="ranged">
+                            <input type="checkbox"> Ranged
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-section" id="filter-weapon-family" style="display: none;">
+                    <div class="filter-section-title">Weapon Family</div>
+                    <div class="filter-options">
+                        <label class="filter-chip" data-filter="family" data-value="Bolt"><input type="checkbox"> Bolt</label>
+                        <label class="filter-chip" data-filter="family" data-value="Chain"><input type="checkbox"> Chain</label>
+                        <label class="filter-chip" data-filter="family" data-value="ChainSaw"><input type="checkbox"> Chainsaw</label>
+                        <label class="filter-chip" data-filter="family" data-value="Exotic"><input type="checkbox"> Exotic</label>
+                        <label class="filter-chip" data-filter="family" data-value="Flame"><input type="checkbox"> Flame</label>
+                        <label class="filter-chip" data-filter="family" data-value="Force"><input type="checkbox"> Force</label>
+                        <label class="filter-chip" data-filter="family" data-value="Laser"><input type="checkbox"> Laser</label>
+                        <label class="filter-chip" data-filter="family" data-value="Melta"><input type="checkbox"> Melta</label>
+                        <label class="filter-chip" data-filter="family" data-value="Plasma"><input type="checkbox"> Plasma</label>
+                        <label class="filter-chip" data-filter="family" data-value="Power"><input type="checkbox"> Power</label>
+                        <label class="filter-chip" data-filter="family" data-value="Primitive"><input type="checkbox"> Primitive</label>
+                        <label class="filter-chip" data-filter="family" data-value="Solid"><input type="checkbox"> Solid</label>
+                    </div>
+                </div>
+
+                <div class="filter-section" id="filter-armor-category" style="display: none;">
+                    <div class="filter-section-title">Armor Category</div>
+                    <div class="filter-options">
+                        <label class="filter-chip" data-filter="armorCategory" data-value="Light"><input type="checkbox"> Light</label>
+                        <label class="filter-chip" data-filter="armorCategory" data-value="Medium"><input type="checkbox"> Medium</label>
+                        <label class="filter-chip" data-filter="armorCategory" data-value="Heavy"><input type="checkbox"> Heavy</label>
+                        <label class="filter-chip" data-filter="armorCategory" data-value="Power"><input type="checkbox"> Power</label>
+                    </div>
+                </div>
+            </div>
+
             <div id="content">
                 <div class="loading">
                     <div class="loading-spinner"></div>
@@ -306,13 +469,21 @@
         let currentSort = 'name-asc';
         const ITEMS_PER_PAGE = 50;
 
+        // Filter state
+        let activeFilters = {
+            rarity: [],
+            weaponType: [],
+            family: [],
+            armorCategory: []
+        };
+
         // Rarity order for sorting
         const RARITY_ORDER = {
             'Common': 1,
-            'Uncommon': 2,
-            'Rare': 3,
-            'VeryRare': 4,
-            'Unique': 5
+            'Pattern': 2,
+            'Unique': 3,
+            'Quest': 4,
+            'Trash': 0
         };
 
         // Load the database
@@ -336,7 +507,7 @@
                         { name: 'family', weight: 0.5 },
                         { name: 'type', weight: 0.5 }
                     ],
-                    threshold: 0.3,
+                    threshold: 0.15,
                     includeScore: true
                 });
 
@@ -431,8 +602,14 @@
                 return;
             }
 
-            // Show sort controls for list view
+            // Show sort controls and filter controls for list view
             document.getElementById('sort-controls').style.display = 'flex';
+            document.getElementById('filter-controls').style.display = 'block';
+
+            // Show/hide category-specific filters
+            document.getElementById('filter-weapon-type').style.display = (category === 'weapons' || category === 'all') ? 'block' : 'none';
+            document.getElementById('filter-weapon-family').style.display = (category === 'weapons' || category === 'all') ? 'block' : 'none';
+            document.getElementById('filter-armor-category').style.display = (category === 'armor' || category === 'all') ? 'block' : 'none';
 
             // Update active nav item
             document.querySelectorAll('.nav-item').forEach(item => {
@@ -452,6 +629,9 @@
             if (category !== 'all') {
                 items = items.filter(item => item.category === category);
             }
+
+            // Apply active filters
+            items = applyFilters(items);
 
             // Search filter
             if (query) {
@@ -519,16 +699,23 @@
             content.innerHTML = html;
 
             // Render pagination
+            const endIdx = Math.min(startIdx + ITEMS_PER_PAGE, currentItems.length);
+            const itemRangeText = `Showing ${startIdx + 1}-${endIdx} of ${currentItems.length}`;
+
             if (totalPages > 1) {
                 paginationContainer.innerHTML = `
                     <div class="pagination">
                         <button onclick="goToPage(${currentPage - 1})" ${currentPage <= 1 ? 'disabled' : ''}>Previous</button>
-                        <span class="page-info">Page ${currentPage} of ${totalPages}</span>
+                        <span class="page-info">${itemRangeText} (Page ${currentPage} of ${totalPages})</span>
                         <button onclick="goToPage(${currentPage + 1})" ${currentPage >= totalPages ? 'disabled' : ''}>Next</button>
                     </div>
                 `;
             } else {
-                paginationContainer.innerHTML = '';
+                paginationContainer.innerHTML = `
+                    <div class="pagination">
+                        <span class="page-info">${itemRangeText}</span>
+                    </div>
+                `;
             }
 
             // Scroll to top on page change
@@ -633,10 +820,8 @@
                 </div>
             `;
 
-            // Truncate description for card display
-            const shortDesc = item.description
-                ? cleanDescription(item.description).slice(0, 120) + (item.description.length > 120 ? '...' : '')
-                : '';
+            // Clean description for card display (CSS handles truncation)
+            const shortDesc = item.description ? cleanDescription(item.description) : '';
 
             return `
                 <div class="item-card" onclick="showItemDetail('${item.id}')">
@@ -667,8 +852,9 @@
             const paginationContainer = document.getElementById('pagination-container');
             const searchInfoContainer = document.getElementById('search-info-container');
 
-            // Hide sort controls and pagination for detail view
+            // Hide sort controls, filters, and pagination for detail view
             document.getElementById('sort-controls').style.display = 'none';
+            document.getElementById('filter-controls').style.display = 'none';
             paginationContainer.innerHTML = '';
             searchInfoContainer.innerHTML = '';
 
@@ -905,6 +1091,89 @@
             return sorted;
         }
 
+        // Apply active filters to items
+        function applyFilters(items) {
+            let filtered = items;
+
+            // Rarity filter
+            if (activeFilters.rarity.length > 0) {
+                filtered = filtered.filter(item => activeFilters.rarity.includes(item.rarity));
+            }
+
+            // Check if any weapon-specific filters are active
+            const hasWeaponFilters = activeFilters.weaponType.length > 0 || activeFilters.family.length > 0;
+
+            // Check if any armor-specific filters are active
+            const hasArmorFilters = activeFilters.armorCategory.length > 0;
+
+            // If weapon filters are active, only show weapons that match
+            if (hasWeaponFilters) {
+                filtered = filtered.filter(item => {
+                    if (item.category !== 'weapons') return false; // Exclude non-weapons
+
+                    // Check weapon type filter
+                    if (activeFilters.weaponType.length > 0) {
+                        const matchesType = (activeFilters.weaponType.includes('melee') && item.isMelee) ||
+                                           (activeFilters.weaponType.includes('ranged') && item.isRanged);
+                        if (!matchesType) return false;
+                    }
+
+                    // Check weapon family filter
+                    if (activeFilters.family.length > 0) {
+                        if (!activeFilters.family.includes(item.family)) return false;
+                    }
+
+                    return true;
+                });
+            }
+
+            // If armor filters are active, only show armor that matches
+            if (hasArmorFilters) {
+                filtered = filtered.filter(item => {
+                    if (item.category !== 'armor') return false; // Exclude non-armor
+                    return activeFilters.armorCategory.includes(item.armorCategory);
+                });
+            }
+
+            return filtered;
+        }
+
+        // Update filter UI state
+        function updateFilterUI() {
+            const totalActive = Object.values(activeFilters).reduce((sum, arr) => sum + arr.length, 0);
+            const countEl = document.getElementById('active-filter-count');
+            const clearBtn = document.getElementById('clear-filters-btn');
+
+            if (totalActive > 0) {
+                countEl.textContent = totalActive;
+                countEl.style.display = 'inline';
+                clearBtn.style.display = 'inline';
+            } else {
+                countEl.style.display = 'none';
+                clearBtn.style.display = 'none';
+            }
+        }
+
+        // Clear all filters
+        function clearFilters() {
+            activeFilters = {
+                rarity: [],
+                weaponType: [],
+                family: [],
+                armorCategory: []
+            };
+
+            // Uncheck all checkboxes and remove active class
+            document.querySelectorAll('.filter-chip').forEach(chip => {
+                chip.classList.remove('active');
+                chip.querySelector('input').checked = false;
+            });
+
+            updateFilterUI();
+            currentPage = 1;
+            handleRouteChange();
+        }
+
         // Event listeners
         document.addEventListener('DOMContentLoaded', () => {
             loadDatabase();
@@ -936,6 +1205,35 @@
                 setHash(category, query, 1);
                 handleRouteChange();
             });
+
+            // Filter chips
+            document.querySelectorAll('.filter-chip').forEach(chip => {
+                chip.addEventListener('click', (e) => {
+                    const filterType = chip.dataset.filter;
+                    const filterValue = chip.dataset.value;
+                    const checkbox = chip.querySelector('input');
+
+                    // Toggle state
+                    checkbox.checked = !checkbox.checked;
+                    chip.classList.toggle('active', checkbox.checked);
+
+                    // Update activeFilters
+                    if (checkbox.checked) {
+                        if (!activeFilters[filterType].includes(filterValue)) {
+                            activeFilters[filterType].push(filterValue);
+                        }
+                    } else {
+                        activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
+                    }
+
+                    updateFilterUI();
+                    currentPage = 1;
+                    handleRouteChange();
+                });
+            });
+
+            // Clear filters button
+            document.getElementById('clear-filters-btn').addEventListener('click', clearFilters);
 
         });
 
