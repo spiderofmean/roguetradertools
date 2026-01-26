@@ -87,6 +87,62 @@ async function main() {
 
     await new Promise((resolve) => out.end(resolve));
     console.log(`Done. Output: ${outPath}`);
+
+    // --- New: Fetch icons for each item ---
+    const readline = require('readline');
+    const https = require('https');
+    const http = require('http');
+
+    console.log('Fetching icons for each equipment item...');
+    const rl = readline.createInterface({
+        input: fs.createReadStream(outPath),
+        crlfDelay: Infinity
+    });
+
+    let iconCount = 0, iconFail = 0;
+    function fetchIcon(url, destPath) {
+        return new Promise((resolve, reject) => {
+            const mod = url.startsWith('https:') ? https : http;
+            mod.get(url, res => {
+                if (res.statusCode !== 200) {
+                    res.resume();
+                    return reject(new Error(`HTTP ${res.statusCode}`));
+                }
+                const file = fs.createWriteStream(destPath);
+                res.pipe(file);
+                file.on('finish', () => file.close(resolve));
+                file.on('error', err => {
+                    fs.unlink(destPath, () => reject(err));
+                });
+            }).on('error', reject);
+        });
+    }
+
+    for await (const line of rl) {
+        if (!line.trim()) continue;
+        let obj;
+        try {
+            obj = JSON.parse(line);
+        } catch (e) {
+            iconFail++;
+            continue;
+        }
+        const guid = obj && obj.meta && obj.meta.Guid;
+        if (!guid) {
+            iconFail++;
+            continue;
+        }
+        const iconPath = path.join(OUTPUT_DIR, `${guid}.png`);
+        if (fs.existsSync(iconPath)) continue; // skip if already exists
+        try {
+            await fetchIcon(`${BASE_URL}/api/blueprints/equipment/icon/${guid}`, iconPath);
+            iconCount++;
+            if (iconCount % 50 === 0) console.log(`  Saved ${iconCount} icons...`);
+        } catch (e) {
+            iconFail++;
+        }
+    }
+    console.log(`Icon fetch complete. Saved: ${iconCount}, failed: ${iconFail}`);
 }
 
 main().catch(e => { console.error(e.message); process.exit(1); });
