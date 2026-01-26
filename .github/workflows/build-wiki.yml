@@ -23,6 +23,7 @@ on:
     paths:
       - 'extractions/**'
       - 'wikimaker/**'
+      - 'viewer-mod/blueprint-dump/**'
 
   # Allow manual trigger
   workflow_dispatch:
@@ -75,6 +76,12 @@ jobs:
         working-directory: wikimaker
         run: |
           python generate_site_v2.py --extraction-dir "../${{ steps.find-extraction.outputs.extraction_dir }}"
+
+      - name: Copy item images
+        run: |
+          mkdir -p wikimaker/website/images
+          cp viewer-mod/blueprint-dump/*.png wikimaker/website/images/
+          echo "Copied $(ls wikimaker/website/images/*.png | wc -l) images"
 
       - name: Setup Pages
         if: env.ENABLE_PAGES == 'true'

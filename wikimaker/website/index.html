@@ -294,8 +294,8 @@
             margin-bottom: 25px;
         }
         .detail-icon {
-            width: 100px;
-            height: 100px;
+            width: 128px;
+            height: 128px;
             background: var(--bg-primary);
             border: 3px solid var(--border);
             border-radius: 8px;
@@ -306,6 +306,17 @@
             font-size: 0.75rem;
             color: var(--text-muted);
             flex-shrink: 0;
+            overflow: hidden;
+        }
+        .detail-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .item-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
         .detail-title h1 {
             font-size: 1.75rem;
@@ -853,10 +864,12 @@
             // Clean description for card display (CSS handles truncation)
             const shortDesc = item.description ? cleanDescription(item.description) : '';
 
+            const imgHtml = `<img src="images/${item.id}.png" alt="" onerror="this.style.display='none';this.parentElement.innerHTML='[IMG]';">`;
+
             return `
                 <div class="item-card" onclick="showItemDetail('${item.id}')">
                     <div class="item-card-header">
-                        <div class="item-icon rarity-border-${rarityClass}">[IMG]</div>
+                        <div class="item-icon rarity-border-${rarityClass}">${imgHtml}</div>
                         <div class="item-title-area">
                             <div class="item-name rarity-${rarityClass}">${escapeHtml(item.name)}</div>
                             <div class="item-type">${escapeHtml(typeLabel)}</div>
@@ -966,12 +979,14 @@
                 `;
             }
 
+            const detailImgHtml = `<img src="images/${item.id}.png" alt="" onerror="this.style.display='none';this.parentElement.innerHTML='[IMG]';">`;
+
             const detailHtml = `
                 <div class="item-detail-page">
                     <a href="#/${item.category}" class="back-link">&larr; Back to ${catInfo.title}</a>
 
                     <div class="detail-header">
-                        <div class="detail-icon rarity-border-${rarityClass}">[IMG]</div>
+                        <div class="detail-icon rarity-border-${rarityClass}">${detailImgHtml}</div>
                         <div class="detail-title">
                             <h1 class="rarity-${rarityClass}">${escapeHtml(item.name)}</h1>
                             <div class="detail-meta">

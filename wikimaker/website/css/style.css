@@ -168,18 +168,21 @@ a:hover {
 }
 
 .item-icon {
-  width: 64px;
-  height: 64px;
+  width: 72px;
+  height: 72px;
   background-color: var(--bg-primary);
-  border: 2px solid var(--border);
-  border-radius: 4px;
+  border: 3px solid var(--border);
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 15px;
+  padding: 2px 2px 0 2px;
   font-size: 0.7rem;
   color: var(--text-muted);
   text-align: center;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .item-title-area {
