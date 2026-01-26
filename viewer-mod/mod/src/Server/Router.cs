@@ -61,6 +61,11 @@ namespace ViewerMod.Server
                 {
                     await HandleBlueprintsEquipmentStreamAsync(request, response);
                 }
+                else if (path.StartsWith("/api/blueprints/equipment/icon/") && method == "GET")
+                {
+                    var guid = path.Substring("/api/blueprints/equipment/icon/".Length);
+                    await HandleEquipmentIconAsync(guid, request, response);
+                }
                 else if (path.StartsWith("/api/blueprints/") && method == "GET")
                 {
                     await HandleBlueprintDetailAsync(path, request, response);
@@ -255,6 +260,74 @@ namespace ViewerMod.Server
             {
                 _blueprintService.WriteEquipmentBlueprintsNdjson(start, count, response.OutputStream);
             });
+        }
+
+        private async Task HandleEquipmentIconAsync(string guid, HttpListenerRequest request, HttpListenerResponse response)
+        {
+            guid = (guid ?? "").Trim();
+            guid = guid.Trim('/');
+            if (guid.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
+            {
+                guid = guid.Substring(0, guid.Length - 4);
+                guid = guid.Trim('/');
+            }
+
+            if (string.IsNullOrEmpty(guid))
+            {
+                await SendJsonAsync(response, 400, new { error = "Missing guid" }, Formatting.None);
+                return;
+            }
+
+            byte[] imageBytes = null;
+            string errorMessage = null;
+
+            _behaviour.ExecuteOnMainThread(() =>
+            {
+                try
+                {
+                    var bp = _blueprintService.GetBlueprintObjectByGuid(guid, out var meta);
+                    if (bp == null)
+                    {
+                        errorMessage = "Blueprint not found";
+                        return;
+                    }
+
+                    var resolution = IconResolver.FindIconResolution(bp);
+                    var iconObj = resolution?.Icon;
+                    if (iconObj == null)
+                    {
+                        errorMessage = "Icon not found on blueprint";
+                        return;
+                    }
+
+                    // Register the icon object so we can reuse ImageExtractor via the handle registry.
+                    var handleId = _registry.Register(iconObj);
+                    imageBytes = ImageExtractor.ExtractImage(_registry, handleId);
+                }
+                catch (Exception ex)
+                {
+                    errorMessage = ex.Message;
+                }
+            });
+
+            if (errorMessage != null)
+            {
+                // Differentiate not-found vs extraction errors.
+                var status = errorMessage == "Blueprint not found" || errorMessage == "Icon not found on blueprint" ? 404 : 400;
+                await SendJsonAsync(response, status, new { error = errorMessage }, Formatting.None);
+                return;
+            }
+
+            if (imageBytes == null || imageBytes.Length == 0)
+            {
+                await SendJsonAsync(response, 404, new { error = "Could not extract icon image" }, Formatting.None);
+                return;
+            }
+
+            response.StatusCode = 200;
+            response.ContentType = "image/png";
+            response.ContentLength64 = imageBytes.Length;
+            await response.OutputStream.WriteAsync(imageBytes, 0, imageBytes.Length);
         }
 
         private async Task SendJsonAsync(HttpListenerResponse response, int statusCode, object data, Formatting formatting = Formatting.Indented)

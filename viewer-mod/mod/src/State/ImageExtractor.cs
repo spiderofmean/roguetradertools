@@ -29,11 +29,12 @@ namespace ViewerMod.State
             if (obj is Texture2D tex2d)
             {
                 texture = tex2d;
+                texture = MakeReadable(texture, out _);
             }
             // Check if it's a Sprite
             else if (obj is Sprite sprite)
             {
-                texture = GetTextureFromSprite(sprite);
+                texture = GetTextureFromSprite(sprite, out _, out _);
             }
             // Check if it's a Texture (base class)
             else if (obj is Texture tex)
@@ -55,6 +56,13 @@ namespace ViewerMod.State
 
         private static Texture2D GetTextureFromSprite(Sprite sprite)
         {
+            return GetTextureFromSprite(sprite, out _, out _);
+        }
+
+        private static Texture2D GetTextureFromSprite(Sprite sprite, out string spriteMode, out bool readableCopied)
+        {
+            spriteMode = "Sprite";
+            readableCopied = false;
             if (sprite == null) return null;
 
             var texture = sprite.texture;
@@ -66,20 +74,28 @@ namespace ViewerMod.State
                 Mathf.Approximately(rect.width, texture.width) && 
                 Mathf.Approximately(rect.height, texture.height))
             {
-                return MakeReadable(texture);
+                spriteMode = "Sprite(FullTexture)";
+                return MakeReadable(texture, out readableCopied);
             }
 
             // Otherwise, extract the sprite's region
-            return ExtractSpriteRegion(sprite);
+            spriteMode = "Sprite(Region)";
+            return ExtractSpriteRegion(sprite, out readableCopied);
         }
 
         private static Texture2D ExtractSpriteRegion(Sprite sprite)
         {
+            return ExtractSpriteRegion(sprite, out _);
+        }
+
+        private static Texture2D ExtractSpriteRegion(Sprite sprite, out bool readableCopied)
+        {
+            readableCopied = false;
             var sourceTexture = sprite.texture;
             var rect = sprite.textureRect;
 
             // Make source readable
-            var readable = MakeReadable(sourceTexture);
+            var readable = MakeReadable(sourceTexture, out readableCopied);
             if (readable == null) return null;
 
             // Create new texture for the sprite region
@@ -133,6 +149,12 @@ namespace ViewerMod.State
 
         private static Texture2D MakeReadable(Texture2D texture)
         {
+            return MakeReadable(texture, out _);
+        }
+
+        private static Texture2D MakeReadable(Texture2D texture, out bool copied)
+        {
+            copied = false;
             if (texture == null) return null;
 
             // Check if already readable
@@ -141,9 +163,11 @@ namespace ViewerMod.State
                 return texture;
             }
 
+            copied = true;
+
             // Use RenderTexture to make a readable copy
             var rt = RenderTexture.GetTemporary(texture.width, texture.height, 0, RenderTextureFormat.ARGB32);
-            
+
             try
             {
                 Graphics.Blit(texture, rt);

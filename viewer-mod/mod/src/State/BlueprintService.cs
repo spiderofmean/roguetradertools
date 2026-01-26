@@ -211,6 +211,24 @@ namespace ViewerMod.State
             };
         }
 
+        public object GetBlueprintObjectByGuid(string guid, out BlueprintMeta meta)
+        {
+            Initialize();
+
+            meta = null;
+            if (string.IsNullOrEmpty(guid)) return null;
+
+            var normalized = guid.Replace("-", "").ToLowerInvariant();
+            var result = _tryGet.Invoke(null, new object[] { normalized });
+            var bp = result?.GetType().GetProperty("Blueprint", All)?.GetValue(result) ?? result;
+            if (bp == null) return null;
+
+            var t = bp.GetType();
+            var name = (t.GetProperty("name") ?? t.GetProperty("Name"))?.GetValue(bp) as string;
+            meta = new BlueprintMeta { Guid = normalized, Name = name ?? "", Type = t.Name, Namespace = t.Namespace ?? "" };
+            return bp;
+        }
+
         private object Dump(object obj, int depth, int maxCollection, HashSet<object> visited)
         {
             if (obj == null || depth < 0) return null;
