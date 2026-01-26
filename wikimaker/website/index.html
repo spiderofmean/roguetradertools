@@ -88,6 +88,32 @@
             border-radius: 10px;
             margin-left: 8px;
         }
+        .filter-toggle-btn {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            width: 28px;
+            height: 28px;
+            border-radius: 4px;
+            font-size: 1.2rem;
+            line-height: 1;
+            cursor: pointer;
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .filter-toggle-btn:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+        .filter-sections {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .filter-sections.collapsed {
+            max-height: 0 !important;
+        }
 
         /* GitHub link */
         .github-link {
@@ -391,60 +417,63 @@
                     <h3>Filters</h3>
                     <span class="active-filter-count" id="active-filter-count" style="display: none;">0</span>
                     <button class="clear-filters-btn" id="clear-filters-btn" style="display: none;">Clear All</button>
+                    <button class="filter-toggle-btn" id="filter-toggle-btn" title="Expand filters">+</button>
                 </div>
 
-                <div class="filter-section" id="filter-rarity">
-                    <div class="filter-section-title">Rarity</div>
-                    <div class="filter-options">
-                        <label class="filter-chip" data-filter="rarity" data-value="Common">
-                            <input type="checkbox"> Common
-                        </label>
-                        <label class="filter-chip" data-filter="rarity" data-value="Pattern">
-                            <input type="checkbox"> Pattern
-                        </label>
-                        <label class="filter-chip" data-filter="rarity" data-value="Unique">
-                            <input type="checkbox"> Unique
-                        </label>
+                <div class="filter-sections collapsed" id="filter-sections">
+                    <div class="filter-section" id="filter-rarity">
+                        <div class="filter-section-title">Rarity</div>
+                        <div class="filter-options">
+                            <label class="filter-chip" data-filter="rarity" data-value="Common">
+                                <input type="checkbox"> Common
+                            </label>
+                            <label class="filter-chip" data-filter="rarity" data-value="Pattern">
+                                <input type="checkbox"> Pattern
+                            </label>
+                            <label class="filter-chip" data-filter="rarity" data-value="Unique">
+                                <input type="checkbox"> Unique
+                            </label>
+                        </div>
                     </div>
-                </div>
 
-                <div class="filter-section" id="filter-weapon-type" style="display: none;">
-                    <div class="filter-section-title">Weapon Type</div>
-                    <div class="filter-options">
-                        <label class="filter-chip" data-filter="weaponType" data-value="melee">
-                            <input type="checkbox"> Melee
-                        </label>
-                        <label class="filter-chip" data-filter="weaponType" data-value="ranged">
-                            <input type="checkbox"> Ranged
-                        </label>
+                    <div class="filter-section" id="filter-weapon-type" style="display: none;">
+                        <div class="filter-section-title">Weapon Type</div>
+                        <div class="filter-options">
+                            <label class="filter-chip" data-filter="weaponType" data-value="melee">
+                                <input type="checkbox"> Melee
+                            </label>
+                            <label class="filter-chip" data-filter="weaponType" data-value="ranged">
+                                <input type="checkbox"> Ranged
+                            </label>
+                        </div>
                     </div>
-                </div>
 
-                <div class="filter-section" id="filter-weapon-family" style="display: none;">
-                    <div class="filter-section-title">Weapon Family</div>
-                    <div class="filter-options">
-                        <label class="filter-chip" data-filter="family" data-value="Bolt"><input type="checkbox"> Bolt</label>
-                        <label class="filter-chip" data-filter="family" data-value="Chain"><input type="checkbox"> Chain</label>
-                        <label class="filter-chip" data-filter="family" data-value="ChainSaw"><input type="checkbox"> Chainsaw</label>
-                        <label class="filter-chip" data-filter="family" data-value="Exotic"><input type="checkbox"> Exotic</label>
-                        <label class="filter-chip" data-filter="family" data-value="Flame"><input type="checkbox"> Flame</label>
-                        <label class="filter-chip" data-filter="family" data-value="Force"><input type="checkbox"> Force</label>
-                        <label class="filter-chip" data-filter="family" data-value="Laser"><input type="checkbox"> Laser</label>
-                        <label class="filter-chip" data-filter="family" data-value="Melta"><input type="checkbox"> Melta</label>
-                        <label class="filter-chip" data-filter="family" data-value="Plasma"><input type="checkbox"> Plasma</label>
-                        <label class="filter-chip" data-filter="family" data-value="Power"><input type="checkbox"> Power</label>
-                        <label class="filter-chip" data-filter="family" data-value="Primitive"><input type="checkbox"> Primitive</label>
-                        <label class="filter-chip" data-filter="family" data-value="Solid"><input type="checkbox"> Solid</label>
+                    <div class="filter-section" id="filter-weapon-family" style="display: none;">
+                        <div class="filter-section-title">Weapon Family</div>
+                        <div class="filter-options">
+                            <label class="filter-chip" data-filter="family" data-value="Bolt"><input type="checkbox"> Bolt</label>
+                            <label class="filter-chip" data-filter="family" data-value="Chain"><input type="checkbox"> Chain</label>
+                            <label class="filter-chip" data-filter="family" data-value="ChainSaw"><input type="checkbox"> Chainsaw</label>
+                            <label class="filter-chip" data-filter="family" data-value="Exotic"><input type="checkbox"> Exotic</label>
+                            <label class="filter-chip" data-filter="family" data-value="Flame"><input type="checkbox"> Flame</label>
+                            <label class="filter-chip" data-filter="family" data-value="Force"><input type="checkbox"> Force</label>
+                            <label class="filter-chip" data-filter="family" data-value="Laser"><input type="checkbox"> Laser</label>
+                            <label class="filter-chip" data-filter="family" data-value="Melta"><input type="checkbox"> Melta</label>
+                            <label class="filter-chip" data-filter="family" data-value="Plasma"><input type="checkbox"> Plasma</label>
+                            <label class="filter-chip" data-filter="family" data-value="Power"><input type="checkbox"> Power</label>
+                            <label class="filter-chip" data-filter="family" data-value="Primitive"><input type="checkbox"> Primitive</label>
+                            <label class="filter-chip" data-filter="family" data-value="Solid"><input type="checkbox"> Solid</label>
+                        </div>
                     </div>
-                </div>
 
-                <div class="filter-section" id="filter-armor-category" style="display: none;">
-                    <div class="filter-section-title">Armor Category</div>
-                    <div class="filter-options">
-                        <label class="filter-chip" data-filter="armorCategory" data-value="Light"><input type="checkbox"> Light</label>
-                        <label class="filter-chip" data-filter="armorCategory" data-value="Medium"><input type="checkbox"> Medium</label>
-                        <label class="filter-chip" data-filter="armorCategory" data-value="Heavy"><input type="checkbox"> Heavy</label>
-                        <label class="filter-chip" data-filter="armorCategory" data-value="Power"><input type="checkbox"> Power</label>
+                    <div class="filter-section" id="filter-armor-category" style="display: none;">
+                        <div class="filter-section-title">Armor Category</div>
+                        <div class="filter-options">
+                            <label class="filter-chip" data-filter="armorCategory" data-value="Light"><input type="checkbox"> Light</label>
+                            <label class="filter-chip" data-filter="armorCategory" data-value="Medium"><input type="checkbox"> Medium</label>
+                            <label class="filter-chip" data-filter="armorCategory" data-value="Heavy"><input type="checkbox"> Heavy</label>
+                            <label class="filter-chip" data-filter="armorCategory" data-value="Power"><input type="checkbox"> Power</label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -470,6 +499,7 @@
         const ITEMS_PER_PAGE = 50;
 
         // Filter state
+        let filtersExpanded = false;
         let activeFilters = {
             rarity: [],
             weaponType: [],
@@ -1093,6 +1123,9 @@
 
         // Apply active filters to items
         function applyFilters(items) {
+            // If filters are collapsed, don't apply any filters
+            if (!filtersExpanded) return items;
+
             let filtered = items;
 
             // Rarity filter
@@ -1174,6 +1207,28 @@
             handleRouteChange();
         }
 
+        // Toggle filters expanded/collapsed
+        function toggleFilters() {
+            filtersExpanded = !filtersExpanded;
+            const sections = document.getElementById('filter-sections');
+            const toggleBtn = document.getElementById('filter-toggle-btn');
+
+            if (filtersExpanded) {
+                sections.classList.remove('collapsed');
+                sections.style.maxHeight = sections.scrollHeight + 'px';
+                toggleBtn.textContent = '−';
+                toggleBtn.title = 'Collapse filters';
+            } else {
+                sections.classList.add('collapsed');
+                sections.style.maxHeight = '0';
+                toggleBtn.textContent = '+';
+                toggleBtn.title = 'Expand filters';
+            }
+
+            currentPage = 1;
+            handleRouteChange();
+        }
+
         // Event listeners
         document.addEventListener('DOMContentLoaded', () => {
             loadDatabase();
@@ -1234,6 +1289,9 @@
 
             // Clear filters button
             document.getElementById('clear-filters-btn').addEventListener('click', clearFilters);
+
+            // Toggle filters button
+            document.getElementById('filter-toggle-btn').addEventListener('click', toggleFilters);
 
         });
 
