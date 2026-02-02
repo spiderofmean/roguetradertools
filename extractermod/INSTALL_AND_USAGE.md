@@ -1,4 +1,13 @@
-# Blueprint Dumper  Install & Usage
+# ⚠️ DEPRECATED - Blueprint Dumper Install & Usage
+
+**This mod is deprecated. Use [viewer-mod](../viewer-mod/) instead.**
+
+For extraction, use `viewer-mod/scripts/extract-blueprints.js` which provides the same functionality via the viewer-mod's HTTP API.
+
+---
+
+<details>
+<summary>Original Installation Guide (for reference)</summary>
 
 Exports item blueprints (weapons, armor, consumables, etc.) from Rogue Trader to JSON files.
 
@@ -98,6 +107,6 @@ Search `GameLogFull.txt` for `Mods path:` to find where the game expects mods.
 Dump outputs are stored separately in `BlueprintDumps\`.
 
 ## Notes
-
+</details>
 - Read-only: does not modify saves
 - May briefly affect performance during dump
